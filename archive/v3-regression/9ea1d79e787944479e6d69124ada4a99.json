@@ -1,0 +1,96 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "林女士，您好！对于折影肩包·墨黑表面出现的划痕，建议您不要自行处理。我们可以为您安排专业的检查，请随时联系我们。",
+      "林女士，感谢您选择折影肩包·墨黑。为保护其光滑牛皮，请避免浸泡、受热和长时间阳光直射。如遇湿润，使用干净柔软的干布轻按吸水，自然风干。",
+      "林女士，折影肩包·墨黑的护理建议：避免接触水和高温。若包袋变湿，请轻柔使用干净的柔软干布吸水，并自然晾干。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "9ea1d79e787944479e6d69124ada4a99",
+      "model": "gpt-4o",
+      "prompt_version": "3.0",
+      "data_version": "1.0",
+      "code_version": "57da65b99994733c",
+      "attempts": 2,
+      "repairs": 1,
+      "started_at": "2026-11-08T07:53:04.670265+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 3.15
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"林女士，您好！对于您提到的包袋表面划痕，建议不要自行处理。我们可以帮您安排专业的检查，以便确认最佳解决方案。\",\"林女士，感谢您对折影肩包·墨黑的关注。为了保护其光滑牛皮材质，请避免浸泡、受热和长时间日晒。如遇湿润，轻柔使用干净柔软的干布轻按吸水，自然风干。\",\"林女士，关于折影肩包·墨黑的日常护理，编织面板部分建议在必要时先咨询我们安排检查，不要自行处理。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 143,
+        "prompt_tokens": 1779,
+        "total_tokens": 1922,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    },
+    {
+      "operation": 1,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"林女士，您好！对于折影肩包·墨黑表面出现的划痕，建议您不要自行处理。我们可以为您安排专业的检查，请随时联系我们。\",\"林女士，感谢您选择折影肩包·墨黑。为保护其光滑牛皮，请避免浸泡、受热和长时间阳光直射。如遇湿润，使用干净柔软的干布轻按吸水，自然风干。\",\"林女士，折影肩包·墨黑的护理建议：避免接触水和高温。若包袋变湿，请轻柔使用干净的柔软干布吸水，并自然晾干。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 152,
+        "prompt_tokens": 2003,
+        "total_tokens": 2155,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1792,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

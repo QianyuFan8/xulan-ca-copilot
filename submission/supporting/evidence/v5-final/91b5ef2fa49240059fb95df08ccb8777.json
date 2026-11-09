@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C12",
+      "preferred_address": "周女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "肩背的就好，不需要斜挎。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "周女士，您提到需要肩背的款式，折影肩包·墨黑可能符合您的需求。它的设计是折叠感侧面，提供简洁优雅的视觉效果。您觉得这个设计如何？",
+      "周女士，折影肩包·墨黑以顺滑的牛皮制成，设计上有折叠感的侧面，这样的细节可能吸引您的注意。",
+      "周女士，当前我们有一款折影肩包·墨黑，肩背款，设计上有折叠感的侧面。您想先了解它的材质还是尺寸？"
+    ],
+    "advisories": [
+      "Advisor contacted this client within seven days; review timing."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "91b5ef2fa49240059fb95df08ccb8777",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:16.771264+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.607
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"周女士，您提到需要肩背的款式，折影肩包·墨黑可能符合您的需求。它的设计是折叠感侧面，提供简洁优雅的视觉效果。您觉得这个设计如何？\",\"周女士，折影肩包·墨黑以顺滑的牛皮制成，设计上有折叠感的侧面，这样的细节可能吸引您的注意。\",\"周女士，当前我们有一款折影肩包·墨黑，肩背款，设计上有折叠感的侧面。您想先了解它的材质还是尺寸？\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 141,
+        "prompt_tokens": 1837,
+        "total_tokens": 1978,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C07",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "节日也祝你们顺利。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "元旦",
+      "occasion_date": "2027-01-01"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "王先生，提前祝您元旦快乐，愿新的一年顺利如意。",
+      "元旦将至，提前送上祝福，愿您新的一年心想事成。",
+      "元旦节日将近，祝您在新的一年里安康喜乐！不用特意回复。"
+    ],
+    "advisories": [
+      "Occasion differs from reference date; review timing and avoid saying today."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "10fc22f094604e4a90445819d4109eea",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:49:44.911686+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.099
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"王先生，提前祝您元旦快乐，愿新的一年顺利如意。\",\"元旦将至，提前送上祝福，愿您新的一年心想事成。\",\"元旦节日将近，祝您在新的一年里安康喜乐！不用特意回复。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 1620,
+        "total_tokens": 1692,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1408,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

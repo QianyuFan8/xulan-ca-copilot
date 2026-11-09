@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>XULAN · Evaluation</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:26px 0 34px}
+    .metric{padding:18px;border:1px solid var(--line);background:#fbfbf6;border-radius:6px}
+    .metric strong{display:block;font:30px Georgia,serif}
+    .metric span{font-size:12px;color:var(--muted)}
+    .lead{color:#5f675c;max-width:760px}
+    .controls{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:14px;align-items:end;margin-bottom:10px}
+    .tag{font-size:11px;color:var(--muted)}
+    .case-facts{background:#f9f8f2;border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin:12px 0;font-size:13px}
+    .case-facts p{margin:2px 0;white-space:pre-wrap}
+    .msgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+    .evidence{padding:16px;border:1px solid var(--line);background:#fbfbf6;border-radius:6px}
+    .evidence h3{font:16px Georgia,serif;margin:0 0 8px}
+    .evidence .text{white-space:pre-wrap;line-height:1.8;margin:0 0 10px}
+    .pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;margin:0 6px 6px 0;background:#e7ebe0;color:#33452f}
+    .pill.bad{background:var(--danger-bg);color:var(--danger-ink)}
+    .pill.warn{background:var(--warn-bg);color:var(--warn-ink)}
+    .issue{font-size:12px;color:#5f675c;margin:4px 0}
+    .error-row{background:var(--danger-bg);color:var(--danger-ink);border-left:3px solid var(--danger-line);padding:10px 14px;margin-top:14px}
+    @media(max-width:640px){.controls{grid-template-columns:minmax(0,1fr)}}
+  </style>
+</head>
+<body>
+<header>
+  <a class="wordmark" href="/">序 岚 <span>XULAN</span></a>
+  <span class="studio">EVALUATION</span>
+  <a class="badge" href="/">ADVISOR STUDIO ↗</a>
+</header>
+<main>
+  <span class="eyebrow">ONE VERSION · FIFTY CASES · TRACEABLE RESULTS</span>
+  <h1>A closer look<br><em>at the evidence.</em></h1>
+  <p class="lead" id="lead">Loading the packaged run…</p>
+  <div id="metrics" class="metrics"></div>
+
+  <div class="section-title"><h2>Inspect a case</h2><span>DRAFTS · JUDGE · AUTHOR</span></div>
+  <div class="controls">
+    <div><label for="case">Case</label><select id="case"></select></div>
+    <div id="meta" class="tag"></div>
+  </div>
+  <div id="facts" class="case-facts"></div>
+  <div id="messages" class="msgs"></div>
+  <p id="notes" class="tag"></p>
+  <p><a href="/">Return to Advisor Studio →</a></p>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; };
+let dataset;
+
+function usable(m) {
+  const s = m.scores;
+  return !m.critical && ['facts', 'context', 'scenario', 'boundaries'].every((d) => s[d] >= 4) && Math.min(...Object.values(s)) >= 3;
+}
+
+function metric(value, label) {
+  const card = el('div', 'metric');
+  card.append(el('strong', null, value), el('span', null, label));
+  $('metrics').append(card);
+}
+
+function display() {
+  const c = dataset.cases.find((x) => x.case_id === $('case').value);
+  const md = c.result.metadata || {};
+  $('meta').textContent = `${c.request.scenario} · run ${md.run_id} · prompt ${md.prompt_version} · ${md.returned_model || md.model} · ${md.repairs ? 'repaired once' : 'first pass'}`;
+
+  const f = $('facts');
+  f.replaceChildren();
+  const ci = c.request.client_information;
+  f.append(el('p', null, `Client: ${ci.preferred_address} · ${ci.relationship_stage} · ${ci.preferences || 'no recorded preferences'}`));
+  for (const h of c.request.conversation_history) f.append(el('p', null, `${h.role === 'client' ? 'Client' : 'Advisor'}: ${h.content}`));
+  if (!c.request.conversation_history.length) f.append(el('p', null, 'No prior messages.'));
+
+  const box = $('messages');
+  box.replaceChildren();
+  $('notes').textContent = '';
+  if (c.result.status !== 'success') {
+    const err = el('div', 'error-row');
+    err.append(el('strong', null, `No drafts · status ${c.result.status}`), el('p', null, (c.result.validation_findings || []).join(' | ')));
+    box.append(err);
+    return;
+  }
+  c.result.candidates.forEach((text, i) => {
+    const card = el('article', 'evidence');
+    card.append(el('h3', null, `Option ${i + 1}`), el('p', 'text', text));
+    const review = c.review?.messages[i];
+    if (review) {
+      card.append(el('span', `pill ${review.critical ? 'bad' : usable(review) ? '' : 'warn'}`, `Judge: ${review.critical ? 'critical' : usable(review) ? 'usable' : 'not usable'}`));
+      card.append(el('p', 'tag', Object.entries(review.scores).map(([k, v]) => `${k} ${v}`).join(' · ')));
+      for (const issue of review.issues) card.append(el('p', 'issue', issue));
+    }
+    const a = c.author?.[i];
+    if (a) {
+      const ok = ['ready', 'minor'].includes(a.author_label) && a.author_critical !== 'yes';
+      card.append(el('span', `pill ${a.author_critical === 'yes' ? 'bad' : ok ? '' : 'warn'}`, `Author: ${a.author_label}${a.author_critical === 'yes' ? ' · critical' : ''}`));
+      if (a.author_note) card.append(el('p', 'issue', a.author_note));
+    }
+    box.append(card);
+  });
+  if (c.review) $('notes').textContent = `Judge diversity ${c.review.diversity}/5 · ${c.review.set_notes}`;
+}
+
+fetch('/static/showcase.json')
+  .then((r) => r.json())
+  .then((data) => {
+    dataset = data;
+    const s = data.summary;
+    const a = s.author_review_and_final;
+    $('lead').textContent =
+      `Version ${s.version_label}: prompt ${s.prompt_version}, data ${s.data_version}, ${s.generation_model.join(', ')}. ` +
+      `Judge ${s.judge.model.join(', ')} (${s.judge.reasoning_effort.join(', ')} reasoning). ` +
+      `Final usability uses the author's label where the author reviewed a message and the judge otherwise. One reviewer, synthetic cases; not a production acceptance.`;
+    metric(`${s.successful_cases}/${s.generated_cases}`, 'Cases with three drafts');
+    metric(`${a.usable_messages}/${a.messages_with_decision}`, 'Usable messages');
+    metric(`${a.usable_cases}/${s.generated_cases}`, 'Cases with a usable draft');
+    metric(String(a.critical_messages), 'Critical messages');
+    metric(a.judge_author_usable_agreement, 'Judge–author agreement (calibration)');
+    metric(`${s.judge.mean_diversity}/5`, 'Mean set diversity (judge)');
+    metric(`$${s.budget.estimated_or_reserved_usd.toFixed(2)}`, 'Project spend (estimated / reserved)');
+    for (const c of data.cases) {
+      const o = el('option', null, `${c.case_id} · ${c.request.scenario}${c.result.status === 'success' ? '' : ' · no drafts'}`);
+      o.value = c.case_id;
+      $('case').append(o);
+    }
+    $('case').onchange = display;
+    display();
+  })
+  .catch(() => { $('lead').textContent = 'No packaged run found. Run evaluation/package.py first.'; });
+</script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C06",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "最近忙着搬家，其他都好。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "顾女士，搬家的日子不容易，希望一切顺利。祝您在新环境中收获更多快乐！",
+      "搬家辛苦了，顾女士。生日快乐，希望新家带来新的好运！",
+      "顾女士，愿您在新家生活愉快，生日快乐，享受特别的一天！"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "609cdda285194b84883de0ddbf6f71e3",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "6.0",
+      "data_version": "1.2",
+      "code_version": "6ffd4b196a9167bf",
+      "attempts": 2,
+      "repairs": 1,
+      "started_at": "2026-11-08T21:37:11.099979+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.05
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"顾女士，搬家的日子不容易，希望一切顺利。祝您在新环境中收获更多快乐！\",\"搬家辛苦了，顾女士。提前祝您生日快乐，希望新家带来新的好运！\",\"顾女士，愿您在新家生活愉快，生日快乐，享受特别的一天！\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 1975,
+        "total_tokens": 2053,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    },
+    {
+      "operation": 1,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"顾女士，搬家的日子不容易，希望一切顺利。祝您在新环境中收获更多快乐！\",\"搬家辛苦了，顾女士。生日快乐，希望新家带来新的好运！\",\"顾女士，愿您在新家生活愉快，生日快乐，享受特别的一天！\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 2167,
+        "total_tokens": 2242,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1920,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

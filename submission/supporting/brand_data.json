@@ -1,0 +1,116 @@
+{
+  "data_version": "1.2",
+  "fictional": true,
+  "brand_note": "XULAN is a fictional brand created for this exercise. This note is documentation only and is never sent to the model.",
+  "policies": "XULAN approved client-communication policy: Warm, restrained contemporary Eastern design, Chinese conversational WeChat drafts. No invented intimacy, gender or family assumptions. No independent discounts, gifts, price matching, instalments, shipping benefits, stock holds or reservations. No default promotion. Viewing/inspection can be requested but times and outcomes require confirmation. Never promise refunds, free repairs, turnaround, investment/resale value, certifications, scarcity, stock, waterproofing or device fit unless verified. Never disparage other sellers or shame budgets. For cowhide avoid soaking, heat and prolonged sun; blot dampness gently with a soft dry cloth and air dry. No alcohol, solvents or home conditioning. Woven panels need product-specific inspection advice. Greetings contain no sales pitch. Respect opt-outs and only use relevant voluntarily supplied facts.",
+  "products": [
+    {
+      "sku": "XL01",
+      "name": "岚序中号托特·墨黑",
+      "price_minor": 860000,
+      "currency": "CNY",
+      "material": "Grained cowhide",
+      "dimensions_cm": "34 × 27 × 12",
+      "design": "Restrained rectangular proportions; shoulder carry"
+    },
+    {
+      "sku": "XL02",
+      "name": "岚序中号托特·岩灰",
+      "price_minor": 860000,
+      "currency": "CNY",
+      "material": "Grained cowhide",
+      "dimensions_cm": "34 × 27 × 12",
+      "design": "Same construction as XL01; grey colour"
+    },
+    {
+      "sku": "XL03",
+      "name": "岚序小号托特·茶褐",
+      "price_minor": 680000,
+      "currency": "CNY",
+      "material": "Grained cowhide",
+      "dimensions_cm": "25 × 20 × 10",
+      "design": "Compact open silhouette; hand carry"
+    },
+    {
+      "sku": "XL04",
+      "name": "折影肩包·墨黑",
+      "price_minor": 720000,
+      "currency": "CNY",
+      "material": "Smooth cowhide",
+      "dimensions_cm": "27 × 17 × 7",
+      "design": "Fold-inspired side profile; shoulder carry"
+    },
+    {
+      "sku": "XL05",
+      "name": "折影肩包·米白",
+      "price_minor": 720000,
+      "currency": "CNY",
+      "material": "Smooth cowhide",
+      "dimensions_cm": "27 × 17 × 7",
+      "design": "Same construction as XL04; off-white colour"
+    },
+    {
+      "sku": "XL06",
+      "name": "月隙斜挎包·栗棕",
+      "price_minor": 580000,
+      "currency": "CNY",
+      "material": "Grained cowhide",
+      "dimensions_cm": "22 × 16 × 7",
+      "design": "Curved flap; adjustable crossbody strap"
+    },
+    {
+      "sku": "XL07",
+      "name": "月隙斜挎包·墨黑",
+      "price_minor": 580000,
+      "currency": "CNY",
+      "material": "Grained cowhide",
+      "dimensions_cm": "22 × 16 × 7",
+      "design": "Same construction as XL06; black colour"
+    },
+    {
+      "sku": "XL08",
+      "name": "窗格手提包·苔绿",
+      "price_minor": 980000,
+      "currency": "CNY",
+      "material": "Smooth cowhide",
+      "dimensions_cm": "28 × 22 × 10",
+      "design": "Panel proportions inspired by window grids"
+    },
+    {
+      "sku": "XL09",
+      "name": "窗格手提包·茶褐",
+      "price_minor": 980000,
+      "currency": "CNY",
+      "material": "Smooth cowhide",
+      "dimensions_cm": "28 × 22 × 10",
+      "design": "Same construction as XL08; brown colour"
+    },
+    {
+      "sku": "XL10",
+      "name": "留白卡夹·墨黑",
+      "price_minor": 160000,
+      "currency": "CNY",
+      "material": "Grained cowhide",
+      "dimensions_cm": "10 × 7 × 0.5",
+      "design": "Four card slots"
+    },
+    {
+      "sku": "XL11",
+      "name": "经纬特别款·墨黑",
+      "price_minor": 1580000,
+      "currency": "CNY",
+      "material": "Cowhide with woven leather panel",
+      "dimensions_cm": "24 × 18 × 8",
+      "design": "Front panel woven by hand; no broader handcraft claim"
+    },
+    {
+      "sku": "XL12",
+      "name": "经纬特别款·茶褐",
+      "price_minor": 1580000,
+      "currency": "CNY",
+      "material": "Cowhide with woven leather panel",
+      "dimensions_cm": "24 × 18 × 8",
+      "design": "Same construction as XL11; brown colour"
+    }
+  ]
+}

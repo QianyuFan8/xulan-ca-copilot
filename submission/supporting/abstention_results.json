@@ -1,0 +1,479 @@
+{
+  "cases": 35,
+  "correct": 35,
+  "by_group": {
+    "refuse": {
+      "cases": 8,
+      "correct": 8
+    },
+    "ask": {
+      "cases": 13,
+      "correct": 13
+    },
+    "reject": {
+      "cases": 6,
+      "correct": 6
+    },
+    "proceed": {
+      "cases": 8,
+      "correct": 8
+    }
+  },
+  "missed_abstentions": [],
+  "over_abstentions": [],
+  "outcomes": {
+    "blocked": 8,
+    "needs_information": 13,
+    "rejected": 6,
+    "proceeds": 8
+  },
+  "model_calls": 0,
+  "rows": [
+    {
+      "case_id": "A01",
+      "group": "refuse",
+      "description": "Birthday greeting to a client with contact_preference no_contact",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_contact): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A02",
+      "group": "refuse",
+      "description": "Reactivation to a client who opted out of marketing",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_marketing): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A03",
+      "group": "refuse",
+      "description": "Event invitation to a client who opted out of marketing",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_marketing): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A04",
+      "group": "refuse",
+      "description": "Product recommendation to a client with no_contact",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_contact): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A05",
+      "group": "refuse",
+      "description": "Care message to a no_contact client whose latest message is not a care question",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_contact): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A06",
+      "group": "refuse",
+      "description": "Care message to a no_contact client whose latest message politely refuses contact (\"请不要再联系我\")",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [
+        "Conversation history may contain a contact refusal; confirm the client's current preference and update the structured contact preference if needed before sending."
+      ],
+      "detail": [
+        "Applicable contact refusal (no_contact): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A07",
+      "group": "refuse",
+      "description": "Care message to a no_contact client who declines service (\"我不需要维修服务\")",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_contact): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "A08",
+      "group": "refuse",
+      "description": "Care message to a no_contact client who says the bag is fine and needs no service",
+      "expected": "blocked",
+      "outcome": "blocked",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "Applicable contact refusal (no_contact): do not initiate this outreach."
+      ]
+    },
+    {
+      "case_id": "N01",
+      "group": "ask",
+      "description": "Recommendation with no product selected",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Select a verified relevant product."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N02",
+      "group": "ask",
+      "description": "Product SKU not in the catalogue",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Select verified product SKUs from the catalogue.",
+        "Select a verified relevant product."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N03",
+      "group": "ask",
+      "description": "Price objection with no product selected",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Select a verified relevant product."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N04",
+      "group": "ask",
+      "description": "Greeting without an occasion date",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Provide the birthday or named festival and occasion date."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N05",
+      "group": "ask",
+      "description": "Greeting with a date that is not YYYY-MM-DD",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Provide a valid occasion date in YYYY-MM-DD format."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N06",
+      "group": "ask",
+      "description": "Invitation without a booking route",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Provide event booking_route."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N07",
+      "group": "ask",
+      "description": "Invitation to an event that has already ended",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Provide a future event with valid timezone-aware start/end times."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N08",
+      "group": "ask",
+      "description": "Invitation start time without a timezone",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Provide a future event with valid timezone-aware start/end times."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N09",
+      "group": "ask",
+      "description": "Conflicting authoritative facts",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Resolve the conflicting authoritative facts."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N10",
+      "group": "ask",
+      "description": "Hard budget CNY 5,000 below the selected bag (CNY 7,200)",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Selected products exceed the hard budget; select a verified alternative."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N11",
+      "group": "ask",
+      "description": "Negative budget",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Provide a valid nonnegative CNY hard budget."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N12",
+      "group": "ask",
+      "description": "Client needs the bag to fit a device; fit is unverified",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "Device fit is unverified; confirm fit before recommending."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "N13",
+      "group": "ask",
+      "description": "No verified product meets a hard requirement",
+      "expected": "needs_information",
+      "outcome": "needs_information",
+      "correct": true,
+      "information_requests": [
+        "No verified product meets the stated requirement; clarify alternatives."
+      ],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "R01",
+      "group": "reject",
+      "description": "Reference time without a UTC offset",
+      "expected": "rejected",
+      "outcome": "rejected",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "value_error"
+      ]
+    },
+    {
+      "case_id": "R02",
+      "group": "reject",
+      "description": "Unknown scenario name",
+      "expected": "rejected",
+      "outcome": "rejected",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "literal_error"
+      ]
+    },
+    {
+      "case_id": "R03",
+      "group": "reject",
+      "description": "Contact preference outside the allowed values",
+      "expected": "rejected",
+      "outcome": "rejected",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "literal_error"
+      ]
+    },
+    {
+      "case_id": "R04",
+      "group": "reject",
+      "description": "Unexpected top-level field (e.g. injected instructions)",
+      "expected": "rejected",
+      "outcome": "rejected",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "extra_forbidden"
+      ]
+    },
+    {
+      "case_id": "R05",
+      "group": "reject",
+      "description": "Scenario details over 6,000 bytes",
+      "expected": "rejected",
+      "outcome": "rejected",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "value_error"
+      ]
+    },
+    {
+      "case_id": "R06",
+      "group": "reject",
+      "description": "More than 30 history messages",
+      "expected": "rejected",
+      "outcome": "rejected",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": [
+        "too_long"
+      ]
+    },
+    {
+      "case_id": "P01",
+      "group": "proceed",
+      "description": "no_contact client asks a care question: a service reply is allowed",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "P02",
+      "group": "proceed",
+      "description": "Refusal-like wording in history but the structured preference is allowed: draft, with an advisory",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [
+        "Conversation history may contain a contact refusal; confirm the client's current preference and update the structured contact preference if needed before sending."
+      ],
+      "detail": []
+    },
+    {
+      "case_id": "P03",
+      "group": "proceed",
+      "description": "Request at 22:30 local time: draft, with a quiet-hours advisory",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "detail": []
+    },
+    {
+      "case_id": "P04",
+      "group": "proceed",
+      "description": "Hard budget CNY 8,000 covers the selected bag",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "P05",
+      "group": "proceed",
+      "description": "Complete, allowed greeting request",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "P06",
+      "group": "proceed",
+      "description": "Complete, allowed care request",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "P07",
+      "group": "proceed",
+      "description": "Complete, allowed invitation request",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": []
+    },
+    {
+      "case_id": "P08",
+      "group": "proceed",
+      "description": "Complete, allowed price_objection request",
+      "expected": "proceeds",
+      "outcome": "proceeds",
+      "correct": true,
+      "information_requests": [],
+      "advisories": [],
+      "detail": []
+    }
+  ]
+}

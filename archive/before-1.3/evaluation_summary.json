@@ -1,0 +1,30 @@
+{
+  "version": "final-selection (per-case versions retained)",
+  "generated_cases": 50,
+  "successful_cases": 50,
+  "reviewed_cases": 50,
+  "reviewed_messages": 150,
+  "usable_cases": 50,
+  "usable_messages": 140,
+  "critical_messages": 0,
+  "critical_cases": 0,
+  "dimension_means": {
+    "facts": 4.98,
+    "context": 4,
+    "personalization": 3,
+    "brand": 3.91,
+    "scenario": 3.99,
+    "boundaries": 3.97,
+    "wechat": 4
+  },
+  "mean_diversity": 2.58,
+  "mean_latency_seconds": 1.6,
+  "repaired_cases": 3,
+  "budget": {
+    "estimated_or_reserved_usd": 1.169447,
+    "uncertain_calls": 2,
+    "operating_limit_usd": 4.5,
+    "authorized_ceiling_usd": 5
+  },
+  "review_method": "Codex author assessment (AI) of all 150 final messages; GPT-4o raw scores retained separately. Not human or real CA validation."
+}

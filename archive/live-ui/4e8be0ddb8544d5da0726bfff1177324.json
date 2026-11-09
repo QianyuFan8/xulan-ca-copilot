@@ -1,0 +1,49 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "synthetic-ui",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "谢谢，平时简单联系就好。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-08T07:36:11.466000Z"
+  },
+  "result": {
+    "status": "error",
+    "candidates": [],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [
+      "API credential unavailable in server environment."
+    ],
+    "metadata": {
+      "run_id": "4e8be0ddb8544d5da0726bfff1177324",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "b25cda175129049a",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:37:22.227881+00:00",
+      "latency_seconds": 0.183
+    }
+  },
+  "attempts": []
+}

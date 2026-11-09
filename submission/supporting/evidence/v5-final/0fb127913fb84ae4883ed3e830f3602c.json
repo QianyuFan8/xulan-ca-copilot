@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C13",
+      "preferred_address": "许女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "现在不急着买，可以先介绍一下。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "许女士，您提到简洁黑色的日常通勤款，我想到了一款符合您偏好的——折影肩包·墨黑。它采用光滑牛皮，尺寸为27 × 17 × 7厘米，侧面有折叠感设计，适合肩背使用。",
+      "这款折影肩包·墨黑，侧面设计灵感来自折叠感，既简约又富有层次。光滑牛皮材质使它在日常通勤中更显低调优雅，您可以考虑看看。",
+      "如果您对简洁的设计感兴趣，我们有一款折影肩包·墨黑，它的侧面折叠感设计和光滑牛皮材质为日常通勤增添了一份独特的风格。您想先了解哪方面的信息呢？"
+    ],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "0fb127913fb84ae4883ed3e830f3602c",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:18.378379+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.99
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"许女士，您提到简洁黑色的日常通勤款，我想到了一款符合您偏好的——折影肩包·墨黑。它采用光滑牛皮，尺寸为27 × 17 × 7厘米，侧面有折叠感设计，适合肩背使用。\",\"这款折影肩包·墨黑，侧面设计灵感来自折叠感，既简约又富有层次。光滑牛皮材质使它在日常通勤中更显低调优雅，您可以考虑看看。\",\"如果您对简洁的设计感兴趣，我们有一款折影肩包·墨黑，它的侧面折叠感设计和光滑牛皮材质为日常通勤增添了一份独特的风格。您想先了解哪方面的信息呢？\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 190,
+        "prompt_tokens": 1820,
+        "total_tokens": 2010,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

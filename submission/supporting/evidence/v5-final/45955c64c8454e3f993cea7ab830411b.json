@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C11",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": null,
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "比较关注折影这款的线条。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "陈先生，折影肩包·墨黑的侧面设计灵感源于折叠，线条流畅优雅。它的尺寸为27×17×7厘米，适合肩背，材质为顺滑牛皮。期待您有机会亲自体验。",
+      "陈先生，您提到对折影这款的线条感兴趣。它采用顺滑牛皮，呈现出优雅的折叠侧面设计。若您有其他方面想了解，我们可以进一步为您提供信息。",
+      "陈先生，折影肩包·墨黑的设计以折叠侧面为特色，选用顺滑牛皮制作。尺寸为27×17×7厘米，适合肩背使用。希望这个信息对您的选择有帮助。"
+    ],
+    "advisories": [
+      "Client timezone unknown; review sending time."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "45955c64c8454e3f993cea7ab830411b",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:15.179579+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.55
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，折影肩包·墨黑的侧面设计灵感源于折叠，线条流畅优雅。它的尺寸为27×17×7厘米，适合肩背，材质为顺滑牛皮。期待您有机会亲自体验。\",\"陈先生，您提到对折影这款的线条感兴趣。它采用顺滑牛皮，呈现出优雅的折叠侧面设计。若您有其他方面想了解，我们可以进一步为您提供信息。\",\"陈先生，折影肩包·墨黑的设计以折叠侧面为特色，选用顺滑牛皮制作。尺寸为27×17×7厘米，适合肩背使用。希望这个信息对您的选择有帮助。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 174,
+        "prompt_tokens": 1815,
+        "total_tokens": 1989,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

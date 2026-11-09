@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C15",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "预算最高7500元，看看日常能用的。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {
+      "hard_budget_cny": 7500
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "沟通简单直接：这款折影肩包·墨黑以顺滑牛皮制成，侧面有折叠感，适合肩背，价格7200元符合您的预算。",
+      "这款折影肩包·墨黑价格7200元，材质是顺滑牛皮，尺寸为27 × 17 × 7厘米，侧面有折叠感，适合日常使用。",
+      "价格在您的预算内，这款折影肩包·墨黑采用顺滑牛皮，设计有折叠感的侧面，适合日常肩背。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "7822b662017941e789f4b466c6d9242d",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:49:55.869658+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.364
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"沟通简单直接：这款折影肩包·墨黑以顺滑牛皮制成，侧面有折叠感，适合肩背，价格7200元符合您的预算。\",\"这款折影肩包·墨黑价格7200元，材质是顺滑牛皮，尺寸为27 × 17 × 7厘米，侧面有折叠感，适合日常使用。\",\"价格在您的预算内，这款折影肩包·墨黑采用顺滑牛皮，设计有折叠感的侧面，适合日常肩背。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 135,
+        "prompt_tokens": 1683,
+        "total_tokens": 1818,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1536,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

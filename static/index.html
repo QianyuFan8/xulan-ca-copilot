@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>XULAN · Advisor Studio</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <a class="wordmark" href="/">序 岚 <span>XULAN</span></a>
+  <span class="studio">CLIENT ADVISOR STUDIO</span>
+  <a class="badge" href="/static/report.html">VIEW EVALUATION ↗</a>
+</header>
+
+<main>
+  <section class="intro">
+    <span class="eyebrow">A LITTLE CLOSER, WITH EVERY CONVERSATION</span>
+    <h1>Thoughtful words.<br><em>Lasting connections.</em></h1>
+    <p>Choose a client, tell us what this message is for, and review three considered drafts.<br>Your voice, your choice. Nothing is ever sent for you.</p>
+  </section>
+
+  <div class="workspace">
+    <!-- 01 · Context -->
+    <section class="editor" aria-labelledby="compose-title">
+      <div class="section-title"><h2 id="compose-title">Compose a message</h2><span>01 — CONTEXT</span></div>
+      <form id="form" novalidate>
+
+        <div class="step">
+          <label for="client">Client</label>
+          <select id="client"></select>
+          <div id="client-card" class="client-card" aria-live="polite"></div>
+        </div>
+
+        <div class="step">
+          <span class="label">Conversation so far <span class="hint">Newest at the bottom · drafts only know what is here</span></span>
+          <div id="thread" class="thread" aria-label="Conversation history"></div>
+          <div class="add-message">
+            <div class="role-toggle" role="radiogroup" aria-label="Who wrote this message">
+              <button type="button" role="radio" aria-checked="true" data-role="client">Client</button>
+              <button type="button" role="radio" aria-checked="false" data-role="advisor">Advisor</button>
+            </div>
+            <input id="new-message" placeholder="Paste the client's latest message" maxlength="3000" aria-label="New message">
+            <button type="button" id="add-message" class="secondary small">Add</button>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="label">What is this message for?</span>
+          <div id="scenarios" class="scenarios" role="radiogroup" aria-label="Scenario"></div>
+          <div id="suggestion" class="suggestion" hidden></div>
+        </div>
+
+        <div class="step" id="fields"></div>
+
+        <details class="timing">
+          <summary>Timing</summary>
+          <div class="pair">
+            <div><label for="reference">Drafting for</label><input id="reference" type="datetime-local"></div>
+            <div><label for="last-contact">Last advisor contact <span class="hint">Optional</span></label><input id="last-contact" type="datetime-local"></div>
+          </div>
+        </details>
+
+        <div class="actions">
+          <button id="generate" type="submit">Generate three drafts <span>↗</span></button>
+          <button class="secondary" id="example" type="button">Load example</button>
+        </div>
+        <p id="form-error" class="form-error" role="alert" hidden></p>
+        <p class="hint">Fictional brand and synthetic clients. Drafts are never sent automatically.</p>
+      </form>
+    </section>
+
+    <!-- 02 · Drafts -->
+    <section class="preview" aria-labelledby="drafts-title">
+      <div class="section-title"><h2 id="drafts-title">Your message, considered</h2><span>02 — DRAFTS</span></div>
+      <div id="status" role="status" aria-live="polite"></div>
+      <div id="banners"></div>
+      <div class="results">
+        <div id="options" class="options">
+          <div id="empty" class="empty">
+            <div class="seal">岚</div>
+            <h3>A conversation starts<br>with care.</h3>
+            <p>Choose a client and a purpose, then generate three ways to reach out.</p>
+          </div>
+        </div>
+        <div class="phone" aria-label="Preview of the selected draft">
+          <div class="phone-status"><span>9:41</span><span>▮▮▮ &nbsp; ▰</span></div>
+          <div class="chat-header"><span>‹</span><div id="recipient">Client</div><span>···</span></div>
+          <div class="chat-body" id="chat-body">
+            <p class="chat-caption">PRIVATE DRAFT · NOT SENT</p>
+            <div id="chat"></div>
+          </div>
+          <div class="phone-bottom">Choose a draft. Make it yours.<div class="home-bar"></div></div>
+        </div>
+      </div>
+      <p id="run" class="run hint"></p>
+    </section>
+  </div>
+
+  <footer>
+    <span>序岚 XULAN · Contemporary Eastern leather goods</span>
+    <span id="health">Checking local service…</span>
+  </footer>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

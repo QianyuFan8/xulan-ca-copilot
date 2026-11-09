@@ -1,0 +1,83 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C03",
+      "preferred_address": "周女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "可以先给我活动内容，我再决定。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "周女士，期待您在11月28日14:00–16:00的“经纬皮革细节赏鉴”中与我们一同探索特别款前片编织细节。活动将在上海序岚虚构展示空间举行。请回复我以确认预约。",
+      "您好，周女士。我们将在11月28日14:00–16:00于上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动，届时将展示特别款前片编织细节。若您有意参加，请回复我以便确认席位。",
+      "周女士，11月28日14:00–16:00于上海序岚虚构展示空间，我们将举办“经纬皮革细节赏鉴”活动，介绍特别款的编织细节。回复即可由我为您确认预约。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "504ce075305e480097fd866c29ebdbde",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:51:12.806311+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.027
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"周女士，期待您在11月28日14:00–16:00的“经纬皮革细节赏鉴”中与我们一同探索特别款前片编织细节。活动将在上海序岚虚构展示空间举行。请回复我以确认预约。\",\"您好，周女士。我们将在11月28日14:00–16:00于上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动，届时将展示特别款前片编织细节。若您有意参加，请回复我以便确认席位。\",\"周女士，11月28日14:00–16:00于上海序岚虚构展示空间，我们将举办“经纬皮革细节赏鉴”活动，介绍特别款的编织细节。回复即可由我为您确认预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 191,
+        "prompt_tokens": 1706,
+        "total_tokens": 1897,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

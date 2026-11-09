@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C13",
+      "preferred_address": "许女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "现在不急着买，可以先介绍一下。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "许女士，感谢您对我们的关注。折影肩包·墨黑采用光滑牛皮，适合日常通勤使用。",
+      "许女士，这款折影肩包·墨黑设计简洁，尺寸为27 × 17 × 7厘米，非常适合日常使用。",
+      "许女士，折影肩包·墨黑以折叠为灵感，肩背设计，满足日常通勤需求。"
+    ],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "facb38b522254594a1d771f902fe9255",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:32.864164+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.714
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"许女士，感谢您对我们的关注。折影肩包·墨黑采用光滑牛皮，适合日常通勤使用。\",\"许女士，这款折影肩包·墨黑设计简洁，尺寸为27 × 17 × 7厘米，非常适合日常使用。\",\"许女士，折影肩包·墨黑以折叠为灵感，肩背设计，满足日常通勤需求。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 541,
+        "total_tokens": 640,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

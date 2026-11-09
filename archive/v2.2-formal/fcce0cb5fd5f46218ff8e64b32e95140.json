@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C17",
+      "preferred_address": "李女士",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "李女士，您好！诚邀您于11月28日下午14:00–16:00，莅临上海序岚虚构展示空间，参与我们的经纬皮革细节赏鉴活动。届时将有特别款前片编织细节介绍。若您有兴趣参加，请回复我以便为您确认预约。",
+      "李女士，期待您能参加11月28日下午14:00–16:00在上海序岚虚构展示空间的经纬皮革细节赏鉴活动。活动将重点介绍特别款的前片编织细节。回复我即可协助确认您的预约。",
+      "亲爱的李女士，我们将在11月28日下午14:00–16:00于上海序岚虚构展示空间举办经纬皮革细节赏鉴活动，专注于特别款前片的编织细节。请回复此消息以便我为您确认预约。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "fcce0cb5fd5f46218ff8e64b32e95140",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:26.170848+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.811
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"李女士，您好！诚邀您于11月28日下午14:00–16:00，莅临上海序岚虚构展示空间，参与我们的经纬皮革细节赏鉴活动。届时将有特别款前片编织细节介绍。若您有兴趣参加，请回复我以便为您确认预约。\",\"李女士，期待您能参加11月28日下午14:00–16:00在上海序岚虚构展示空间的经纬皮革细节赏鉴活动。活动将重点介绍特别款的前片编织细节。回复我即可协助确认您的预约。\",\"亲爱的李女士，我们将在11月28日下午14:00–16:00于上海序岚虚构展示空间举办经纬皮革细节赏鉴活动，专注于特别款前片的编织细节。请回复此消息以便我为您确认预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 205,
+        "prompt_tokens": 1680,
+        "total_tokens": 1885,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1536,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

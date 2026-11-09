@@ -1,0 +1,72 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C02",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "陈先生，祝您生日快乐！希望您度过一个愉快的特别日子。",
+      "陈先生，生日快乐！愿您在新的一年中实现所有愿望。",
+      "陈先生，真诚祝福您生日快乐，愿您的生活充满设计的美好细节。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "812fa730c02f4fc3a370c88f1d248765",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:19.965846+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.31
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，祝您生日快乐！希望您度过一个愉快的特别日子。\",\"陈先生，生日快乐！愿您在新的一年中实现所有愿望。\",\"陈先生，真诚祝福您生日快乐，愿您的生活充满设计的美好细节。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 70,
+        "prompt_tokens": 462,
+        "total_tokens": 532,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

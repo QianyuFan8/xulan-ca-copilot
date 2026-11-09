@@ -1,0 +1,78 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C08",
+      "preferred_address": "李女士",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "不需要推荐产品，简单问候就好。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "生日快乐，李女士！愿您在新的一岁中，继续关注您所热爱的设计细节。",
+      "李女士，生日快乐！愿您在未来的日子里，继续享受生活中的美好。",
+      "给您送上生日祝福，李女士，愿今天有些小小的欢喜。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "c8bd6fbde24d4d0daa392ee94188d242",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:47:50.635647+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 0.974
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"生日快乐，李女士！愿您在新的一岁中，继续关注您所热爱的设计细节。\",\"李女士，生日快乐！愿您在未来的日子里，继续享受生活中的美好。\",\"给您送上生日祝福，李女士，愿今天有些小小的欢喜。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 1619,
+        "total_tokens": 1695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1280,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

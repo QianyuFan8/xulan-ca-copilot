@@ -1,0 +1,276 @@
+[
+ {
+  "id": "C01",
+  "preferred_address": "林女士",
+  "relationship_stage": "New contact",
+  "preferences": "简洁黑色，日常通勤",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "advisor",
+    "content": "林女士您好，上次您说想找一只日常通勤的黑色包，我整理了几款给您参考。"
+   },
+   {
+    "role": "client",
+    "content": "好的，我更喜欢简洁一点的，不要太多装饰。"
+   },
+   {
+    "role": "advisor",
+    "content": "明白，那我先只给您看线条简单的款式。"
+   },
+   {
+    "role": "client",
+    "content": "谢谢，平时简单联系就好。"
+   }
+  ]
+ },
+ {
+  "id": "C02",
+  "preferred_address": "陈先生",
+  "relationship_stage": "Established contact",
+  "preferences": "关注皮革和设计细节",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "client",
+    "content": "上次看的那只包，皮面是什么材质？"
+   },
+   {
+    "role": "advisor",
+    "content": "陈先生，那款是光滑牛皮，侧面是折叠感的设计。"
+   },
+   {
+    "role": "client",
+    "content": "我比较在意皮革和做工细节，有机会想看看实物。"
+   }
+  ]
+ },
+ {
+  "id": "C03",
+  "preferred_address": "周女士",
+  "relationship_stage": "Returning client",
+  "preferences": "沟通简单直接，不喜欢催促",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "advisor",
+    "content": "周女士您好，您上次购买的折影肩包用得还习惯吗？"
+   },
+   {
+    "role": "client",
+    "content": "挺好的，不过我不太喜欢被频繁联系。"
+   },
+   {
+    "role": "advisor",
+    "content": "好的，我会注意，只在必要时和您联系。"
+   },
+   {
+    "role": "client",
+    "content": "嗯，有需要我会找你。"
+   }
+  ]
+ },
+ {
+  "id": "C04",
+  "preferred_address": "许女士",
+  "relationship_stage": "New contact",
+  "preferences": "简洁黑色，日常通勤",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "client",
+    "content": "想找一只黑色的通勤肩包。"
+   },
+   {
+    "role": "advisor",
+    "content": "许女士，您更看重肩背还是斜挎？"
+   },
+   {
+    "role": "client",
+    "content": "肩背的就好，不需要斜挎。"
+   }
+  ]
+ },
+ {
+  "id": "C05",
+  "preferred_address": "沈先生",
+  "relationship_stage": "Established contact",
+  "preferences": "关注皮革和设计细节",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "advisor",
+    "content": "沈先生您好，之前您问过编织款的细节。"
+   },
+   {
+    "role": "client",
+    "content": "对，经纬那款前片的编织我挺感兴趣。"
+   },
+   {
+    "role": "advisor",
+    "content": "如果您方便，可以安排时间为您详细介绍。"
+   },
+   {
+    "role": "client",
+    "content": "最近有点忙，晚点再说。"
+   }
+  ]
+ },
+ {
+  "id": "C06",
+  "preferred_address": "顾女士",
+  "relationship_stage": "Returning client",
+  "preferences": "沟通简单直接，不喜欢催促",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "client",
+    "content": "那只包现在多少钱？"
+   },
+   {
+    "role": "advisor",
+    "content": "顾女士，这款的价格是7,200元。"
+   },
+   {
+    "role": "client",
+    "content": "比我预想的贵一点，我再考虑一下。"
+   }
+  ]
+ },
+ {
+  "id": "C07",
+  "preferred_address": "王先生",
+  "relationship_stage": "New contact",
+  "preferences": "简洁黑色，日常通勤",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "advisor",
+    "content": "王先生您好，上次您说想要简洁黑色的日常款。"
+   },
+   {
+    "role": "client",
+    "content": "是的，不过这个周末没空，不要催我到店。"
+   }
+  ]
+ },
+ {
+  "id": "C08",
+  "preferred_address": "李女士",
+  "relationship_stage": "Established contact",
+  "preferences": "关注皮革和设计细节",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "client",
+    "content": "上次那只包淋了点雨，要怎么处理？"
+   },
+   {
+    "role": "advisor",
+    "content": "李女士，牛皮沾湿后建议先用干净柔软的干布轻按吸水，然后自然晾干。"
+   },
+   {
+    "role": "client",
+    "content": "好的，谢谢。"
+   }
+  ]
+ },
+ {
+  "id": "C09",
+  "preferred_address": "何先生",
+  "relationship_stage": "Returning client",
+  "preferences": "沟通简单直接，不喜欢催促",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai",
+  "recent_conversation": [
+   {
+    "role": "advisor",
+    "content": "何先生您好，很久没联系了，最近一切都好吗？"
+   },
+   {
+    "role": "client",
+    "content": "还好，最近没有买包计划，有需要会联系。"
+   }
+  ]
+ },
+ {
+  "id": "C10",
+  "preferred_address": "林女士",
+  "relationship_stage": "New contact",
+  "preferences": "简洁黑色，日常通勤",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C11",
+  "preferred_address": "陈先生",
+  "relationship_stage": "Established contact",
+  "preferences": "关注皮革和设计细节",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C12",
+  "preferred_address": "周女士",
+  "relationship_stage": "Returning client",
+  "preferences": "沟通简单直接，不喜欢催促",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C13",
+  "preferred_address": "许女士",
+  "relationship_stage": "New contact",
+  "preferences": "简洁黑色，日常通勤",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C14",
+  "preferred_address": "沈先生",
+  "relationship_stage": "Established contact",
+  "preferences": "关注皮革和设计细节",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C15",
+  "preferred_address": "顾女士",
+  "relationship_stage": "Returning client",
+  "preferences": "沟通简单直接，不喜欢催促",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C16",
+  "preferred_address": "王先生",
+  "relationship_stage": "New contact",
+  "preferences": "简洁黑色，日常通勤",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C17",
+  "preferred_address": "李女士",
+  "relationship_stage": "Established contact",
+  "preferences": "关注皮革和设计细节",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ },
+ {
+  "id": "C18",
+  "preferred_address": "何先生",
+  "relationship_stage": "Returning client",
+  "preferences": "沟通简单直接，不喜欢催促",
+  "contact_preference": "allowed",
+  "timezone": "Asia/Shanghai"
+ }
+]

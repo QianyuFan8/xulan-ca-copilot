@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C15",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "预算最高7500元，看看日常能用的。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {
+      "hard_budget_cny": 7500
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "顾女士，感谢您再次联系。根据您的预算，我们推荐折影肩包·墨黑，价格为7200元，符合您的日常使用需求。",
+      "您好，顾女士。您可以考虑折影肩包·墨黑，这款包价格为7200元，适合日常使用，符合您的预算。",
+      "感谢您的关注，顾女士。折影肩包·墨黑是一个不错的选择，价格为7200元，非常适合日常使用。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "4ac986e743a6456eb48c177cfce4899f",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:36.686924+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.186
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"顾女士，感谢您再次联系。根据您的预算，我们推荐折影肩包·墨黑，价格为7200元，符合您的日常使用需求。\",\"您好，顾女士。您可以考虑折影肩包·墨黑，这款包价格为7200元，适合日常使用，符合您的预算。\",\"感谢您的关注，顾女士。折影肩包·墨黑是一个不错的选择，价格为7200元，非常适合日常使用。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 552,
+        "total_tokens": 660,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

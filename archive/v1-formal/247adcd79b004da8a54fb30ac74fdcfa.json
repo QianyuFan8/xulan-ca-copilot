@@ -1,0 +1,75 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C15",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我在外地，近期不方便到店。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "顾女士，感谢您再次联系我们。我们会在您方便时为您安排相关事宜。",
+      "顾女士，期待未来能为您提供所需的服务，请您告知方便的时间。",
+      "顾女士，理解您的安排，欢迎随时与我们联系以便进一步沟通。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "247adcd79b004da8a54fb30ac74fdcfa",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:45:00.257190+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 0.938
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"顾女士，感谢您再次联系我们。我们会在您方便时为您安排相关事宜。\",\"顾女士，期待未来能为您提供所需的服务，请您告知方便的时间。\",\"顾女士，理解您的安排，欢迎随时与我们联系以便进一步沟通。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 69,
+        "prompt_tokens": 472,
+        "total_tokens": 541,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C03",
+      "preferred_address": "周女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "平时不背时有什么要注意的？",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "周女士，折影肩包·墨黑的牛皮在不使用时，建议避免长时间阳光直射和高温环境。牛皮如果不小心沾湿，用干净柔软的干布轻轻吸干水分，再自然晾干即可。有什么需要帮忙的，请随时告诉我。",
+      "周女士，您提到的折影肩包·墨黑在存放时，建议不要让它暴露在潮湿环境中。如不小心弄湿，建议用柔软干布轻轻吸水，避免使用任何清洁剂。后续有需要随时联系哦。",
+      "周女士，关于折影肩包·墨黑的保养，平时不使用时，尽量避免潮湿和高温。如有划痕或其他问题，我们可以协助联系检查，以便确认具体情况。"
+    ],
+    "advisories": [
+      "Advisor contacted this client within seven days; review timing."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "f4c012cb8a97441888ae72b6953dfe75",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:05.630339+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.932
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"周女士，折影肩包·墨黑的牛皮在不使用时，建议避免长时间阳光直射和高温环境。牛皮如果不小心沾湿，用干净柔软的干布轻轻吸干水分，再自然晾干即可。有什么需要帮忙的，请随时告诉我。\",\"周女士，您提到的折影肩包·墨黑在存放时，建议不要让它暴露在潮湿环境中。如不小心弄湿，建议用柔软干布轻轻吸水，避免使用任何清洁剂。后续有需要随时联系哦。\",\"周女士，关于折影肩包·墨黑的保养，平时不使用时，尽量避免潮湿和高温。如有划痕或其他问题，我们可以协助联系检查，以便确认具体情况。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 193,
+        "prompt_tokens": 1686,
+        "total_tokens": 1879,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1536,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

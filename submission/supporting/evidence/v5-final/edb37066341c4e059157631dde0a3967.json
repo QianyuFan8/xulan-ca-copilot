@@ -1,0 +1,109 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C18",
+      "preferred_address": "何先生",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": null,
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "不确定周末有没有空，先看看安排。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "何先生您好！邀请您参加11月21日14:00–17:00在上海序岚展示空间举行的日常东方皮具预览活动，届时将展示日常手袋设计与皮革细节。请您回复确认是否可以前来，我们将为您安排预约。",
+      "何先生您好！11月21日14:00–17:00，上海序岚展示空间将举办日常东方皮具预览活动，欢迎您来参观和了解更多设计细节。若您决定参加，请回复以便我们为您确认预约。",
+      "何先生，11月21日下午14:00–17:00，我们将在上海序岚展示空间举办日常手袋设计与皮革细节预览活动。如您有时间参加，请回复我以确认预约。"
+    ],
+    "advisories": [
+      "Client timezone unknown; review sending time."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "edb37066341c4e059157631dde0a3967",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 2,
+      "repairs": 1,
+      "started_at": "2026-11-08T17:11:53.146182+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.723
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"何先生您好！邀请您参加11月21日14:00–17:00在上海序岚展示空间举行的日常东方皮具预览活动，届时将展示日常手袋设计与皮革细节。请您确认是否可以前来，我们将为您安排预约。\",\"何先生您好！11月21日14:00–17:00，上海序岚展示空间将举办日常东方皮具预览活动，欢迎您来参观和了解更多设计细节。若您决定参加，请回复以便我们为您确认预约。\",\"何先生，11月21日下午14:00–17:00，我们将在上海序岚展示空间举办日常手袋设计与皮革细节预览活动。如您有时间参加，请回复我以确认预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 180,
+        "prompt_tokens": 1846,
+        "total_tokens": 2026,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    },
+    {
+      "operation": 1,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"何先生您好！邀请您参加11月21日14:00–17:00在上海序岚展示空间举行的日常东方皮具预览活动，届时将展示日常手袋设计与皮革细节。请您回复确认是否可以前来，我们将为您安排预约。\",\"何先生您好！11月21日14:00–17:00，上海序岚展示空间将举办日常东方皮具预览活动，欢迎您来参观和了解更多设计细节。若您决定参加，请回复以便我们为您确认预约。\",\"何先生，11月21日下午14:00–17:00，我们将在上海序岚展示空间举办日常手袋设计与皮革细节预览活动。如您有时间参加，请回复我以确认预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 181,
+        "prompt_tokens": 2106,
+        "total_tokens": 2287,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1792,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

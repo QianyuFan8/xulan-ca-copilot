@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C17",
+      "preferred_address": "李女士",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "李女士，诚邀您参加11月28日14:00至16:00在上海序岚展示空间举行的经纬皮革细节赏鉴活动。活动将介绍特别款的前片编织细节，您可以通过回复确认预约。期待您的参与。",
+      "李女士，11月28日我们将在上海序岚展示空间举办经纬特别款的编织细节介绍活动，时间为14:00到16:00。若您有兴趣了解更多设计细节，请回复此消息以确认预约。",
+      "李女士，期待11月28日14:00至16:00您在上海序岚展示空间参与我们关于经纬特别款编织细节的赏鉴活动。请回复此条信息确认预约细节。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "7ddc055f5aaa434f9545db5df912bbd6",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:51.585693+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.559
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"李女士，诚邀您参加11月28日14:00至16:00在上海序岚展示空间举行的经纬皮革细节赏鉴活动。活动将介绍特别款的前片编织细节，您可以通过回复确认预约。期待您的参与。\",\"李女士，11月28日我们将在上海序岚展示空间举办经纬特别款的编织细节介绍活动，时间为14:00到16:00。若您有兴趣了解更多设计细节，请回复此消息以确认预约。\",\"李女士，期待11月28日14:00至16:00您在上海序岚展示空间参与我们关于经纬特别款编织细节的赏鉴活动。请回复此条信息确认预约细节。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 173,
+        "prompt_tokens": 1826,
+        "total_tokens": 1999,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

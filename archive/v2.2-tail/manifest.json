@@ -1,0 +1,643 @@
+[
+  {
+    "case_id": "T039",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C03",
+        "preferred_address": "周女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "可以先给我活动内容，我再决定。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "周女士，期待您在11月28日14:00–16:00的“经纬皮革细节赏鉴”中与我们一同探索特别款前片编织细节。活动将在上海序岚虚构展示空间举行。请回复我以确认预约。",
+        "您好，周女士。我们将在11月28日14:00–16:00于上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动，届时将展示特别款前片编织细节。若您有意参加，请回复我以便确认席位。",
+        "周女士，11月28日14:00–16:00于上海序岚虚构展示空间，我们将举办“经纬皮革细节赏鉴”活动，介绍特别款的编织细节。回复即可由我为您确认预约。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "504ce075305e480097fd866c29ebdbde",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:12.806311+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.027
+      }
+    }
+  },
+  {
+    "case_id": "T040",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C04",
+        "preferred_address": "许女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我想带朋友一起，但还没确定。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "许女士，诚邀您于11月21日14:00–17:00莅临上海序岚虚构展示空间，参与日常手袋设计与皮革细节预览。若决定带朋友参加，请回复我以便确认预约。",
+        "11月21日14:00–17:00，欢迎您来到上海序岚虚构展示空间，体验我们的日常手袋设计与皮革细节预览。若有意愿，请回复以确认您的预约。",
+        "我们将于11月21日14:00–17:00在上海序岚虚构展示空间举办日常手袋设计与皮革细节预览。期待您的参与并请回复我确认预约。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "e8cbfbb1f4194c3e82d64dc71474fd84",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 2,
+        "repairs": 1,
+        "started_at": "2026-11-08T07:51:14.833503+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 3.175
+      }
+    }
+  },
+  {
+    "case_id": "T041",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C05",
+        "preferred_address": "沈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "需要预约的话，请告诉我怎么操作。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "沈先生，诚挚邀请您参加我们于11月28日14:00至16:00在上海序岚虚构展示空间举办的“经纬皮革细节赏鉴”活动。届时将有特别款前片编织细节介绍。如有兴趣，请回复我确认预约。",
+        "您好，11月28日14:00到16:00，我们将在上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动，届时会有特别款前片的编织细节展示。若您有意参加，欢迎回复我以便确认预约。",
+        "沈先生，我们将在11月28日14:00至16:00于上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动，期待与您探讨特别款的编织设计。请回复我以确认您的预约。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "df8fabea115e40038291ab7f95e431b2",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:18.010216+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.767
+      }
+    }
+  },
+  {
+    "case_id": "T042",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C06",
+        "preferred_address": "顾女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "有点贵，我想再考虑。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "顾女士，感谢您分享您的想法。折影肩包·墨黑的定价是7200元，它采用了光滑的牛皮，侧面设计有折叠感，支持肩背。如果您有其他问题或者需要进一步了解，请随时告诉我。",
+        "顾女士，明白您需要时间考虑。折影肩包·墨黑的价格是7200元。它的尺寸是27 × 17 × 7厘米。任何时候您准备好继续了解，欢迎联系我。",
+        "顾女士，理解您的顾虑。当前没有确认的优惠活动，折影肩包·墨黑的定价为7200元。若有新资讯或您需要额外信息，我会及时通知您。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "917a3a8f14dd4cc3b6c5b96b2ed88ee3",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:19.777215+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.327
+      }
+    }
+  },
+  {
+    "case_id": "T043",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C07",
+        "preferred_address": "王先生",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "王先生，感谢您对折影肩包·墨黑的关注。我们理解预算考量，目前这款肩包的价格为7200元。它采用了顺滑牛皮，并具有折叠侧面设计。",
+        "王先生，您提到预算问题，我完全理解。目前我们没有可用的折扣或优惠券。此款折影肩包·墨黑的设计特点在于其折叠感侧面，适合肩背。",
+        "感谢您考虑折影肩包·墨黑。对于预算的顾虑我很理解，这款采用顺滑牛皮，售价为7200元。若您暂时不购买，我们也尊重您的决定。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "49bcd9c3f58e4d749785c1bca716ffc2",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:22.104258+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.874
+      }
+    }
+  },
+  {
+    "case_id": "T044",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C08",
+        "preferred_address": "李女士",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": null,
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "可以打折吗？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "李女士，目前没有确认的折扣方案。不过，这款折影肩包·墨黑使用光滑牛皮材质，侧面有独特的折叠感设计，尺寸为27 × 17 × 7厘米。",
+        "李女士，这款折影肩包·墨黑的设计是折叠感侧面，适合肩背使用。虽然没有折扣，但可以为您提供更多材质和设计的详细信息。",
+        "李女士，理解您的顾虑。这款折影肩包·墨黑目前没有折扣信息，但它采用光滑牛皮制作，设计细节如您所关注的折叠感侧面也值得一看。"
+      ],
+      "advisories": [
+        "Client timezone unknown; review sending time."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "162878ca168b4bacb7f3482773f8295e",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:23.980951+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.806
+      }
+    }
+  },
+  {
+    "case_id": "T045",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C09",
+        "preferred_address": "何先生",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我很喜欢，但这个价格超出预期。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "何先生，感谢您的反馈。折影肩包·墨黑的价格目前为7,200元。这款包的侧面设计有折叠感，适合肩背。如果您有其他问题或想了解更多信息，请随时告诉我。",
+        "何先生，这款折影肩包·墨黑的价格是7,200元。材质为光滑牛皮，侧面有折叠感设计。暂时没有相关折扣信息。如果您有任何其他疑问或需要进一步的信息，请告诉我。",
+        "何先生，了解到这款折影肩包·墨黑价格超出您的预期。它的设计包括光滑牛皮和特别的折叠感侧面。尊重您暂时不购买的决定，随时可以联系我们了解更多。"
+      ],
+      "advisories": [
+        "Advisor contacted this client within seven days; review timing."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "a74268815dcf4b7d981d2e92604b6944",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:25.787081+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.765
+      }
+    }
+  },
+  {
+    "case_id": "T046",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C10",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "网上看见便宜不少，你们能同价吗？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "林女士，关于您提到的价格问题，我们目前没有确切的同价信息。折影肩包·墨黑的设计使用了光滑牛皮，并有折叠感的侧面。",
+        "感谢您的反馈，林女士。折影肩包·墨黑采用光滑牛皮，尺寸为27 × 17 × 7厘米，暂时没有可用的折扣信息。",
+        "林女士，理解您的顾虑。目前我们没有同价信息，折影肩包·墨黑采用光滑牛皮，适合肩背使用。"
+      ],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "a408e158db0e4a6b880ac6bb8031e535",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:27.558275+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.427
+      }
+    }
+  },
+  {
+    "case_id": "T047",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C11",
+        "preferred_address": "陈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "有没有赠品或者优惠券？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "陈先生，目前我们没有已确认的赠品或优惠券。这款折影肩包·墨黑由顺滑牛皮制成，侧面有折叠感设计，适合肩背。",
+        "陈先生，关于赠品和优惠券，我们暂时没有可以确认的优惠政策。这款折影肩包·墨黑采用顺滑牛皮，尺寸为27 × 17 × 7厘米。",
+        "陈先生，我们暂时没有赠品或优惠券。这款包的侧面设计灵感源自折叠，使用顺滑牛皮，适合肩背。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "80588980b6bc4cd396f5eadf32076fff",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:28.985031+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.181
+      }
+    }
+  },
+  {
+    "case_id": "T048",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C12",
+        "preferred_address": "周女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "目前预算只有6000元。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL07"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "周女士，感谢您分享预算情况。月隙斜挎包·墨黑目前的价格为5,800元，如需等到有更多确认的优惠信息再决定也是可以的。",
+        "周女士，这款月隙斜挎包·墨黑是用粒面牛皮制成的，价格为5,800元。目前没有可用的折扣，但您可以考虑其他符合预算的款式。",
+        "周女士，这款月隙斜挎包·墨黑的价格是5,800元。尊重您的预算考量，随时可以再讨论其他符合预算的选择。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "6c009352f1794cd1a135c495c11f1186",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:30.171754+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.527
+      }
+    }
+  },
+  {
+    "case_id": "T049",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C13",
+        "preferred_address": "许女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "这个价格主要体现在哪些细节？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "您好，许女士。折影肩包的价格主要体现在细腻的顺滑牛皮材质和折叠感的侧面设计上，尺寸是27×17×7厘米。希望这些信息对您有帮助。",
+        "感谢您对价格的询问，许女士。折影肩包·墨黑采用顺滑牛皮，侧面设计有独特的折叠感，适合肩背携带。这些设计细节是其价格的体现。",
+        "您提到的价格确实不低，许女士。这个产品的特点在于使用顺滑牛皮和折叠感设计，尺寸是27×17×7厘米。理解您的顾虑，也尊重您的决定。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "2e6336a763ea400a9a1071feaa8d5913",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:31.701495+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.507
+      }
+    }
+  },
+  {
+    "case_id": "T050",
+    "version_label": "v2.2-tail",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C14",
+        "preferred_address": "沈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "谢谢介绍，我暂时不买，想多比较一下。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "沈先生，了解您想多比较一下，完全支持这个决定。我们的折影肩包·墨黑，材质是光滑牛皮，侧面有折叠感的设计，价格为7200元。您有其他需要了解的可以随时联系我。",
+        "沈先生，您提到暂时不买，没问题。我们的折影肩包·墨黑采用光滑牛皮，设计有折叠感，售价7200元。希望这信息对您有帮助，随时欢迎您再次咨询。",
+        "沈先生，感谢您考虑我们的产品。折影肩包·墨黑售价7200元，采用光滑牛皮，设计上有独特的折叠感。尊重您的决定，期待未来有机会为您服务。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "be977ac2d4a142b398befc67ae65fb65",
+        "model": "gpt-4o",
+        "prompt_version": "2.2",
+        "data_version": "1.0",
+        "code_version": "e10f759c6a4928cf",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:51:33.213665+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.951
+      }
+    }
+  }
+]

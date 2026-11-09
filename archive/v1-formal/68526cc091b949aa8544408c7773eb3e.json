@@ -1,0 +1,71 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "林女士，折影肩包·墨黑是一个日常通勤的理想选择。请记住，牛皮制品应避免浸水和过热。",
+      "感谢您对折影肩包·墨黑的关注。为了确保您的包长期保持良好状态，请避免阳光直射，并用柔软干布轻轻擦拭。",
+      "如果您对折影肩包·墨黑有任何疑问，欢迎随时联系。我在这里为您提供建议和帮助。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "68526cc091b949aa8544408c7773eb3e",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:42.125594+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.227
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"林女士，折影肩包·墨黑是一个日常通勤的理想选择。请记住，牛皮制品应避免浸水和过热。\",\"感谢您对折影肩包·墨黑的关注。为了确保您的包长期保持良好状态，请避免阳光直射，并用柔软干布轻轻擦拭。\",\"如果您对折影肩包·墨黑有任何疑问，欢迎随时联系。我在这里为您提供建议和帮助。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 515,
+        "total_tokens": 630,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "case_id": "T022",
+    "generation_run_id": "24cabd15d6ba4ea786d02ed54e288c88",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 152,
+      "prompt_tokens": 804,
+      "total_tokens": 956,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates correctly address the client's inquiry about care oil, suggest professional inspection, and respect policy boundaries."
+    }
+  },
+  {
+    "case_id": "T029",
+    "generation_run_id": "d88b69b37a1f4297b6445aaae8ac5eb8",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 190,
+      "prompt_tokens": 780,
+      "total_tokens": 970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 3,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 3,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 3,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly avoid making unverified promises and respect the client's preferences. They offer inspection opportunities without guaranteeing outcomes. However, they lack specific product details or evidence of the event, which affects factual accuracy."
+    }
+  },
+  {
+    "case_id": "T050",
+    "generation_run_id": "6483738c412243aaa98f2d1151cc3ea2",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 736,
+      "total_tokens": 887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates appropriately acknowledge the client's decision to compare prices and offer further assistance without pressure or assumptions."
+    }
+  }
+]

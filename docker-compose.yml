@@ -1,0 +1,17 @@
+services:
+  studio:
+    build: .
+    image: xulan-advisor-studio:latest
+    container_name: xulan-studio
+    ports:
+      # Published on this machine only: the generation API has no authentication and spends API credit.
+      # To expose it on a network, put it behind authentication first.
+      - "127.0.0.1:8000:8080"  # http://localhost:8000
+    env_file:
+      - path: .env             # OPENAI_API_KEY; optional, the UI runs without it
+        required: false
+    volumes:
+      # Bind-mount runs/ so the container shares the host's audit files and spend
+      # ledger (runs/budget.sqlite). A separate ledger would reset the spend cap.
+      - ./runs:/app/runs
+    restart: unless-stopped

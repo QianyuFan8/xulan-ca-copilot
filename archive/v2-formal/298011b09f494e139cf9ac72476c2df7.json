@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C13",
+      "preferred_address": "许女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "现在不急着买，可以先介绍一下。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "亲爱的许女士，您提到的简洁黑色和日常通勤我都记在心上。我们的折影肩包·墨黑可能会适合您。它采用顺滑牛皮，设计灵感来自折叠感，适合肩背。尺寸为27×17×7厘米，方便日常使用。希望这款包能符合您的期待。",
+      "许女士，您提到偏爱简洁黑色和日常通勤，我想推荐我们的折影肩包·墨黑。这款包采用顺滑牛皮，折叠感侧面设计，肩背舒适，尺寸为27×17×7厘米，非常适合日常搭配。期待您的进一步了解。",
+      "许女士，很高兴为您介绍折影肩包·墨黑。这款包的设计简洁，适合日常通勤使用。采用顺滑牛皮，侧面有折叠感，尺寸27×17×7厘米。希望这款产品能引起您的兴趣，如果有任何问题欢迎随时联系。"
+    ],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "298011b09f494e139cf9ac72476c2df7",
+      "model": "gpt-4o",
+      "prompt_version": "2.0",
+      "data_version": "1.0",
+      "code_version": "f6f516f8032932a8",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:46:40.829377+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.316
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"亲爱的许女士，您提到的简洁黑色和日常通勤我都记在心上。我们的折影肩包·墨黑可能会适合您。它采用顺滑牛皮，设计灵感来自折叠感，适合肩背。尺寸为27×17×7厘米，方便日常使用。希望这款包能符合您的期待。\",\"许女士，您提到偏爱简洁黑色和日常通勤，我想推荐我们的折影肩包·墨黑。这款包采用顺滑牛皮，折叠感侧面设计，肩背舒适，尺寸为27×17×7厘米，非常适合日常搭配。期待您的进一步了解。\",\"许女士，很高兴为您介绍折影肩包·墨黑。这款包的设计简洁，适合日常通勤使用。采用顺滑牛皮，侧面有折叠感，尺寸27×17×7厘米。希望这款产品能引起您的兴趣，如果有任何问题欢迎随时联系。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 1331,
+        "total_tokens": 1564,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

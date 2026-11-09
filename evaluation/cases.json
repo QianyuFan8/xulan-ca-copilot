@@ -1,0 +1,1266 @@
+[
+  {
+    "case_id": "T001",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "今天是我生日，谢谢记得。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T002",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C02",
+        "preferred_address": "陈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T003",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C03",
+        "preferred_address": "周女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "谢谢关心。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T004",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C04",
+        "preferred_address": "许女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "最近挺好的，不用专门准备什么。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T005",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C05",
+        "preferred_address": "沈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "谢谢，之后再聊。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T006",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C06",
+        "preferred_address": "顾女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "最近忙着搬家，其他都好。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T007",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C07",
+        "preferred_address": "王先生",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "节日也祝你们顺利。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "元旦",
+        "occasion_date": "2027-01-01"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T008",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C08",
+        "preferred_address": "李女士",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "不需要推荐产品，简单问候就好。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T009",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C09",
+        "preferred_address": "何先生",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "想找一只黑色通勤肩包，不要浅色。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T010",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C10",
+        "preferred_address": "林女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T011",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C11",
+        "preferred_address": "陈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "比较关注折影这款的线条。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T012",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C12",
+        "preferred_address": "周女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "肩背的就好，不需要斜挎。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T013",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C13",
+        "preferred_address": "许女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "现在不急着买，可以先介绍一下。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T014",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C14",
+        "preferred_address": "沈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "之前喜欢米白，现在只考虑黑色。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T015",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C15",
+        "preferred_address": "顾女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "预算最高7500元，看看日常能用的。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {
+        "hard_budget_cny": 7500
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T016",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C16",
+        "preferred_address": "王先生",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "这个周末没空，不要催我到店。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T017",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C17",
+        "preferred_address": "李女士",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "先说一下材质和尺寸就好。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T018",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C18",
+        "preferred_address": "何先生",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "刚买回来，平时怎么保养？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T019",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T020",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C02",
+        "preferred_address": "陈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "昨天不小心淋了点雨，应该怎么处理？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T021",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C03",
+        "preferred_address": "周女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "平时不背时有什么要注意的？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T022",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C04",
+        "preferred_address": "许女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "想了解一下是否需要上护理油。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T023",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C05",
+        "preferred_address": "沈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "包面有划痕，可以帮忙看一下吗？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T024",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C06",
+        "preferred_address": "顾女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我想确认一下保养方式，不需要推荐新款。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T025",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C07",
+        "preferred_address": "王先生",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "可以先简单说两条养护建议吗？"
+        }
+      ],
+      "product_information": [
+        "XL11"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T026",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C08",
+        "preferred_address": "李女士",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "之前看的黑色肩包我还记得。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T027",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C09",
+        "preferred_address": "何先生",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T028",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C10",
+        "preferred_address": "林女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "想起之前看过的折影，但还没决定。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T029",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C11",
+        "preferred_address": "陈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我现在更喜欢黑色，不考虑之前的米白了。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T030",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C12",
+        "preferred_address": "周女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "最近没有买包计划，有需要会联系。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T031",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C13",
+        "preferred_address": "许女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "上次聊的设计细节挺有意思。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T032",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C14",
+        "preferred_address": "沈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我比较喜欢简短信息，看到会回复。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T033",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C15",
+        "preferred_address": "顾女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我在外地，近期不方便到店。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T034",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C16",
+        "preferred_address": "王先生",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "有设计细节的活动可以告诉我。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T035",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C17",
+        "preferred_address": "李女士",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T036",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C18",
+        "preferred_address": "何先生",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "不确定周末有没有空，先看看安排。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T037",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我对皮革材料比较感兴趣。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T038",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C02",
+        "preferred_address": "陈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "喜欢安静看产品，不太想参加推销。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T039",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C03",
+        "preferred_address": "周女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "可以先给我活动内容，我再决定。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T040",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C04",
+        "preferred_address": "许女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我想带朋友一起，但还没确定。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T041",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C05",
+        "preferred_address": "沈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "需要预约的话，请告诉我怎么操作。"
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T042",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C06",
+        "preferred_address": "顾女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "有点贵，我想再考虑。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T043",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C07",
+        "preferred_address": "王先生",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T044",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C08",
+        "preferred_address": "李女士",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "可以打折吗？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T045",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C09",
+        "preferred_address": "何先生",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我很喜欢，但这个价格超出预期。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T046",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C10",
+        "preferred_address": "林女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "网上看见便宜不少，你们能同价吗？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T047",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C11",
+        "preferred_address": "陈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "有没有赠品或者优惠券？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T048",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C12",
+        "preferred_address": "周女士",
+        "relationship_stage": "Returning client",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "目前预算只有6000元。"
+        }
+      ],
+      "product_information": [
+        "XL07"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T049",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C13",
+        "preferred_address": "许女士",
+        "relationship_stage": "New contact",
+        "preferences": "简洁黑色，日常通勤",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "这个价格主要体现在哪些细节？"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  },
+  {
+    "case_id": "T050",
+    "request": {
+      "scenario": "price_objection",
+      "client_information": {
+        "id": "C14",
+        "preferred_address": "沈先生",
+        "relationship_stage": "Established contact",
+        "preferences": "关注皮革和设计细节",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "谢谢介绍，我暂时不买，想多比较一下。"
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    }
+  }
+]

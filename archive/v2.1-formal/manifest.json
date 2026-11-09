@@ -1,0 +1,1999 @@
+[
+  {
+    "case_id": "T001",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "今天是我生日，谢谢记得。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐，林女士！愿您的新一年充满无限精彩。",
+        "生日快乐！希望您今天能享受一些特别的时刻。",
+        "给您送上生日的祝福，愿今天有些小小的欢喜。不用特意回复。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "56a6a2c5c0944955b3520d0724ab44dc",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:43.158722+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.799
+      }
+    }
+  },
+  {
+    "case_id": "T002",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C02",
+        "preferred_address": "陈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐，陈先生！愿您在新的一岁中实现更多设计灵感。",
+        "生日快乐，陈先生！也希望您最近的设计项目一切顺利。",
+        "给您送上生日的祝福，陈先生，愿今天有些小小的欢喜。不用特意回复。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "58c2fb4e3bc149dcb54824279227938b",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:44.958428+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.041
+      }
+    }
+  },
+  {
+    "case_id": "T003",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C03",
+        "preferred_address": "周女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": null,
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "谢谢关心。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐，周女士，愿您这一年如愿以偿，日日安好。",
+        "生日快乐！希望您最近的事情都顺利进行，心情愉悦。",
+        "祝您生日快乐，周女士，愿今天为您带来一些小惊喜。"
+      ],
+      "advisories": [
+        "Client timezone unknown; review sending time."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "94d6f71800b14fcc85a3e47571317fd5",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:46.000836+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 0.807
+      }
+    }
+  },
+  {
+    "case_id": "T004",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C04",
+        "preferred_address": "许女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "最近挺好的，不用专门准备什么。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐，许女士！愿新的一岁带给您更多的快乐与平和。",
+        "许女士，生日快乐！希望最近的忙碌逐渐平息，迎接新的美好。",
+        "许女士，给您送上生日的祝福，愿今天有些小小的欢喜。无需特意回复。"
+      ],
+      "advisories": [
+        "Advisor contacted this client within seven days; review timing."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "49dd0019f0ad4dc6acbd9d4ac6be0488",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:46.810950+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 0.927
+      }
+    }
+  },
+  {
+    "case_id": "T005",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C05",
+        "preferred_address": "沈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "谢谢，之后再聊。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐，沈先生！愿您在新的一岁里，生活充满设计感的小惊喜。",
+        "生日快乐！也希望您最近对设计细节的探索能有新的发现。",
+        "送上一份生日祝福，愿今天有些小小的欢喜和放松，不用特意回复。"
+      ],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "41fb066ffd064d718e50d625274a865d",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:47.738809+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.045
+      }
+    }
+  },
+  {
+    "case_id": "T006",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C06",
+        "preferred_address": "顾女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "最近忙着搬家，其他都好。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐！愿您在新家一切顺利，也希望生活中有更多的舒适和快乐。",
+        "生日快乐！希望您在新家里度过愉快的一天，搬家后的每一刻都充满温馨。",
+        "生日快乐，顾女士！愿今天有些小小的欢喜，也祝您在新家生活愉快。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "6bc5df0b7cd64cd78b0de55abcf3da09",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:48.784309+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 0.935
+      }
+    }
+  },
+  {
+    "case_id": "T007",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C07",
+        "preferred_address": "王先生",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "节日也祝你们顺利。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "元旦",
+        "occasion_date": "2027-01-01"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "新年快到了，先祝王先生元旦快乐，愿新的一年顺利如意。",
+        "王先生，提前祝您元旦快乐，希望您度过一个愉快的节日季。",
+        "元旦将至，送上我的祝福，愿您在新的一年里一切顺利。"
+      ],
+      "advisories": [
+        "Occasion differs from reference date; review timing and avoid saying today."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "961dfded51f24055b272d97c42982786",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:49.721766+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 0.907
+      }
+    }
+  },
+  {
+    "case_id": "T008",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C08",
+        "preferred_address": "李女士",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "不需要推荐产品，简单问候就好。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "生日快乐，李女士！愿您在新的一岁中，继续关注您所热爱的设计细节。",
+        "李女士，生日快乐！愿您在未来的日子里，继续享受生活中的美好。",
+        "给您送上生日祝福，李女士，愿今天有些小小的欢喜。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "c8bd6fbde24d4d0daa392ee94188d242",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:50.635647+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 0.974
+      }
+    }
+  },
+  {
+    "case_id": "T009",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C09",
+        "preferred_address": "何先生",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "想找一只黑色通勤肩包，不要浅色。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "何先生，您提到想要一只黑色的通勤肩包，我们有一款折影肩包·墨黑可以考虑。它的侧面设计有折叠感，适合肩背使用。",
+        "我们这里有一款折影肩包·墨黑，尺寸为27 × 17 × 7厘米。它采用光滑牛皮材质，黑色非常适合您的需求。",
+        "折影肩包·墨黑可能适合您。这款包的设计是侧面有折叠感，支持肩背，颜色上也符合您希望的黑色。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "c15e14f5d8b141d588cc4badf2b05a50",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:51.610397+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.278
+      }
+    }
+  },
+  {
+    "case_id": "T010",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C10",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "林女士，您偏爱的简洁黑色风格，我们的折影肩包·墨黑可能符合您的需求。它的侧面有折叠感，支持肩背，适合日常通勤。",
+        "这款折影肩包·墨黑采用光滑牛皮制作，设计上有折叠感的侧面，尺寸为27 × 17 × 7厘米，适合肩背使用。",
+        "林女士，您提到的日常通勤需求，我们有一款折影肩包·墨黑，材质为光滑牛皮，侧面设计有折叠感。您想先了解材质，还是看看细节？"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "eed4563acdf841a6ae7633130f35ba86",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:52.889388+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.384
+      }
+    }
+  },
+  {
+    "case_id": "T011",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C11",
+        "preferred_address": "陈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": null,
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "比较关注折影这款的线条。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "陈先生，您提到的折影肩包·墨黑在设计上确实很有特色。其侧面采用折影线条设计，如果您对线条感兴趣，可以从这个细节着手了解。",
+        "您好，陈先生。折影肩包·墨黑采用光滑牛皮制作，尺寸为27 × 17 × 7厘米。您可以先看看它的材质和设计是否符合您的期待。",
+        "这款折影肩包·墨黑的侧面具有折叠感，适合肩背。若您对材质有兴趣，可以进一步了解其光滑牛皮的质感。"
+      ],
+      "advisories": [
+        "Client timezone unknown; review sending time."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "9ae11ad30e0a4e6eb572cef645f6877b",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:54.278203+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.582
+      }
+    }
+  },
+  {
+    "case_id": "T012",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C12",
+        "preferred_address": "周女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "肩背的就好，不需要斜挎。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "周女士，您提到需要肩背包，这款折影肩包·墨黑可能适合您的需求。它的侧面有折叠感设计，整体线条简洁。尺寸为27×17×7厘米，采用光滑牛皮制成。",
+        "周女士，您提到喜欢肩背款式，折影肩包·墨黑正是肩背设计，侧面有折叠感，适合喜欢简约风格的您。尺寸为27×17×7厘米，材质为光滑牛皮。",
+        "周女士，根据您的需求，这款折影肩包·墨黑是肩背设计，采用光滑牛皮，尺寸为27×17×7厘米。其独特的折叠感侧面或许会引起您的兴趣。"
+      ],
+      "advisories": [
+        "Advisor contacted this client within seven days; review timing."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "ba24b1a1675c44f89589c221f7532111",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:55.866832+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.799
+      }
+    }
+  },
+  {
+    "case_id": "T013",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C13",
+        "preferred_address": "许女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "现在不急着买，可以先介绍一下。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "许女士，您提到偏好简洁黑色的日常通勤包，我想推荐您这款折影肩包·墨黑。它采用顺滑牛皮，侧面有折叠感，适合肩背，符合您的需求。",
+        "这款折影肩包·墨黑可能适合您的喜好，它是简洁的黑色设计，顺滑牛皮材质，尺寸为27×17×7厘米，日常通勤使用非常方便。",
+        "折影肩包·墨黑这款包的设计有独特的折叠感，适合肩背。材质用的是顺滑牛皮，27×17×7厘米的尺寸非常适合日常使用。"
+      ],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "97c604fee6a641c28cddabefbc42b727",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:57.665466+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.62
+      }
+    }
+  },
+  {
+    "case_id": "T014",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C14",
+        "preferred_address": "沈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "之前喜欢米白，现在只考虑黑色。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "沈先生，您提到的黑色偏好，我们有款折影肩包·墨黑可能符合您的期待。它采用光滑牛皮，侧面有折叠感设计，尺寸为27×17×7厘米，支持肩背。希望这个细节能帮助您判断。",
+        "沈先生，如果您对折影肩包·墨黑感兴趣，它的侧面有折叠感设计，采用光滑牛皮材质，尺寸为27×17×7厘米，支持肩背。可以先从这些细节看看是否符合您的想法。",
+        "沈先生，折影肩包·墨黑采用光滑牛皮，侧面展现折叠感，尺寸27×17×7厘米，符合您关注的设计细节。欢迎您先了解这些信息，再决定是否需要更多帮助。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "fad48238949d42929aaefc1d1af5da8d",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:47:59.285487+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.773
+      }
+    }
+  },
+  {
+    "case_id": "T015",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C15",
+        "preferred_address": "顾女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "预算最高7500元，看看日常能用的。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {
+        "hard_budget_cny": 7500
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "这款折影肩包·墨黑的价格为7200元，符合您的预算。它采用顺滑牛皮材质，适合日常使用，侧面有折叠感设计，您可以肩背。",
+        "折影肩包·墨黑的尺寸是27 × 17 × 7厘米，材质是顺滑牛皮，设计上有折叠感。这个款式在您预算内，适合日常使用。",
+        "您提到预算7500元以内，这款折影肩包·墨黑正好符合。它采用顺滑牛皮，设计有独特的折叠侧面，适合日常的肩背使用。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "896ac75296584c8fa1af3f8db7063c07",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:01.062137+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.785
+      }
+    }
+  },
+  {
+    "case_id": "T016",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C16",
+        "preferred_address": "王先生",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "这个周末没空，不要催我到店。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "这款折影肩包·墨黑或许契合您的偏好。它采用光滑牛皮材质，侧面有折叠感，设计简洁，适合日常通勤。",
+        "我们有一款折影肩包·墨黑，正好是您喜欢的简洁黑色设计。它的尺寸为27 × 17 × 7厘米，非常适合日常使用。",
+        "如果您对线条细节感兴趣，折影肩包·墨黑的折叠侧面设计可能会吸引您。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "0dc17976c99e40ca8bc28a3d81f3ae53",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:02.849567+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.089
+      }
+    }
+  },
+  {
+    "case_id": "T017",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "recommendation",
+      "client_information": {
+        "id": "C17",
+        "preferred_address": "李女士",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "先说一下材质和尺寸就好。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "李女士，这款折影肩包·墨黑采用光滑牛皮，尺寸为27 × 17 × 7厘米。侧面设计有折叠感，适合肩背。您可以看看是否符合您的喜好。",
+        "李女士，您可能会对这款折影肩包·墨黑感兴趣。尺寸是27 × 17 × 7厘米，材质为光滑牛皮，具有折叠感的侧面设计。",
+        "李女士，折影肩包·墨黑的光滑牛皮材质和27 × 17 × 7厘米的尺寸或许能满足您的需求。其侧面的折叠感设计是个亮点。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "816f440a99df4839a3c9ec2546de1d40",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:03.939808+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.377
+      }
+    }
+  },
+  {
+    "case_id": "T018",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C18",
+        "preferred_address": "何先生",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "刚买回来，平时怎么保养？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "何先生，您购买的折影肩包·墨黑采用的是顺滑牛皮。建议避免浸泡、暴晒和高温。如遇到湿润，用干净柔软的干布轻轻按压吸水，之后自然晾干。希望这些建议对您有帮助。",
+        "何先生，感谢您的提问。您的折影肩包·墨黑用顺滑牛皮制成，日常保养时请避免接触水和长时间阳光照射。如不小心弄湿，可用干净柔软的布轻轻吸干再自然晾干。任何其他问题都可以随时联系我。",
+        "何先生，您的折影肩包·墨黑材质是顺滑牛皮，日常需要避免水和高温。若有水渍，请用柔软干布轻轻按压吸干，自然晾干即可。如需进一步帮助，请随时告诉我。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "6aa2a98aa5ea48db92c71b775525c0a3",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:05.347576+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.803
+      }
+    }
+  },
+  {
+    "case_id": "T019",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "如果您发现包包上有划痕，可以先轻轻擦拭看看。如果需要，我们可以帮您联系产品检查，确认后再提供进一步的建议。",
+        "牛皮包包日常避免浸泡及高温长时间暴晒，如遇湿润，请用柔软干布轻轻按压吸水，然后自然晾干。",
+        "编织面板如需清洁，请不要自行处理。建议联系我们安排专业检查，以确保包包的完好。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "7ef02727c2154060b392d2374855ee7f",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:08.146242+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.314
+      }
+    }
+  },
+  {
+    "case_id": "T020",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C02",
+        "preferred_address": "陈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": null,
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "昨天不小心淋了点雨，应该怎么处理？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "淋雨后，请用干净柔软的干布轻轻按压吸去水分，然后自然晾干。避免高温或者阳光直晒。如果需要进一步检查，我们可以安排专业人员为您查看。",
+        "皮革遇水后可以用柔软干布轻轻吸去水分，避免阳光直晒或使用热源加速干燥。如果有明显变化，建议咨询专业护理。",
+        "关于淋雨的问题，不必担心太多。您可以用柔软的干布轻轻吸干，然后自然晾干。若有其他问题随时联系，我可以为您安排专业检查。"
+      ],
+      "advisories": [
+        "Client timezone unknown; review sending time."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "8b7e5173e13c42508bee5dec8235e49c",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:09.463866+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.457
+      }
+    }
+  },
+  {
+    "case_id": "T021",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C03",
+        "preferred_address": "周女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "平时不背时有什么要注意的？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "周女士，您的折影肩包·墨黑在不使用时，请尽量避免阳光直射和高温环境，保持在干燥处存放。若不小心沾湿，使用干净柔软的干布轻轻按压吸水后自然晾干即可，切勿使用酒精或溶剂清洁。若有其他疑问，随时可以联系我。",
+        "周女士，折影肩包·墨黑日常存放时，建议避免阳光直射和受潮。如果包包表面不小心弄湿，请用干净的柔软干布轻轻按压吸水，并自然晾干。若需进一步帮助，请随时告诉我。",
+        "周女士，您提到的折影肩包·墨黑在不使用时，只需避免浸泡和长时间的阳光直射，保持在阴凉处即可。若有其他使用上的问题，我随时乐意协助。"
+      ],
+      "advisories": [
+        "Advisor contacted this client within seven days; review timing."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "d77ebd9ceb2f4ab2b5f91482ace57f38",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:10.924332+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.976
+      }
+    }
+  },
+  {
+    "case_id": "T022",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C04",
+        "preferred_address": "许女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "想了解一下是否需要上护理油。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "许女士，您的折影肩包·墨黑在护理上无需使用护理油。请避免浸泡、暴露于高温和长时间日晒。若不慎沾湿，用干净柔软的干布轻轻吸干水分，自然晾干即可。希望这些信息对您有所帮助。",
+        "许女士，关于您的折影肩包·墨黑，建议避免使用护理油。日常保养时，避免浸泡及长时间暴露于阳光下。若包面不小心沾湿，请用干净柔软的干布轻轻吸水，随后自然晾干。若有其他问题，欢迎随时联系我。",
+        "许女士，感谢您询问折影肩包·墨黑的护理问题。这款包不需要护理油，建议避免浸泡、暴露于高温和日光下。若有水渍出现，请用柔软干布轻轻吸干，静置晾干即可。希望这个建议对您有帮助。"
+      ],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "418ace3a3a884543967a677310be9cf7",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:12.901699+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.001
+      }
+    }
+  },
+  {
+    "case_id": "T023",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C05",
+        "preferred_address": "沈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "包面有划痕，可以帮忙看一下吗？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "沈先生，关于您提到的划痕，我们可以安排检测以便提供进一步的帮助。您可以在方便的时候联系我们，我们会尽快安排。",
+        "沈先生，收到您关于包面划痕的消息。对于光滑牛皮，请避免浸泡、加热和长时间暴晒，轻微湿润时可用干净柔软的干布轻按吸水，然后自然晾干。关于划痕，建议我们先帮您检查后再确认处理方案。",
+        "沈先生，光滑牛皮的日常护理注意避免水浸、高温和长时间阳光直射。对于您提到的划痕，我们建议先由我们进行检查，以便做出适当的处理。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "f1907c81fc414872bb99adbecf90b464",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:14.903684+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.707
+      }
+    }
+  },
+  {
+    "case_id": "T024",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C06",
+        "preferred_address": "顾女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我想确认一下保养方式，不需要推荐新款。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL04"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "对于折影肩包·墨黑，牛皮制品建议避免浸泡、高温和长时间阳光直射。若表面出现水渍，用干净柔软的干布轻轻按压吸水，自然晾干即可。如有划痕，建议您联系我们安排检查。",
+        "折影肩包·墨黑的牛皮材质需要避免浸泡、高温和长时间阳光直射。如果出现水渍，用干净柔软干布轻轻吸干，自然晾干即可。如有划痕，我们可以帮忙安排检查。",
+        "关于折影肩包·墨黑，建议避免牛皮浸泡、高温和长时间阳光直射。若湿了，用干净柔软干布轻轻吸干，自然晾干。如有划痕，我们可以协助安排检查。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "7ba3c8ae025a4fe28a18ec5a7df7aa6e",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:16.612649+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.989
+      }
+    }
+  },
+  {
+    "case_id": "T025",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "care",
+      "client_information": {
+        "id": "C07",
+        "preferred_address": "王先生",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "可以先简单说两条养护建议吗？",
+          "timestamp": null
+        }
+      ],
+      "product_information": [
+        "XL11"
+      ],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "王先生，感谢您关注我们的产品。牛皮的养护建议：避免浸泡、远离高温和长时间暴晒。若有水渍，用干净柔软的干布轻按吸干，自然晾干即可。对于经纬特别款的编织面板，建议先咨询专业人员，切勿自行清理。需要进一步帮助，欢迎随时联系我。",
+        "王先生，关于牛皮的护理方法，建议避免长时间阳光直射和高温环境，若不慎沾水，用柔软干布轻轻吸干。对于编织面板部分，建议先咨询专业意见再做处理。如需更多帮助，随时可以联系我。",
+        "您好，王先生，牛皮需避免湿水与高温，若有水渍，用干布轻按吸干后自然晾干。我们的经纬特别款的编织面板部分，请避免自行处理，建议找专业人士查看。若有其他问题，请告诉我。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "61cb0d5aa823436fa056d2dc9b5e0d63",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:18.605002+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.037
+      }
+    }
+  },
+  {
+    "case_id": "T026",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C08",
+        "preferred_address": "李女士",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "之前看的黑色肩包我还记得。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "李女士，之前您提到的黑色肩包如果还有兴趣，我们可以再次一起看看设计细节。您有任何问题可以随时告诉我。",
+        "李女士，您好！之前您提到的黑色肩包设计很独特，如果您想了解更多，随时联系我哦。",
+        "李女士，您好！之前提到的黑色肩包依然值得一看，欢迎随时分享您的想法，我们可以再聊聊。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "b11a0d20351a40ddb86c357b3245afae",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:20.645266+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.169
+      }
+    }
+  },
+  {
+    "case_id": "T027",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C09",
+        "preferred_address": "何先生",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "何先生，最近有空可以随时聊聊，我们一直在更新产品，如果您有兴趣了解新的选择，随时联系我。",
+        "何先生，希望您一切安好。如果您对我们任何产品感兴趣，欢迎找我聊天，无需急于决定。",
+        "何先生，我们有一些新的设计，如果您想看看有什么合适的，随时可以告诉我。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "74fb0715d49f4f1db14725a5f4df7623",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:21.825074+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.07
+      }
+    }
+  },
+  {
+    "case_id": "T028",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C10",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": null,
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "想起之前看过的折影，但还没决定。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "林女士，最近有没有看到什么让您心动的款式？如果您还对折影感兴趣，随时可以聊聊。",
+        "林女士，您上次提到的折影系列，若还有任何疑问或想法，请随时与我沟通。",
+        "林女士，如果对之前的折影有新想法，欢迎随时联系，我在这为您提供帮助。"
+      ],
+      "advisories": [
+        "Client timezone unknown; review sending time."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "62307e4e77c44e7e9015e797d73b70a3",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:22.891921+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.323
+      }
+    }
+  },
+  {
+    "case_id": "T029",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C11",
+        "preferred_address": "陈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我现在更喜欢黑色，不考虑之前的米白了。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "陈先生，您好！最近有没有新的想法或者需求，我们都很乐意为您提供帮助哦。期待您的回应。",
+        "陈先生，看到您对黑色的兴趣，我们这里有不少新款式，欢迎随时联系了解。",
+        "陈先生，之前提到的设计细节一直受到很多关注，若有新的想法或问题，随时告诉我。"
+      ],
+      "advisories": [
+        "Advisor contacted this client within seven days; review timing."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "c48e2f1ec7f641c7b4374bee98d8cc3f",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:24.220267+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.111
+      }
+    }
+  },
+  {
+    "case_id": "T030",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C12",
+        "preferred_address": "周女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "最近没有买包计划，有需要会联系。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "周女士，过去您曾对我们的设计表现出浓厚兴趣。如果日后有任何需要，随时欢迎您联系，我们会随时为您提供帮助。",
+        "周女士，感谢您一直以来的关注。如有新的想法或需要了解更多信息，我们都在这边，期待您的消息。",
+        "周女士，之前您对我们的产品有过一些了解，希望未来有机会再次为您服务。任何时候有需要，欢迎随时联系。"
+      ],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "5aea6a9dfd384728a7139157e3075bfc",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:25.333076+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.339
+      }
+    }
+  },
+  {
+    "case_id": "T031",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C13",
+        "preferred_address": "许女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "上次聊的设计细节挺有意思。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "许女士，之前您提到对设计细节的兴趣，我们随时可以继续探讨。如果您有新的需求或想了解更多信息，欢迎随时联系。",
+        "许女士，最近有些新的款式可能符合您的偏好，如果您有时间，我们可以找个时间详细聊聊。期待继续为您服务。",
+        "许女士，感谢您之前的关注。如果您对其他产品有兴趣或有任何新的想法，请随时告诉我，我会尽力协助您。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "deb376e3234442e6b9037c37c140619d",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:26.675302+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.925
+      }
+    }
+  },
+  {
+    "case_id": "T032",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C14",
+        "preferred_address": "沈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我比较喜欢简短信息，看到会回复。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "您好沈先生，我们最近有些新的设计款式发布，可能符合您对皮革和设计细节的关注。如果您有兴趣了解，欢迎随时联系。",
+        "沈先生，您好！最近我们收到了一些新的设计资讯，涉及到您感兴趣的皮革和细节部分。若您希望进一步了解，请随时告知。",
+        "沈先生，前段时间与您聊到的设计细节，近期有了新动向。若您依然有兴趣，可以随时联系我了解更多信息。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "447129c347df499e9897f122f5b3952a",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:28.603355+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.369
+      }
+    }
+  },
+  {
+    "case_id": "T033",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "reactivation",
+      "client_information": {
+        "id": "C15",
+        "preferred_address": "顾女士",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我在外地，近期不方便到店。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {},
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "顾女士，您好！如果您对我们的产品有任何疑问或需要帮助，随时可以联系我，我会尽快协助您。",
+        "顾女士，最近如果有新的需求或想了解的产品信息，请告诉我，我会为您提供详细的资料。",
+        "顾女士，您的时间和计划我们都尊重，未来如有需要，欢迎联系我们。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "40b730ad0e764393a56423cab1de9d8b",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:29.975830+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.136
+      }
+    }
+  },
+  {
+    "case_id": "T034",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C16",
+        "preferred_address": "王先生",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "有设计细节的活动可以告诉我。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "王先生，诚挚邀请您参加我们的活动：“序岚日常东方皮具预览”。活动将于11月21日14:00至17:00在上海序岚虚构展示空间举行。活动内容包括日常手袋设计与皮革细节预览。请回复我以确认您的预约，期待与您见面。",
+        "王先生，您好！我们将在11月21日14:00到17:00举办“序岚日常东方皮具预览”活动，地点为上海序岚虚构展示空间。活动将展示日常手袋设计与皮革细节。若您有兴趣参加，请回复我确认预约。",
+        "王先生，11月21日14:00至17:00欢迎您来上海序岚虚构展示空间参加“序岚日常东方皮具预览”活动。我们将展示日常手袋设计与皮革细节。若您希望参加，可回复此消息以便我为您确认预约。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "1d587d5abe244f558621b3044ea9b7e0",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:31.114836+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.083
+      }
+    }
+  },
+  {
+    "case_id": "T035",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C17",
+        "preferred_address": "李女士",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "李女士，诚邀您于11月28日下午14:00至16:00莅临上海序岚虚构展示空间，参加我们的“经纬皮革细节赏鉴”活动。活动将特别介绍经纬特别款的前片编织细节。如有兴趣，请回复我以确认预约。",
+        "李女士，我们将在11月28日14:00–16:00于上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动。此次活动将深入介绍经纬特别款前片的编织细节。若您希望参加，请回复确认，我将为您预约。",
+        "亲爱的李女士，11月28日下午14:00到16:00，我们将在上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动，届时将展示经纬特别款的编织细节。请回复我以确认预约。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "c6578d9a9fd942de985871bd3014a60a",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:33.200021+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.819
+      }
+    }
+  },
+  {
+    "case_id": "T036",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C18",
+        "preferred_address": "何先生",
+        "preferences": "沟通简单直接，不喜欢催促",
+        "relationship_stage": "Returning client",
+        "contact_preference": "allowed",
+        "timezone": null,
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "不确定周末有没有空，先看看安排。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "何先生，11月21日14:00–17:00，我们将在上海序岚虚构展示空间举行日常手袋设计与皮革细节预览。如果您有兴趣参与，可以回复我，由我为您确认预约。",
+        "您好何先生，我们将于11月21日14:00–17:00在上海序岚虚构展示空间举行日常手袋与皮革细节预览。如果方便，请回复我，我会为您确认参与预约。",
+        "何先生，11月21日14:00–17:00，欢迎您来上海序岚虚构展示空间，参与日常手袋设计与皮革细节预览。请回复我以确认预约。"
+      ],
+      "advisories": [
+        "Client timezone unknown; review sending time."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "e8f49cad6e814094a56435003ec65907",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:35.029464+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 1.436
+      }
+    }
+  },
+  {
+    "case_id": "T037",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "我对皮革材料比较感兴趣。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "经纬皮革细节赏鉴",
+        "start": "2026-11-28T14:00:00+08:00",
+        "end": "2026-11-28T16:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "经纬特别款前片编织细节介绍",
+        "booking_route": "回复顾问，由顾问确认预约",
+        "id": "E02"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "林女士，诚邀您于11月28日14:00–16:00参加在上海序岚虚构展示空间举办的“经纬皮革细节赏鉴”活动。活动将介绍我们特别款的编织细节。若您有兴趣，请回复我以确认预约。",
+        "林女士，11月28日14:00–16:00，我们将在上海序岚虚构展示空间举办“经纬皮革细节赏鉴”活动。活动内容包括特别款前片编织细节介绍。希望您能前来参与，回复我可协助您确认预约。",
+        "林女士，11月28日下午在上海序岚虚构展示空间，我们将举办“经纬皮革细节赏鉴”活动，时间为14:00到16:00。若您想参与，请回复我以确认预约。"
+      ],
+      "advisories": [
+        "Advisor contacted this client within seven days; review timing."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "084046bce405475ea602fec24998bf6f",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:48:36.468467+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 3.046
+      }
+    }
+  },
+  {
+    "case_id": "T038",
+    "version_label": "v2.1-formal",
+    "request": {
+      "scenario": "invitation",
+      "client_information": {
+        "id": "C02",
+        "preferred_address": "陈先生",
+        "preferences": "关注皮革和设计细节",
+        "relationship_stage": "Established contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "喜欢安静看产品，不太想参加推销。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "title": "序岚日常东方皮具预览",
+        "start": "2026-11-21T14:00:00+08:00",
+        "end": "2026-11-21T17:00:00+08:00",
+        "location": "上海序岚虚构展示空间",
+        "content": "日常手袋设计与皮革细节预览",
+        "booking_route": "回复顾问，由顾问确认预约"
+      },
+      "current_datetime": "2026-11-09T22:00:00+08:00"
+    },
+    "result": {
+      "status": "error",
+      "candidates": [],
+      "advisories": [
+        "Client local quiet hours (21:00–09:00); consider sending later."
+      ],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [
+        "Invitation omits verified date, full time range or location."
+      ],
+      "metadata": {
+        "run_id": "4d823e30087e49de95fca10cabb8f67a",
+        "model": "gpt-4o",
+        "prompt_version": "2.1",
+        "data_version": "1.0",
+        "code_version": "8d6d43a1b7fed1e2",
+        "attempts": 2,
+        "repairs": 1,
+        "started_at": "2026-11-08T07:48:39.515471+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 4.75
+      }
+    }
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C14",
+      "preferred_address": "沈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我比较喜欢简短信息，看到会回复。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "沈先生，感谢您之前的关注。我们会继续为您提供关于皮革和设计细节的信息更新。",
+      "沈先生，很高兴再次联系到您。我们将重点分享您感兴趣的皮革及设计细节。",
+      "沈先生，期待为您提供更多皮革和设计细节的资讯，感谢您的支持。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "ea3d3cd197664ddea8c1912a75255fdd",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:59.250551+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.003
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"沈先生，感谢您之前的关注。我们会继续为您提供关于皮革和设计细节的信息更新。\",\"沈先生，很高兴再次联系到您。我们将重点分享您感兴趣的皮革及设计细节。\",\"沈先生，期待为您提供更多皮革和设计细节的资讯，感谢您的支持。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 471,
+        "total_tokens": 550,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

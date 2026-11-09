@@ -1,0 +1,82 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C16",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "有设计细节的活动可以告诉我。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "王先生，诚挚邀请您参加我们的日常手袋设计与皮革细节预览活动。活动将在2026年11月21日于上海序岚虚构展示空间举行。若您希望预约，请回复此信息以便确认。",
+      "尊敬的王先生，非常高兴邀请您参加即将于11月21日举行的日常手袋设计与皮革细节预览。活动将在上海序岚虚构展示空间进行，期待您的回复以便安排参观时间。",
+      "您好王先生，我们将于2026年11月21日在上海举办日常手袋设计与皮革细节预览活动。欢迎您回复以确认预约，期待您的光临。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "0b4fb596ff224706a0f31f2dd303636e",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:45:01.198330+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.557
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"王先生，诚挚邀请您参加我们的日常手袋设计与皮革细节预览活动。活动将在2026年11月21日于上海序岚虚构展示空间举行。若您希望预约，请回复此信息以便确认。\",\"尊敬的王先生，非常高兴邀请您参加即将于11月21日举行的日常手袋设计与皮革细节预览。活动将在上海序岚虚构展示空间进行，期待您的回复以便安排参观时间。\",\"您好王先生，我们将于2026年11月21日在上海举办日常手袋设计与皮革细节预览活动。欢迎您回复以确认预约，期待您的光临。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 572,
+        "total_tokens": 732,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

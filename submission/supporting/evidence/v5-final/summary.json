@@ -1,0 +1,14 @@
+{
+  "label": "v5-final",
+  "attempted_cases": 50,
+  "successful_cases": 49,
+  "failed_cases": [
+    "T022"
+  ],
+  "budget": {
+    "estimated_or_reserved_usd": 1.541775,
+    "uncertain_calls": 3,
+    "operating_limit_usd": 4.5,
+    "authorized_ceiling_usd": 5
+  }
+}

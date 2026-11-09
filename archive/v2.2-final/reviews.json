@@ -1,0 +1,3528 @@
+[
+  {
+    "case_id": "T001",
+    "generation_run_id": "18e3d492ccd64948ae07baee4fe1b5b1",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 690,
+      "total_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates are appropriate birthday greetings, respecting the policy and context."
+    }
+  },
+  {
+    "case_id": "T002",
+    "generation_run_id": "9d94049a67fb4f13ae929e307e77887a",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 682,
+      "total_tokens": 829,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates are appropriate, personalized, and respectful, with no policy violations."
+    }
+  },
+  {
+    "case_id": "T003",
+    "generation_run_id": "90445c848c3c4086bd015bc42de805f4",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 687,
+      "total_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates are appropriate, respectful, and personalized birthday greetings without any policy violations."
+    }
+  },
+  {
+    "case_id": "T004",
+    "generation_run_id": "ed39eca1b5d54795a22adcaf48dd557e",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 717,
+      "total_tokens": 864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "All candidates are appropriate, respectful birthday greetings without sales pitches or policy violations."
+    }
+  },
+  {
+    "case_id": "T005",
+    "generation_run_id": "a42c8391bb4d4b0583590db44c1db719",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 713,
+      "total_tokens": 860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates are appropriate, personalized, and respectful, with no policy violations."
+    }
+  },
+  {
+    "case_id": "T006",
+    "generation_run_id": "dcc20e0f457c450cad649177eabff848",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 149,
+      "prompt_tokens": 701,
+      "total_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates are appropriate, personalized, and respectful of the client's preferences and the occasion."
+    }
+  },
+  {
+    "case_id": "T007",
+    "generation_run_id": "10fc22f094604e4a90445819d4109eea",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 152,
+      "prompt_tokens": 699,
+      "total_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates are appropriate, warm, and respectful greetings for the New Year occasion, adhering to policy."
+    }
+  },
+  {
+    "case_id": "T008",
+    "generation_run_id": "92f0662534464fbb850322c6d627eb07",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 150,
+      "prompt_tokens": 698,
+      "total_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates are appropriate, respectful, and personalized for the client's birthday, adhering to policy."
+    }
+  },
+  {
+    "case_id": "T009",
+    "generation_run_id": "f86a7ea47bd3493caeedd3779ea98309",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 166,
+      "prompt_tokens": 811,
+      "total_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "The first two messages are well-crafted, respecting the client's preferences and providing accurate product details. The third message incorrectly implies stock availability without verification."
+    }
+  },
+  {
+    "case_id": "T010",
+    "generation_run_id": "9fcb8fa8f7c14fccaf57b8d2c8ab5472",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 802,
+      "total_tokens": 949,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates accurately describe the product, respect policy, and match client preferences."
+    }
+  },
+  {
+    "case_id": "T011",
+    "generation_run_id": "b0a0f1b574e74e05b1ec1e0d4aab3064",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 150,
+      "prompt_tokens": 823,
+      "total_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates accurately describe the product, respect the client's preferences, and adhere to policy guidelines."
+    }
+  },
+  {
+    "case_id": "T012",
+    "generation_run_id": "26a0458ae0084e91b02e6f376b8d33f9",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 877,
+      "total_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates accurately describe the product and respect the client's preferences and policy guidelines."
+    }
+  },
+  {
+    "case_id": "T013",
+    "generation_run_id": "260aa1e0a2c246a29b81b157cb4aab3d",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 150,
+      "prompt_tokens": 823,
+      "total_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates accurately describe the product, respect the client's preferences, and adhere to policy guidelines."
+    }
+  },
+  {
+    "case_id": "T014",
+    "generation_run_id": "724539ba95f4473ea1002866fa97aa82",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 185,
+      "prompt_tokens": 813,
+      "total_tokens": 998,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": [
+            "slightly less personalized"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": [
+            "slightly less personalized"
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly reference the product and adhere to policy. The first message is most personalized, directly addressing the client's color preference and providing detailed product information. The second and third messages are slightly less personalized but still relevant."
+    }
+  },
+  {
+    "case_id": "T015",
+    "generation_run_id": "7822b662017941e789f4b466c6d9242d",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 826,
+      "total_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "All candidates accurately present product details and respect the client's budget and preferences. Minor personalization differences noted."
+    }
+  },
+  {
+    "case_id": "T016",
+    "generation_run_id": "41fa73ecdd1a4339ab397fcaa1df66e4",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 830,
+      "total_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly recommend the product without violating policy or inventing facts. They respect the client's request not to be pressured to visit the store."
+    }
+  },
+  {
+    "case_id": "T017",
+    "generation_run_id": "441a7a38db44444aa3729182ed82b244",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 149,
+      "prompt_tokens": 866,
+      "total_tokens": 1015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates accurately describe the product, respect policy, and personalize based on client preferences."
+    }
+  },
+  {
+    "case_id": "T018",
+    "generation_run_id": "b9bfe00e23d54dec83a93adbf45be28f",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 895,
+      "total_tokens": 1048,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the client's inquiry about product care, adhere to policy, and maintain a respectful tone."
+    }
+  },
+  {
+    "case_id": "T019",
+    "generation_run_id": "dff1b3cdc63d457bb9dc24c7e83f03b6",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 755,
+      "total_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates provide accurate care advice, respect boundaries, and align with policy."
+    }
+  },
+  {
+    "case_id": "T020",
+    "generation_run_id": "f347fdc3387f406cae9c2353ffb95f32",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 837,
+      "total_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the client's concern about rain exposure with appropriate care advice, respecting policy guidelines and maintaining a warm, conversational tone."
+    }
+  },
+  {
+    "case_id": "T021",
+    "generation_run_id": "f4c012cb8a97441888ae72b6953dfe75",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 154,
+      "prompt_tokens": 887,
+      "total_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address care instructions without violating policy. They respect the client's preferences and provide accurate product care advice."
+    }
+  },
+  {
+    "case_id": "T022",
+    "generation_run_id": "4eba058d53dd4f2bb0c51a5846f552e0",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 154,
+      "prompt_tokens": 895,
+      "total_tokens": 1049,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly address the care scenario, respect boundaries, and provide accurate product care advice without overpromising."
+    }
+  },
+  {
+    "case_id": "T023",
+    "generation_run_id": "a18b6a827f374c45a4ed01967d9d9446",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 824,
+      "total_tokens": 979,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates appropriately address the client's concern about the scratch, offer inspection without promising outcomes, and respect the policy guidelines."
+    }
+  },
+  {
+    "case_id": "T024",
+    "generation_run_id": "a1d7b9f7ab0f4adf940bf5a5030f3148",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 152,
+      "prompt_tokens": 844,
+      "total_tokens": 996,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the care instructions for the product without overstepping boundaries or making unsupported claims."
+    }
+  },
+  {
+    "case_id": "T025",
+    "generation_run_id": "10336249b7f948ddaf7aa02b4cdc5c3f",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 790,
+      "total_tokens": 938,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates provide accurate care advice, respect boundaries, and match the client's preferences."
+    }
+  },
+  {
+    "case_id": "T026",
+    "generation_run_id": "c20bd24b78bd45d08bf5e32ccf5d87ca",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 144,
+      "prompt_tokens": 755,
+      "total_tokens": 899,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates are well-crafted, respecting policy and client preferences."
+    }
+  },
+  {
+    "case_id": "T027",
+    "generation_run_id": "d215922d06574b26975013baf08eca3f",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 179,
+      "prompt_tokens": 675,
+      "total_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates lack specific product information, context, and personalization. They are generic and do not address the client's preferences or the reactivation scenario effectively."
+    }
+  },
+  {
+    "case_id": "T028",
+    "generation_run_id": "7d6706f9b9d14bae9f62f8a53f8c5ec8",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 717,
+      "total_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates are well-crafted, respecting policy and client preferences. They offer reactivation without pressure or assumptions."
+    }
+  },
+  {
+    "case_id": "T029",
+    "generation_run_id": "51ae9a4c1c0c48f6814cf739b9febf76",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 735,
+      "total_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly acknowledge the client's preference for black, maintain a warm and respectful tone, and adhere to policy guidelines."
+    }
+  },
+  {
+    "case_id": "T030",
+    "generation_run_id": "be1edd698c0246758ebd8d75438fa34c",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 156,
+      "prompt_tokens": 722,
+      "total_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates respect the client's preferences, avoid pressure, and maintain a warm, conversational tone without making unsupported claims or promises."
+    }
+  },
+  {
+    "case_id": "T031",
+    "generation_run_id": "52d016d14c864a88b22e15a2bc8c8d30",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 169,
+      "prompt_tokens": 721,
+      "total_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 1,
+            "context": 2,
+            "personalization": 2,
+            "brand": 2,
+            "scenario": 2,
+            "boundaries": 3,
+            "wechat": 3
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 2,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 2,
+            "boundaries": 3,
+            "wechat": 3
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 2,
+            "personalization": 2,
+            "brand": 2,
+            "scenario": 2,
+            "boundaries": 3,
+            "wechat": 3
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates lack specific product information and evidence of new designs, making them vague and less engaging."
+    }
+  },
+  {
+    "case_id": "T032",
+    "generation_run_id": "d33c94d55f8c4c508ebea07a02308630",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 165,
+      "prompt_tokens": 714,
+      "total_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "All candidates respect the client's preference for brief messages and focus on design details and leather, aligning with the client's interests. They avoid any unverified promises or inappropriate intimacy."
+    }
+  },
+  {
+    "case_id": "T033",
+    "generation_run_id": "7a4d3f3100bf4579b3c1046c81e4042b",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 149,
+      "prompt_tokens": 704,
+      "total_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates respect the client's preferences, avoid sales pitches, and offer support without pressure."
+    }
+  },
+  {
+    "case_id": "T034",
+    "generation_run_id": "c3ad35b671dc42d994e127a8a46177c5",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 930,
+      "total_tokens": 1078,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly invite the client to the event, respecting policy and client preferences."
+    }
+  },
+  {
+    "case_id": "T035",
+    "generation_run_id": "fcce0cb5fd5f46218ff8e64b32e95140",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 166,
+      "prompt_tokens": 892,
+      "total_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": [
+            "intimacy"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly invite the client to the event with clear details. The third candidate uses '亲爱的', which implies intimacy, slightly reducing personalization score."
+    }
+  },
+  {
+    "case_id": "T036",
+    "generation_run_id": "1b0a4d68f18e44d28bf240319322a447",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 877,
+      "total_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly invite the client to the event, respecting preferences and policy."
+    }
+  },
+  {
+    "case_id": "T037",
+    "generation_run_id": "bc07f17208bb41b6b210d6c065fe244a",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 935,
+      "total_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly invite the client to the event, respecting policy and client preferences."
+    }
+  },
+  {
+    "case_id": "T038",
+    "generation_run_id": "a9a8eac760b74308921091eb68d778b2",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 163,
+      "prompt_tokens": 912,
+      "total_tokens": 1075,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly invite the client to the event, respecting their preference for a quiet viewing without sales pressure. They provide clear event details and follow policy guidelines."
+    }
+  },
+  {
+    "case_id": "T039",
+    "generation_run_id": "504ce075305e480097fd866c29ebdbde",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 904,
+      "total_tokens": 1051,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly invite the client to the event, respecting preferences and policy."
+    }
+  },
+  {
+    "case_id": "T040",
+    "generation_run_id": "e8cbfbb1f4194c3e82d64dc71474fd84",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 872,
+      "total_tokens": 1025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly invite the client to the event, respecting policy and client preferences. Minor personalization differences noted."
+    }
+  },
+  {
+    "case_id": "T041",
+    "generation_run_id": "df8fabea115e40038291ab7f95e431b2",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 905,
+      "total_tokens": 1053,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly invite the client to the event, respecting policy and client preferences."
+    }
+  },
+  {
+    "case_id": "T042",
+    "generation_run_id": "917a3a8f14dd4cc3b6c5b96b2ed88ee3",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 841,
+      "total_tokens": 999,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly address the price objection, respect the client's need for time, and provide accurate product information without overstepping boundaries."
+    }
+  },
+  {
+    "case_id": "T043",
+    "generation_run_id": "49bcd9c3f58e4d749785c1bca716ffc2",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 154,
+      "prompt_tokens": 809,
+      "total_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the price objection scenario, respect boundaries, and provide accurate product information without overpromising."
+    }
+  },
+  {
+    "case_id": "T044",
+    "generation_run_id": "162878ca168b4bacb7f3482773f8295e",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 823,
+      "total_tokens": 978,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 5,
+      "set_notes": "All candidates correctly address the price objection without promising discounts, align with the client's preferences, and provide accurate product details."
+    }
+  },
+  {
+    "case_id": "T045",
+    "generation_run_id": "a74268815dcf4b7d981d2e92604b6944",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 175,
+      "prompt_tokens": 873,
+      "total_tokens": 1048,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "minor style edits"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "minor style edits"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly address the price objection without making unsupported claims or promises. Minor style edits could improve the first two messages, but the third message is well-crafted and fully compliant."
+    }
+  },
+  {
+    "case_id": "T046",
+    "generation_run_id": "a408e158db0e4a6b880ac6bb8031e535",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 811,
+      "total_tokens": 969,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the price objection without promising discounts or disparaging other sellers. They provide verified product details and respect the policy."
+    }
+  },
+  {
+    "case_id": "T047",
+    "generation_run_id": "80588980b6bc4cd396f5eadf32076fff",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 809,
+      "total_tokens": 964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the price objection scenario, respect policy boundaries, and provide accurate product information without making unsupported claims."
+    }
+  },
+  {
+    "case_id": "T048",
+    "generation_run_id": "6c009352f1794cd1a135c495c11f1186",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 825,
+      "total_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "First message invents potential discounts, violating policy. Second and third messages correctly address price objection without false promises."
+    }
+  },
+  {
+    "case_id": "T049",
+    "generation_run_id": "2e6336a763ea400a9a1071feaa8d5913",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 154,
+      "prompt_tokens": 843,
+      "total_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates correctly address the price objection with verified product details, respect the client's concerns, and maintain appropriate boundaries."
+    }
+  },
+  {
+    "case_id": "T050",
+    "generation_run_id": "be977ac2d4a142b398befc67ae65fb65",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 856,
+      "total_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly acknowledge the client's decision, provide accurate product details, and respect boundaries without making unsupported claims."
+    }
+  }
+]

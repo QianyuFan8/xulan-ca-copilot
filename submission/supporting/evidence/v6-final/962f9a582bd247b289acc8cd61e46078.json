@@ -1,0 +1,84 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C02",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "喜欢安静看产品，不太想参加推销。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "陈先生，诚邀您于11月21日下午14:00至17:00，莅临上海序岚展示空间，参加我们的日常手袋设计与皮革细节预览。如需预约，请回复我，我将为您确认。",
+      "陈先生，我们将在11月21日14:00至17:00于上海序岚展示空间举办日常手袋设计与皮革细节预览活动。若您有兴趣静观产品，请回复我以确认预约。",
+      "陈先生，11月21日下午14:00到17:00，上海序岚展示空间将举行日常手袋设计与皮革细节预览，您可选择安静欣赏。若决定前来，请回复确认预约。"
+    ],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "962f9a582bd247b289acc8cd61e46078",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "6.0",
+      "data_version": "1.2",
+      "code_version": "6ffd4b196a9167bf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T21:38:13.229621+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.854
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，诚邀您于11月21日下午14:00至17:00，莅临上海序岚展示空间，参加我们的日常手袋设计与皮革细节预览。如需预约，请回复我，我将为您确认。\",\"陈先生，我们将在11月21日14:00至17:00于上海序岚展示空间举办日常手袋设计与皮革细节预览活动。若您有兴趣静观产品，请回复我以确认预约。\",\"陈先生，11月21日下午14:00到17:00，上海序岚展示空间将举行日常手袋设计与皮革细节预览，您可选择安静欣赏。若决定前来，请回复确认预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 167,
+        "prompt_tokens": 2057,
+        "total_tokens": 2224,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

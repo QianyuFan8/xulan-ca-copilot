@@ -1,0 +1,595 @@
+{
+  "version_label": "v6-final",
+  "note": "Generation calls only (judge calls excluded). Cost is estimated from recorded token usage and pinned rates.",
+  "overall": {
+    "cases": 50,
+    "latency_median_s": 1.64,
+    "latency_p95_s": 3.25,
+    "latency_mean_s": 1.8,
+    "latency_max_s": 3.47,
+    "model_calls_mean": 1.26,
+    "model_calls_distribution": {
+      "1": 37,
+      "2": 13
+    },
+    "transient_retries": 0,
+    "input_tokens_mean": 2651,
+    "output_tokens_mean": 159,
+    "cost_usd_mean": 0.0082,
+    "cost_usd_total": 0.4108
+  },
+  "successful_only": {
+    "cases": 48,
+    "latency_median_s": 1.63,
+    "latency_p95_s": 3.25,
+    "latency_mean_s": 1.78,
+    "latency_max_s": 3.47,
+    "model_calls_mean": 1.23,
+    "model_calls_distribution": {
+      "1": 37,
+      "2": 11
+    },
+    "transient_retries": 0,
+    "input_tokens_mean": 2581,
+    "output_tokens_mean": 155,
+    "cost_usd_mean": 0.008,
+    "cost_usd_total": 0.3842
+  },
+  "by_path": {
+    "first_pass_success": {
+      "cases": 37,
+      "latency_median_s": 1.46,
+      "latency_p95_s": 2.3,
+      "latency_mean_s": 1.45,
+      "latency_max_s": 2.34,
+      "model_calls_mean": 1,
+      "model_calls_distribution": {
+        "1": 37
+      },
+      "transient_retries": 0,
+      "input_tokens_mean": 2048,
+      "output_tokens_mean": 120,
+      "cost_usd_mean": 0.0063,
+      "cost_usd_total": 0.2337
+    },
+    "repaired_success": {
+      "cases": 11,
+      "latency_median_s": 2.95,
+      "latency_p95_s": 3.47,
+      "latency_mean_s": 2.86,
+      "latency_max_s": 3.47,
+      "model_calls_mean": 2,
+      "model_calls_distribution": {
+        "2": 11
+      },
+      "transient_retries": 0,
+      "input_tokens_mean": 4373,
+      "output_tokens_mean": 276,
+      "cost_usd_mean": 0.0137,
+      "cost_usd_total": 0.1506
+    },
+    "error": {
+      "cases": 2,
+      "latency_median_s": 2.42,
+      "latency_p95_s": 2.82,
+      "latency_mean_s": 2.42,
+      "latency_max_s": 2.82,
+      "model_calls_mean": 2,
+      "model_calls_distribution": {
+        "2": 2
+      },
+      "transient_retries": 0,
+      "input_tokens_mean": 4338,
+      "output_tokens_mean": 245,
+      "cost_usd_mean": 0.0133,
+      "cost_usd_total": 0.0266
+    }
+  },
+  "cost_per_successful_case_usd": 0.0086,
+  "repair_recovery": {
+    "needed_repair": 13,
+    "recovered": 11
+  },
+  "rows": [
+    {
+      "case_id": "T001",
+      "path": "first_pass_success",
+      "latency_seconds": 1.573,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1974,
+      "output_tokens": 59,
+      "cost_usd": 0.005525
+    },
+    {
+      "case_id": "T002",
+      "path": "first_pass_success",
+      "latency_seconds": 1.455,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1949,
+      "output_tokens": 74,
+      "cost_usd": 0.0056125
+    },
+    {
+      "case_id": "T003",
+      "path": "first_pass_success",
+      "latency_seconds": 0.922,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1966,
+      "output_tokens": 65,
+      "cost_usd": 0.005565
+    },
+    {
+      "case_id": "T004",
+      "path": "first_pass_success",
+      "latency_seconds": 1.347,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1992,
+      "output_tokens": 70,
+      "cost_usd": 0.00568
+    },
+    {
+      "case_id": "T005",
+      "path": "first_pass_success",
+      "latency_seconds": 1.122,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1970,
+      "output_tokens": 81,
+      "cost_usd": 0.005735
+    },
+    {
+      "case_id": "T006",
+      "path": "repaired_success",
+      "latency_seconds": 2.05,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4142,
+      "output_tokens": 153,
+      "cost_usd": 0.011885
+    },
+    {
+      "case_id": "T007",
+      "path": "first_pass_success",
+      "latency_seconds": 1.414,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1976,
+      "output_tokens": 71,
+      "cost_usd": 0.00565
+    },
+    {
+      "case_id": "T008",
+      "path": "first_pass_success",
+      "latency_seconds": 1.049,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1975,
+      "output_tokens": 70,
+      "cost_usd": 0.0056375
+    },
+    {
+      "case_id": "T009",
+      "path": "repaired_success",
+      "latency_seconds": 2.703,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4337,
+      "output_tokens": 235,
+      "cost_usd": 0.0131925
+    },
+    {
+      "case_id": "T010",
+      "path": "repaired_success",
+      "latency_seconds": 3.472,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4308,
+      "output_tokens": 351,
+      "cost_usd": 0.01428
+    },
+    {
+      "case_id": "T011",
+      "path": "first_pass_success",
+      "latency_seconds": 1.69,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2023,
+      "output_tokens": 145,
+      "cost_usd": 0.0065075
+    },
+    {
+      "case_id": "T012",
+      "path": "repaired_success",
+      "latency_seconds": 2.451,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4336,
+      "output_tokens": 241,
+      "cost_usd": 0.01325
+    },
+    {
+      "case_id": "T013",
+      "path": "first_pass_success",
+      "latency_seconds": 1.41,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2028,
+      "output_tokens": 131,
+      "cost_usd": 0.00638
+    },
+    {
+      "case_id": "T014",
+      "path": "first_pass_success",
+      "latency_seconds": 1.841,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2026,
+      "output_tokens": 162,
+      "cost_usd": 0.006685
+    },
+    {
+      "case_id": "T015",
+      "path": "repaired_success",
+      "latency_seconds": 2.479,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4338,
+      "output_tokens": 266,
+      "cost_usd": 0.013505
+    },
+    {
+      "case_id": "T016",
+      "path": "first_pass_success",
+      "latency_seconds": 1.619,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2030,
+      "output_tokens": 138,
+      "cost_usd": 0.006455
+    },
+    {
+      "case_id": "T017",
+      "path": "first_pass_success",
+      "latency_seconds": 1.642,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2026,
+      "output_tokens": 145,
+      "cost_usd": 0.006515
+    },
+    {
+      "case_id": "T018",
+      "path": "first_pass_success",
+      "latency_seconds": 1.745,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2093,
+      "output_tokens": 186,
+      "cost_usd": 0.0070925
+    },
+    {
+      "case_id": "T019",
+      "path": "repaired_success",
+      "latency_seconds": 2.362,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4376,
+      "output_tokens": 227,
+      "cost_usd": 0.01321
+    },
+    {
+      "case_id": "T020",
+      "path": "first_pass_success",
+      "latency_seconds": 2.299,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2093,
+      "output_tokens": 118,
+      "cost_usd": 0.0064125
+    },
+    {
+      "case_id": "T021",
+      "path": "first_pass_success",
+      "latency_seconds": 1.567,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2109,
+      "output_tokens": 126,
+      "cost_usd": 0.0065325
+    },
+    {
+      "case_id": "T022",
+      "path": "repaired_success",
+      "latency_seconds": 2.951,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4465,
+      "output_tokens": 227,
+      "cost_usd": 0.0134325
+    },
+    {
+      "case_id": "T023",
+      "path": "first_pass_success",
+      "latency_seconds": 1.667,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2095,
+      "output_tokens": 112,
+      "cost_usd": 0.0063575
+    },
+    {
+      "case_id": "T024",
+      "path": "repaired_success",
+      "latency_seconds": 3.359,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4480,
+      "output_tokens": 298,
+      "cost_usd": 0.014180000000000002
+    },
+    {
+      "case_id": "T025",
+      "path": "repaired_success",
+      "latency_seconds": 3.176,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4495,
+      "output_tokens": 329,
+      "cost_usd": 0.014527499999999999
+    },
+    {
+      "case_id": "T026",
+      "path": "first_pass_success",
+      "latency_seconds": 1.121,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2023,
+      "output_tokens": 87,
+      "cost_usd": 0.0059275
+    },
+    {
+      "case_id": "T027",
+      "path": "first_pass_success",
+      "latency_seconds": 0.94,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 1998,
+      "output_tokens": 65,
+      "cost_usd": 0.005645
+    },
+    {
+      "case_id": "T028",
+      "path": "first_pass_success",
+      "latency_seconds": 1.203,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2024,
+      "output_tokens": 107,
+      "cost_usd": 0.00613
+    },
+    {
+      "case_id": "T029",
+      "path": "error",
+      "latency_seconds": 2.011,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4291,
+      "output_tokens": 170,
+      "cost_usd": 0.012427500000000001
+    },
+    {
+      "case_id": "T030",
+      "path": "first_pass_success",
+      "latency_seconds": 1.098,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2023,
+      "output_tokens": 88,
+      "cost_usd": 0.0059375
+    },
+    {
+      "case_id": "T031",
+      "path": "first_pass_success",
+      "latency_seconds": 1.053,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2025,
+      "output_tokens": 93,
+      "cost_usd": 0.0059925
+    },
+    {
+      "case_id": "T032",
+      "path": "first_pass_success",
+      "latency_seconds": 1.14,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2023,
+      "output_tokens": 85,
+      "cost_usd": 0.0059075
+    },
+    {
+      "case_id": "T033",
+      "path": "first_pass_success",
+      "latency_seconds": 1.038,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2024,
+      "output_tokens": 78,
+      "cost_usd": 0.00584
+    },
+    {
+      "case_id": "T034",
+      "path": "error",
+      "latency_seconds": 2.821,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4386,
+      "output_tokens": 320,
+      "cost_usd": 0.014165
+    },
+    {
+      "case_id": "T035",
+      "path": "first_pass_success",
+      "latency_seconds": 1.704,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2034,
+      "output_tokens": 190,
+      "cost_usd": 0.006985
+    },
+    {
+      "case_id": "T036",
+      "path": "repaired_success",
+      "latency_seconds": 3.206,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4387,
+      "output_tokens": 333,
+      "cost_usd": 0.014297500000000001
+    },
+    {
+      "case_id": "T037",
+      "path": "first_pass_success",
+      "latency_seconds": 1.771,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2076,
+      "output_tokens": 194,
+      "cost_usd": 0.00713
+    },
+    {
+      "case_id": "T038",
+      "path": "first_pass_success",
+      "latency_seconds": 1.854,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2057,
+      "output_tokens": 167,
+      "cost_usd": 0.0068125
+    },
+    {
+      "case_id": "T039",
+      "path": "first_pass_success",
+      "latency_seconds": 1.653,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2060,
+      "output_tokens": 171,
+      "cost_usd": 0.00686
+    },
+    {
+      "case_id": "T040",
+      "path": "first_pass_success",
+      "latency_seconds": 2.339,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2057,
+      "output_tokens": 214,
+      "cost_usd": 0.0072825
+    },
+    {
+      "case_id": "T041",
+      "path": "repaired_success",
+      "latency_seconds": 3.245,
+      "model_calls": 2,
+      "transient_retries": 0,
+      "input_tokens": 4443,
+      "output_tokens": 372,
+      "cost_usd": 0.0148275
+    },
+    {
+      "case_id": "T042",
+      "path": "first_pass_success",
+      "latency_seconds": 1.04,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2113,
+      "output_tokens": 77,
+      "cost_usd": 0.0060525
+    },
+    {
+      "case_id": "T043",
+      "path": "first_pass_success",
+      "latency_seconds": 1.263,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2091,
+      "output_tokens": 121,
+      "cost_usd": 0.0064375
+    },
+    {
+      "case_id": "T044",
+      "path": "first_pass_success",
+      "latency_seconds": 1.523,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2106,
+      "output_tokens": 150,
+      "cost_usd": 0.006765
+    },
+    {
+      "case_id": "T045",
+      "path": "first_pass_success",
+      "latency_seconds": 1.429,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2132,
+      "output_tokens": 138,
+      "cost_usd": 0.00671
+    },
+    {
+      "case_id": "T046",
+      "path": "first_pass_success",
+      "latency_seconds": 1.636,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2119,
+      "output_tokens": 137,
+      "cost_usd": 0.0066675
+    },
+    {
+      "case_id": "T047",
+      "path": "first_pass_success",
+      "latency_seconds": 1.388,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2111,
+      "output_tokens": 140,
+      "cost_usd": 0.0066775
+    },
+    {
+      "case_id": "T048",
+      "path": "first_pass_success",
+      "latency_seconds": 1.739,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2118,
+      "output_tokens": 135,
+      "cost_usd": 0.006645
+    },
+    {
+      "case_id": "T049",
+      "path": "first_pass_success",
+      "latency_seconds": 1.519,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2115,
+      "output_tokens": 146,
+      "cost_usd": 0.0067475
+    },
+    {
+      "case_id": "T050",
+      "path": "first_pass_success",
+      "latency_seconds": 1.004,
+      "model_calls": 1,
+      "transient_retries": 0,
+      "input_tokens": 2117,
+      "output_tokens": 87,
+      "cost_usd": 0.0061625
+    }
+  ]
+}

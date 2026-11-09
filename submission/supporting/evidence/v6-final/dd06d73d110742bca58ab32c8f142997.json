@@ -1,0 +1,82 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C04",
+      "preferred_address": "许女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我想带朋友一起，但还没确定。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "许女士，您好！我们诚挚邀请您参加11月21日14:00至17:00在上海序岚展示空间举办的日常手袋设计与皮革细节预览活动。如果您希望带朋友同行，我们可以代为询问同行资格。请您回复我来确认预约。期待您的到来！",
+      "许女士，期待与您在11月21日14:00到17:00的日常手袋设计与皮革细节预览活动中见面，地点在上海序岚展示空间。您可以回复我进行预约确认。对于朋友同行的安排，我可以为您代询相关资格。期待与您相聚！",
+      "许女士，欢迎您参加11月21日14:00至17:00于上海序岚展示空间举办的皮具预览活动。请您回复我以确认预约。如有朋友同行的计划，我可以帮您代询是否可同行。期待您的光临！"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "dd06d73d110742bca58ab32c8f142997",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "6.0",
+      "data_version": "1.2",
+      "code_version": "6ffd4b196a9167bf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T21:38:16.741720+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.339
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"许女士，您好！我们诚挚邀请您参加11月21日14:00至17:00在上海序岚展示空间举办的日常手袋设计与皮革细节预览活动。如果您希望带朋友同行，我们可以代为询问同行资格。请您回复我来确认预约。期待您的到来！\",\"许女士，期待与您在11月21日14:00到17:00的日常手袋设计与皮革细节预览活动中见面，地点在上海序岚展示空间。您可以回复我进行预约确认。对于朋友同行的安排，我可以为您代询相关资格。期待与您相聚！\",\"许女士，欢迎您参加11月21日14:00至17:00于上海序岚展示空间举办的皮具预览活动。请您回复我以确认预约。如有朋友同行的计划，我可以帮您代询是否可同行。期待您的光临！\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 214,
+        "prompt_tokens": 2057,
+        "total_tokens": 2271,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

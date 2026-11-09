@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C07",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "可以先简单说两条养护建议吗？",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL11"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "王先生，感谢您对经纬特别款·墨黑的关注。对于牛皮材质，避免长时间日晒和接触水分。若有水渍，用柔软干布轻轻吸干，再自然晾干。",
+      "王先生，您好！关于经纬特别款·墨黑，牛皮的保养需要避免热源和溶剂，以保持其质感和色泽。",
+      "您好，王先生。特别款·墨黑的皮质需用心呵护，远离酒精和家庭护理产品，确保产品的使用寿命。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "3bfbab2585154959afe0849ae8603759",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:50.548611+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.847
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"王先生，感谢您对经纬特别款·墨黑的关注。对于牛皮材质，避免长时间日晒和接触水分。若有水渍，用柔软干布轻轻吸干，再自然晾干。\",\"王先生，您好！关于经纬特别款·墨黑，牛皮的保养需要避免热源和溶剂，以保持其质感和色泽。\",\"您好，王先生。特别款·墨黑的皮质需用心呵护，远离酒精和家庭护理产品，确保产品的使用寿命。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 132,
+        "prompt_tokens": 549,
+        "total_tokens": 681,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

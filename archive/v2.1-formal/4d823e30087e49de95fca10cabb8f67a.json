@@ -1,0 +1,107 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C02",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "喜欢安静看产品，不太想参加推销。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "error",
+    "candidates": [],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [
+      "Invitation omits verified date, full time range or location."
+    ],
+    "metadata": {
+      "run_id": "4d823e30087e49de95fca10cabb8f67a",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 2,
+      "repairs": 1,
+      "started_at": "2026-11-08T07:48:39.515471+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 4.75
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，您好！我们将在11月21日14:00–17:00于上海序岚虚构展示空间举办一次日常手袋设计与皮革细节预览。若您有兴趣参加，可以回复我确认预约。期待您的参与！\",\"您好，陈先生！11月21日下午2点到5点，我们将在上海序岚虚构展示空间展示日常手袋设计与皮革细节。回复确认后，我将为您预留名额。希望这次预览能契合您的兴趣！\",\"陈先生，诚邀您参加11月21日14:00–17:00在上海序岚虚构展示空间的日常手袋和皮革细节预览。如果您想了解更多，请回复我，我将确认您的预约。期待与您相见！\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 183,
+        "prompt_tokens": 1703,
+        "total_tokens": 1886,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    },
+    {
+      "operation": 1,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，您好！我们将在2026年11月21日14:00–17:00于上海序岚虚构展示空间举办一次日常手袋设计与皮革细节预览。若您有兴趣参加，可以回复我确认预约。期待您的参与！\",\"您好，陈先生！2026年11月21日下午2点到5点，我们将在上海序岚虚构展示空间展示日常手袋设计与皮革细节。回复确认后，我将为您预留名额。希望这次预览能契合您的兴趣！\",\"陈先生，诚邀您参加2026年11月21日14:00–17:00在上海序岚虚构展示空间的日常手袋和皮革细节预览。如果您想了解更多，请回复我，我将确认您的预约。期待与您相见！\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 192,
+        "prompt_tokens": 1920,
+        "total_tokens": 2112,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1664,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

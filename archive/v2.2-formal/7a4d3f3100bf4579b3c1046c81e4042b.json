@@ -1,0 +1,75 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C15",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我在外地，近期不方便到店。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "顾女士，最近一切都还好吗？如有任何想了解的，随时可以告诉我。我会尽力为您提供支持。",
+      "顾女士，您之前提到在外地，如果有任何事情需要我们协助，请随时联系。我会尽可能帮助您。",
+      "顾女士，最近有没有什么新的想法或需求？如果需要任何帮助或者产品信息，请随时告知我。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "7a4d3f3100bf4579b3c1046c81e4042b",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:22.714992+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.76
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"顾女士，最近一切都还好吗？如有任何想了解的，随时可以告诉我。我会尽力为您提供支持。\",\"顾女士，您之前提到在外地，如果有任何事情需要我们协助，请随时联系。我会尽可能帮助您。\",\"顾女士，最近有没有什么新的想法或需求？如果需要任何帮助或者产品信息，请随时告知我。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 94,
+        "prompt_tokens": 1603,
+        "total_tokens": 1697,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1408,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

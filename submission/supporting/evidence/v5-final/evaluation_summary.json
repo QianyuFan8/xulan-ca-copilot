@@ -1,0 +1,83 @@
+{
+  "version_label": "v5-final",
+  "prompt_version": "5.0",
+  "code_version": "77902235b9a03efb",
+  "data_version": "1.1",
+  "generation_model": [
+    "gpt-4o-2024-08-06"
+  ],
+  "generated_cases": 50,
+  "successful_cases": 49,
+  "failed_cases": [
+    "T022"
+  ],
+  "first_pass_success": 44,
+  "repaired_cases": 5,
+  "latency_seconds": {
+    "median": 1.56,
+    "p95": 2.67
+  },
+  "automated_metrics": {
+    "cases_attempted": 50,
+    "cases_successful": 49,
+    "messages": 147,
+    "hard_rule_findings_in_final_outputs": 0,
+    "hard_rule_note": "Success requires zero OutputValidator findings, so final outputs pass hard rules by construction; repairs show where rules fired.",
+    "cases_repaired": 5,
+    "mean_within_set_similarity": 0.195,
+    "near_duplicate_sets": 2,
+    "near_duplicate_threshold": 0.5,
+    "messages_with_soft_flags": 4,
+    "template_sentences_reused": 0,
+    "template_rule": "sentence >= 12 CJK chars appearing verbatim in >= 5 cases",
+    "messages_with_prompt_example_phrases": 0,
+    "prompt_example_phrase_cases": {}
+  },
+  "judge": {
+    "model": [
+      "gpt-5-mini-2025-08-07"
+    ],
+    "reasoning_effort": [
+      "medium"
+    ],
+    "complete_sets": 49,
+    "incomplete_sets": 0,
+    "dimension_means": {
+      "facts": 4.85,
+      "context": 4.39,
+      "personalization": 4.2,
+      "brand": 4.29,
+      "scenario": 4.45,
+      "boundaries": 4.88,
+      "wechat": 4.78
+    },
+    "usable_messages": 105,
+    "usable_cases": 44,
+    "critical_messages": 4,
+    "uncertain_messages": 2,
+    "mean_diversity": 2.24
+  },
+  "author_review_and_final": {
+    "author_review_status": "complete",
+    "worksheet_messages": 75,
+    "author_labelled_messages": 75,
+    "calibration_messages": 36,
+    "calibration_labelled": 36,
+    "judge_author_usable_agreement": "31/36",
+    "judge_false_pass": "0/36",
+    "judge_false_alarm": "5/36",
+    "critical_flag_agreement": "36/36",
+    "usable_messages": 123,
+    "usable_cases": 48,
+    "critical_messages": 4,
+    "messages_with_decision": 147,
+    "messages_without_judgment": 0,
+    "decision_rule": "Author label where the author reviewed a message; otherwise gpt-5-mini judge scores (usable = no critical, facts/context/scenario/boundaries >= 4, all dimensions >= 3)."
+  },
+  "budget": {
+    "estimated_or_reserved_usd": 1.756502,
+    "uncertain_calls": 3,
+    "operating_limit_usd": 4.5,
+    "authorized_ceiling_usd": 5
+  }
+}

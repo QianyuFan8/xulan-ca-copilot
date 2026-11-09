@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C11",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我现在更喜欢黑色，不考虑之前的米白了。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "陈先生，您最近提到对黑色更感兴趣，我们会留意合适的款式。如果有新的发现，我会及时通知您。随时欢迎交流哦。",
+      "陈先生，之前您提到更喜欢黑色，我会在有相关信息时第一时间告知您。感谢您一直以来的关注。",
+      "陈先生，注意到您对黑色的偏好，我们会持续关注相关新品选项，期待有机会与您分享最新动态。"
+    ],
+    "advisories": [
+      "Advisor contacted this client within seven days; review timing."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "51ae9a4c1c0c48f6814cf739b9febf76",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:17.550358+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.167
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，您最近提到对黑色更感兴趣，我们会留意合适的款式。如果有新的发现，我会及时通知您。随时欢迎交流哦。\",\"陈先生，之前您提到更喜欢黑色，我会在有相关信息时第一时间告知您。感谢您一直以来的关注。\",\"陈先生，注意到您对黑色的偏好，我们会持续关注相关新品选项，期待有机会与您分享最新动态。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 107,
+        "prompt_tokens": 1621,
+        "total_tokens": 1728,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1408,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

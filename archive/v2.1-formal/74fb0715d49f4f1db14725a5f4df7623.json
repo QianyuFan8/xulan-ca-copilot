@@ -1,0 +1,69 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C09",
+      "preferred_address": "何先生",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "何先生，最近有空可以随时聊聊，我们一直在更新产品，如果您有兴趣了解新的选择，随时联系我。",
+      "何先生，希望您一切安好。如果您对我们任何产品感兴趣，欢迎找我聊天，无需急于决定。",
+      "何先生，我们有一些新的设计，如果您想看看有什么合适的，随时可以告诉我。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "74fb0715d49f4f1db14725a5f4df7623",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:48:21.825074+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.07
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"何先生，最近有空可以随时聊聊，我们一直在更新产品，如果您有兴趣了解新的选择，随时联系我。\",\"何先生，希望您一切安好。如果您对我们任何产品感兴趣，欢迎找我聊天，无需急于决定。\",\"何先生，我们有一些新的设计，如果您想看看有什么合适的，随时可以告诉我。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 86,
+        "prompt_tokens": 1577,
+        "total_tokens": 1663,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

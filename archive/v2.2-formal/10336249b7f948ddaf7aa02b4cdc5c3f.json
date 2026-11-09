@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C07",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "可以先简单说两条养护建议吗？",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL11"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "王先生，牛皮避免泡水、高温和长时间阳光直射。若湿了，用干净柔软干布轻轻按压吸水，自然晾干即可。",
+      "经纬特别款的编织面板建议咨询我们进行专业检查，避免自行清洁以免损坏。",
+      "关于日常护理，牛皮材质保持干爽最为重要，编织部分如有疑问请随时联系我们。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "10336249b7f948ddaf7aa02b4cdc5c3f",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:12.649123+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.15
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"王先生，牛皮避免泡水、高温和长时间阳光直射。若湿了，用干净柔软干布轻轻按压吸水，自然晾干即可。\",\"经纬特别款的编织面板建议咨询我们进行专业检查，避免自行清洁以免损坏。\",\"关于日常护理，牛皮材质保持干爽最为重要，编织部分如有疑问请随时联系我们。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 102,
+        "prompt_tokens": 1680,
+        "total_tokens": 1782,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1536,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

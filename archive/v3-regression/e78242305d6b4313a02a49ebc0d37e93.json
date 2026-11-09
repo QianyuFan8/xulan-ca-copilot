@@ -1,0 +1,69 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C09",
+      "preferred_address": "何先生",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "何先生，很高兴再次联系您。之前您提到对我们的折叠设计感兴趣，如果有任何新的想法或需要进一步了解，请随时告诉我。我们在这里为您提供支持。",
+      "何先生，您好！我想看看您是否有任何新的兴趣或问题需要我们协助。无论是产品信息还是其他服务，欢迎随时联系。",
+      "何先生，最近一切都好吗？如果有任何关于我们产品的问题或需要了解的细节，请随时告诉我。期待为您提供帮助。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "e78242305d6b4313a02a49ebc0d37e93",
+      "model": "gpt-4o",
+      "prompt_version": "3.0",
+      "data_version": "1.0",
+      "code_version": "57da65b99994733c",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:53:09.167138+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.471
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"何先生，很高兴再次联系您。之前您提到对我们的折叠设计感兴趣，如果有任何新的想法或需要进一步了解，请随时告诉我。我们在这里为您提供支持。\",\"何先生，您好！我想看看您是否有任何新的兴趣或问题需要我们协助。无论是产品信息还是其他服务，欢迎随时联系。\",\"何先生，最近一切都好吗？如果有任何关于我们产品的问题或需要了解的细节，请随时告诉我。期待为您提供帮助。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 122,
+        "prompt_tokens": 1710,
+        "total_tokens": 1832,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

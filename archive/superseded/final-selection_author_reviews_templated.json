@@ -1,0 +1,2544 @@
+[
+  {
+    "case_id": "T001",
+    "generation_run_id": "18e3d492ccd64948ae07baee4fe1b5b1",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Warm and short but wishes are similar."
+    }
+  },
+  {
+    "case_id": "T002",
+    "generation_run_id": "9d94049a67fb4f13ae929e307e77887a",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Design preference is used a little literally in a birthday wish."
+    }
+  },
+  {
+    "case_id": "T003",
+    "generation_run_id": "90445c848c3c4086bd015bc42de805f4",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Simple and restrained; generic because little relevant personal context exists."
+    }
+  },
+  {
+    "case_id": "T004",
+    "generation_run_id": "ed39eca1b5d54795a22adcaf48dd557e",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "No pressured reply; three choices still fairly close."
+    }
+  },
+  {
+    "case_id": "T005",
+    "generation_run_id": "a42c8391bb4d4b0583590db44c1db719",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 3,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Preference used as a forced greeting metaphor."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 3,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Preference used as a forced greeting metaphor."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Over-personalized through design interest; avoid inserting leather interest into greetings."
+    }
+  },
+  {
+    "case_id": "T006",
+    "generation_run_id": "dcc20e0f457c450cad649177eabff848",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "Moving-home detail is supported and used appropriately."
+    }
+  },
+  {
+    "case_id": "T007",
+    "generation_run_id": "10fc22f094604e4a90445819d4109eea",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Advance occasion framing is supported; festival is nearly two months away so timing needs CA judgment."
+    }
+  },
+  {
+    "case_id": "T008",
+    "generation_run_id": "92f0662534464fbb850322c6d627eb07",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 3,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Preference used as a forced greeting metaphor."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 3,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Preference used as a forced greeting metaphor."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Design metaphors remain too promotional/abstract in options 1 and 3."
+    }
+  },
+  {
+    "case_id": "T009",
+    "generation_run_id": "418ca066dcea4e7ca00fcaa8a0ccade4",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Regression removes unsupported stock; remaining choices repeat product details."
+    }
+  },
+  {
+    "case_id": "T010",
+    "generation_run_id": "9fcb8fa8f7c14fccaf57b8d2c8ab5472",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Known preferences used, but repeats facts and asserts everyday suitability broadly."
+    }
+  },
+  {
+    "case_id": "T011",
+    "generation_run_id": "b0a0f1b574e74e05b1ec1e0d4aab3064",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Verified fold-like side profile; no invented origami or comfort claim."
+    }
+  },
+  {
+    "case_id": "T012",
+    "generation_run_id": "26a0458ae0084e91b02e6f376b8d33f9",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Accurate basic product facts; repetitive and slightly strong match language."
+    }
+  },
+  {
+    "case_id": "T013",
+    "generation_run_id": "260aa1e0a2c246a29b81b157cb4aab3d",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Grounded black/carrying facts; generic suggestion after client said no rush."
+    }
+  },
+  {
+    "case_id": "T014",
+    "generation_run_id": "724539ba95f4473ea1002866fa97aa82",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 3,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Unverified subjective hand-feel claim."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Latest black preference respected; elegant hand-feel in option 3 is subjective and unsupported."
+    }
+  },
+  {
+    "case_id": "T015",
+    "generation_run_id": "bd6e269561e8441eaeeff15447310883",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Regression removes internal style instruction; price and budget supported."
+    }
+  },
+  {
+    "case_id": "T016",
+    "generation_run_id": "41fa73ecdd1a4339ab397fcaa1df66e4",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "No visit pressure despite unavailable weekend; repeated product introduction."
+    }
+  },
+  {
+    "case_id": "T017",
+    "generation_run_id": "441a7a38db44444aa3729182ed82b244",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Material and dimensions answered; messages are longer than necessary."
+    }
+  },
+  {
+    "case_id": "T018",
+    "generation_run_id": "b9bfe00e23d54dec83a93adbf45be28f",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "Applicable core cowhide care, but three options are near duplicates."
+    }
+  },
+  {
+    "case_id": "T019",
+    "generation_run_id": "dcc0b6f5a7b14f269e7d1ed87c461335",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "Latest regression uses conditional scratch language rather than inventing an observed issue; no woven-panel claim."
+    }
+  },
+  {
+    "case_id": "T020",
+    "generation_run_id": "f347fdc3387f406cae9c2353ffb95f32",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Rain care uses supported blot/air-dry guidance; redundant options."
+    }
+  },
+  {
+    "case_id": "T021",
+    "generation_run_id": "f4c012cb8a97441888ae72b6953dfe75",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "General storage language is reasonable but broader than explicit policy; prefer verified heat/sun advice."
+    }
+  },
+  {
+    "case_id": "T022",
+    "generation_run_id": "24cabd15d6ba4ea786d02ed54e288c88",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 4,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Generic care caution is sensible but material sensitivity is not product-specific evidence."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Final regression advises not self-applying oil and offers confirmation, rather than asserting no care is needed."
+    }
+  },
+  {
+    "case_id": "T023",
+    "generation_run_id": "9190532c345f4359893d0ce688b15781",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Regression offers inspection, does not promise restoration or treat scratch as moisture."
+    }
+  },
+  {
+    "case_id": "T024",
+    "generation_run_id": "a1d7b9f7ab0f4adf940bf5a5030f3148",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "No new sales pitch; repeated supported care actions."
+    }
+  },
+  {
+    "case_id": "T025",
+    "generation_run_id": "10336249b7f948ddaf7aa02b4cdc5c3f",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "Woven panel is correctly distinguished; first option should make clear its cowhide-only scope."
+    }
+  },
+  {
+    "case_id": "T026",
+    "generation_run_id": "c20bd24b78bd45d08bf5e32ccf5d87ca",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "No verified promotion exists, but volunteered promotion talk and future new-style framing are unnecessary."
+    }
+  },
+  {
+    "case_id": "T027",
+    "generation_run_id": "2738c0178cd949f19dacc779a67f6c9a",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Regression removes invented prior conversation and launch; thin context leads generic reconnect."
+    }
+  },
+  {
+    "case_id": "T028",
+    "generation_run_id": "7d6706f9b9d14bae9f62f8a53f8c5ec8",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Historical interest is used without unverified product details."
+    }
+  },
+  {
+    "case_id": "T029",
+    "generation_run_id": "4796e525a1374966b8bbf7c8b0249303",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 3,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Assumes unsolicited future updates; option 3 leaves contact with the client."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 3,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Assumes unsolicited future updates; option 3 leaves contact with the client."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Final regression option 3 leaves further contact with the client; options 1–2 still assume future updates."
+    }
+  },
+  {
+    "case_id": "T030",
+    "generation_run_id": "be1edd698c0246758ebd8d75438fa34c",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "No hard sales pressure; question in option 1 is too broad after no purchase plan."
+    }
+  },
+  {
+    "case_id": "T031",
+    "generation_run_id": "797f41b0bd234f3cb3daf6da4f0bd9fc",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Regression removes new-launch assertion; broad other-style suggestion is vague."
+    }
+  },
+  {
+    "case_id": "T032",
+    "generation_run_id": "60f24b1840614b5e9d1d91e0ca635e78",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 3,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Assumes future notifications or updates without explicit request."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 3,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Assumes future notifications or updates without explicit request."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "No specific invented launch, but future notification and latest-update framing still need restraint."
+    }
+  },
+  {
+    "case_id": "T033",
+    "generation_run_id": "7a4d3f3100bf4579b3c1046c81e4042b",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Out-of-town context supported; generic help language rather than a concrete relevant reason."
+    }
+  },
+  {
+    "case_id": "T034",
+    "generation_run_id": "c3ad35b671dc42d994e127a8a46177c5",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Overly formal or intimate address."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Essential verified event facts present; formal wording and confirmed-position phrasing need care."
+    }
+  },
+  {
+    "case_id": "T035",
+    "generation_run_id": "fcce0cb5fd5f46218ff8e64b32e95140",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Overly formal or intimate address."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Overly formal or intimate address."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Complete facts, but 莅临/亲爱的 and 下午14:00 are awkward for brand/WeChat."
+    }
+  },
+  {
+    "case_id": "T036",
+    "generation_run_id": "1b0a4d68f18e44d28bf240319322a447",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Complete verified event facts and reply route, with similar openings."
+    }
+  },
+  {
+    "case_id": "T037",
+    "generation_run_id": "bc07f17208bb41b6b210d6c065fe244a",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Overly formal or intimate address."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Complete invitation; 敬爱的 in option 3 is overly formal."
+    }
+  },
+  {
+    "case_id": "T038",
+    "generation_run_id": "1e4fb18efe7b456e8c16d386a7ac800a",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Targeted regression removes unverified no-sales/quiet-atmosphere claims; use only supplied event facts."
+    }
+  },
+  {
+    "case_id": "T039",
+    "generation_run_id": "504ce075305e480097fd866c29ebdbde",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Complete verified event facts; booking wording can more explicitly remain subject to confirmation."
+    }
+  },
+  {
+    "case_id": "T040",
+    "generation_run_id": "0208d09b394e40c5b39b7ab704c2af1c",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Overly formal or intimate address."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Companion eligibility now subject to inquiry; 亲爱的/莅临 remain tone defects."
+    }
+  },
+  {
+    "case_id": "T041",
+    "generation_run_id": "df8fabea115e40038291ab7f95e431b2",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Complete verified invitation; options are largely parallel."
+    }
+  },
+  {
+    "case_id": "T042",
+    "generation_run_id": "917a3a8f14dd4cc3b6c5b96b2ed88ee3",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Price grounded; option 2 best respects time to consider; option 3 assumes future updates."
+    }
+  },
+  {
+    "case_id": "T043",
+    "generation_run_id": "49bcd9c3f58e4d749785c1bca716ffc2",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Sparse-history input, grounded product/price; generic budget language."
+    }
+  },
+  {
+    "case_id": "T044",
+    "generation_run_id": "162878ca168b4bacb7f3482773f8295e",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Directly addresses discount without unauthorized offer; can acknowledge more naturally."
+    }
+  },
+  {
+    "case_id": "T045",
+    "generation_run_id": "a74268815dcf4b7d981d2e92604b6944",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Grounded price/features; concern acknowledgement is uneven."
+    }
+  },
+  {
+    "case_id": "T046",
+    "generation_run_id": "a408e158db0e4a6b880ac6bb8031e535",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Avoids explaining unknown outside-channel difference; could state own no-price-match authority more clearly."
+    }
+  },
+  {
+    "case_id": "T047",
+    "generation_run_id": "80588980b6bc4cd396f5eadf32076fff",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Answers gift/coupon question directly with no invented entitlement; repetitive supporting facts."
+    }
+  },
+  {
+    "case_id": "T048",
+    "generation_run_id": "2122bd0fedff47699eb4574ed6279d2f",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Verified price and client budget are correctly distinguished."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Verified price and client budget are correctly distinguished."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Verified price and client budget are correctly distinguished."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Final regression accurately distinguishes 5800 product price from the 6000 client budget."
+    }
+  },
+  {
+    "case_id": "T049",
+    "generation_run_id": "2e6336a763ea400a9a1071feaa8d5913",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Concrete product details supplied; avoid asserting unknown causal price breakdown."
+    }
+  },
+  {
+    "case_id": "T050",
+    "generation_run_id": "6483738c412243aaa98f2d1151cc3ea2",
+    "reviewer": "Codex author assessment (AI), not a human CA",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Respects deferral without continuing product explanation."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Respects deferral without continuing product explanation."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "issues": [
+            "Respects deferral without continuing product explanation."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Final regression accepts deferral without repeating product details or continuing the pitch."
+    }
+  }
+]

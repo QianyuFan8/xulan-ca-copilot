@@ -1,0 +1,80 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C04",
+      "preferred_address": "许女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "最近挺好的，不用专门准备什么。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "生日快乐，许女士！愿新的一岁带给您更多的快乐与平和。",
+      "许女士，生日快乐！希望最近的忙碌逐渐平息，迎接新的美好。",
+      "许女士，给您送上生日的祝福，愿今天有些小小的欢喜。无需特意回复。"
+    ],
+    "advisories": [
+      "Advisor contacted this client within seven days; review timing."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "49dd0019f0ad4dc6acbd9d4ac6be0488",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:47:46.810950+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 0.927
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"生日快乐，许女士！愿新的一岁带给您更多的快乐与平和。\",\"许女士，生日快乐！希望最近的忙碌逐渐平息，迎接新的美好。\",\"许女士，给您送上生日的祝福，愿今天有些小小的欢喜。无需特意回复。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 1636,
+        "total_tokens": 1714,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1280,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

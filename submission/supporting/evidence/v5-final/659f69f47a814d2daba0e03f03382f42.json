@@ -1,0 +1,72 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C02",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "祝您生日快乐，陈先生！愿您在新的一岁里，迎来更多快乐与美好时刻。",
+      "陈先生，生日快乐！希望您的生活如同您关注的设计细节一样充满惊喜。",
+      "在这个特别的日子，祝您生日快乐，陈先生！愿您在未来的日子里继续感受到生活的美好。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "659f69f47a814d2daba0e03f03382f42",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:00.442645+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.167
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"祝您生日快乐，陈先生！愿您在新的一岁里，迎来更多快乐与美好时刻。\",\"陈先生，生日快乐！希望您的生活如同您关注的设计细节一样充满惊喜。\",\"在这个特别的日子，祝您生日快乐，陈先生！愿您在未来的日子里继续感受到生活的美好。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 88,
+        "prompt_tokens": 1741,
+        "total_tokens": 1829,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

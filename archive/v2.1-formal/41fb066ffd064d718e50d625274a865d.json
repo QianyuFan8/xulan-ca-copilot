@@ -1,0 +1,80 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C05",
+      "preferred_address": "沈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "谢谢，之后再聊。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "生日快乐，沈先生！愿您在新的一岁里，生活充满设计感的小惊喜。",
+      "生日快乐！也希望您最近对设计细节的探索能有新的发现。",
+      "送上一份生日祝福，愿今天有些小小的欢喜和放松，不用特意回复。"
+    ],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "41fb066ffd064d718e50d625274a865d",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:47:47.738809+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.045
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"生日快乐，沈先生！愿您在新的一岁里，生活充满设计感的小惊喜。\",\"生日快乐！也希望您最近对设计细节的探索能有新的发现。\",\"送上一份生日祝福，愿今天有些小小的欢喜和放松，不用特意回复。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 74,
+        "prompt_tokens": 1614,
+        "total_tokens": 1688,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

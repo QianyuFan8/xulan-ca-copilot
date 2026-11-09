@@ -1,0 +1,126 @@
+[
+  {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "timezone": "Asia/Shanghai"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "谢谢，平时简单联系就好。"
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "timezone": "Asia/Shanghai"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "想找一只黑色通勤肩包，不用推荐浅色。"
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  {
+    "scenario": "care",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "timezone": "Asia/Shanghai"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "这只包刚买回来，平时怎么保养？"
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "timezone": "Asia/Shanghai"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "最近比较忙，之前看的黑色肩包我还记得。"
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "timezone": "Asia/Shanghai"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "有关于设计细节的活动可以告诉我。"
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  {
+    "scenario": "price_objection",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "喜欢简洁黑色手袋",
+      "timezone": "Asia/Shanghai"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "这个包有点贵，可以打折吗？"
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  }
+]

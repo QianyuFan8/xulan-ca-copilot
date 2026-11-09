@@ -1,0 +1,80 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C07",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "节日也祝你们顺利。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "元旦",
+      "occasion_date": "2027-01-01"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "新年快到了，先祝王先生元旦快乐，愿新的一年顺利如意。",
+      "王先生，提前祝您元旦快乐，希望您度过一个愉快的节日季。",
+      "元旦将至，送上我的祝福，愿您在新的一年里一切顺利。"
+    ],
+    "advisories": [
+      "Occasion differs from reference date; review timing and avoid saying today."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "961dfded51f24055b272d97c42982786",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:47:49.721766+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 0.907
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"新年快到了，先祝王先生元旦快乐，愿新的一年顺利如意。\",\"王先生，提前祝您元旦快乐，希望您度过一个愉快的节日季。\",\"元旦将至，送上我的祝福，愿您在新的一年里一切顺利。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 1620,
+        "total_tokens": 1695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1280,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

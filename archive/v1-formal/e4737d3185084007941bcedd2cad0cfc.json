@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C16",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "这个周末没空，不要催我到店。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "王先生，您选择的折影肩包·墨黑设计简约，适合日常通勤。若需详细查看，欢迎随时与我们联系。",
+      "感谢您对折影肩包·墨黑的兴趣。此款包采用光滑牛皮制作，简单大方，适合日常使用。",
+      "这款折影肩包·墨黑采用简洁设计，日常通勤很便利。请随时告知，如需了解更多细节。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "e4737d3185084007941bcedd2cad0cfc",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:37.874957+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.23
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"王先生，您选择的折影肩包·墨黑设计简约，适合日常通勤。若需详细查看，欢迎随时与我们联系。\",\"感谢您对折影肩包·墨黑的兴趣。此款包采用光滑牛皮制作，简单大方，适合日常使用。\",\"这款折影肩包·墨黑采用简洁设计，日常通勤很便利。请随时告知，如需了解更多细节。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 543,
+        "total_tokens": 653,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

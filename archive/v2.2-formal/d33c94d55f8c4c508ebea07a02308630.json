@@ -1,0 +1,75 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C14",
+      "preferred_address": "沈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我比较喜欢简短信息，看到会回复。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "沈先生，最近是否有空闲时间，想与您分享一些新的设计细节和皮革特点。若您有兴趣，随时可以沟通。",
+      "沈先生，之前您提到过对设计细节的关注。如果方便，欢迎随时来聊聊，我们可以针对您的喜好一起探索新选择。",
+      "沈先生，有空闲时欢迎了解我们近期的设计更新，特别是在皮革处理上的新尝试。期待您的消息。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "d33c94d55f8c4c508ebea07a02308630",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:21.440685+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.274
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"沈先生，最近是否有空闲时间，想与您分享一些新的设计细节和皮革特点。若您有兴趣，随时可以沟通。\",\"沈先生，之前您提到过对设计细节的关注。如果方便，欢迎随时来聊聊，我们可以针对您的喜好一起探索新选择。\",\"沈先生，有空闲时欢迎了解我们近期的设计更新，特别是在皮革处理上的新尝试。期待您的消息。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 1602,
+        "total_tokens": 1707,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1408,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

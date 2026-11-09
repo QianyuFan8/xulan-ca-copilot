@@ -1,0 +1,56 @@
+[project]
+name = "xulan-advisor-studio"
+version = "0.6.0"
+description = "Grounded Chinese WeChat drafting assistant for luxury Client Advisors (fictional brand XULAN)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.30,<1",
+    "openai>=1.92,<4",
+    "pydantic>=2.9,<3",
+    "python-dotenv>=1.0,<2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8,<10",
+    "httpx>=0.27,<1",
+    "ruff>=0.6",
+]
+
+[tool.uv]
+# Application, not a library: run from source with PYTHONPATH=src.
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "unit: a single function or class in isolation",
+    "integration: several components together, with the model replaced by a scripted fake",
+    "system: the whole FastAPI application through HTTP, with a scripted fake model",
+    "acceptance: the packaged submission meets the structural requirements",
+    "smoke: opt-in checks against a running deployment or one live provider call",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests", "evaluation"]
+extend-exclude = ["archive", "runs", "submission"]
+
+[tool.ruff.lint]
+# pycodestyle, pyflakes, isort, bugbear, pyupgrade, simplify
+select = ["E", "W", "F", "I", "B", "UP", "SIM"]
+# Long Chinese prompt and policy strings are intentional; the formatter handles code layout.
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["xulan"]
+known-local-folder = ["support", "judge"]
+
+[tool.ruff.format]
+quote-style = "single"

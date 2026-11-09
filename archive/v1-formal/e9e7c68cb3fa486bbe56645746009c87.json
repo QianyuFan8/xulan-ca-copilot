@@ -1,0 +1,84 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C02",
+      "preferred_address": "陈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "喜欢安静看产品，不太想参加推销。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T22:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "陈先生，序岚诚邀您于11月21日下午2点至5点，莅临上海展示空间，欣赏我们精心设计的日常手袋与皮革细节。请联系我确认预约。",
+      "尊敬的陈先生，我们将在11月21日举办日常手袋与皮革细节预览，期待在上海展示空间与您见面。如需预约，请随时告知。",
+      "陈先生，期待您于11月21日莅临上海序岚展示空间，体验我们的日常手袋设计与皮革细节。如需进一步安排，请与我联系。"
+    ],
+    "advisories": [
+      "Client local quiet hours (21:00–09:00); consider sending later."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "e9e7c68cb3fa486bbe56645746009c87",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:45:07.644878+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.878
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"陈先生，序岚诚邀您于11月21日下午2点至5点，莅临上海展示空间，欣赏我们精心设计的日常手袋与皮革细节。请联系我确认预约。\",\"尊敬的陈先生，我们将在11月21日举办日常手袋与皮革细节预览，期待在上海展示空间与您见面。如需预约，请随时告知。\",\"陈先生，期待您于11月21日莅临上海序岚展示空间，体验我们的日常手袋设计与皮革细节。如需进一步安排，请与我联系。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 141,
+        "prompt_tokens": 572,
+        "total_tokens": 713,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

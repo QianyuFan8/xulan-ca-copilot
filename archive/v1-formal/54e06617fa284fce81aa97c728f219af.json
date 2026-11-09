@@ -1,0 +1,85 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我对皮革材料比较感兴趣。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "您好，林女士，我们诚挚邀请您参加即将在上海序岚虚构展示空间举行的‘经纬皮革细节赏鉴’活动，时间为11月28日下午2点至4点。期待您的回复以便为您确认预约。",
+      "尊敬的林女士，诚邀您于11月28日下午2点至4点莅临上海序岚虚构展示空间，参与‘经纬皮革细节赏鉴’活动。请回复此消息，以便我们为您安排预约。",
+      "林女士，您好！我们将在11月28日下午2点至4点于上海序岚虚构展示空间举办‘经纬皮革细节赏鉴’，诚邀您的参与。请回复以确认您的预约。"
+    ],
+    "advisories": [
+      "Advisor contacted this client within seven days; review timing."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "54e06617fa284fce81aa97c728f219af",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:45:05.716019+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.927
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"您好，林女士，我们诚挚邀请您参加即将在上海序岚虚构展示空间举行的‘经纬皮革细节赏鉴’活动，时间为11月28日下午2点至4点。期待您的回复以便为您确认预约。\",\"尊敬的林女士，诚邀您于11月28日下午2点至4点莅临上海序岚虚构展示空间，参与‘经纬皮革细节赏鉴’活动。请回复此消息，以便我们为您安排预约。\",\"林女士，您好！我们将在11月28日下午2点至4点于上海序岚虚构展示空间举办‘经纬皮革细节赏鉴’，诚邀您的参与。请回复以确认您的预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 169,
+        "prompt_tokens": 591,
+        "total_tokens": 760,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

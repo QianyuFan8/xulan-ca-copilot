@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# Runtime output and the spend ledger (submitted evidence is copied to submission/supporting/)
+runs/
+
+.ruff_cache/
+
+# Local editor/agent settings (contain machine-specific paths)
+.claude/

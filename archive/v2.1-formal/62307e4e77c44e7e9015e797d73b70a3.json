@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "reactivation",
+    "client_information": {
+      "id": "C10",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": null,
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "想起之前看过的折影，但还没决定。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "林女士，最近有没有看到什么让您心动的款式？如果您还对折影感兴趣，随时可以聊聊。",
+      "林女士，您上次提到的折影系列，若还有任何疑问或想法，请随时与我沟通。",
+      "林女士，如果对之前的折影有新想法，欢迎随时联系，我在这为您提供帮助。"
+    ],
+    "advisories": [
+      "Client timezone unknown; review sending time."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "62307e4e77c44e7e9015e797d73b70a3",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:48:22.891921+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.323
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"林女士，最近有没有看到什么让您心动的款式？如果您还对折影感兴趣，随时可以聊聊。\",\"林女士，您上次提到的折影系列，若还有任何疑问或想法，请随时与我沟通。\",\"林女士，如果对之前的折影有新想法，欢迎随时联系，我在这为您提供帮助。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 1603,
+        "total_tokens": 1695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

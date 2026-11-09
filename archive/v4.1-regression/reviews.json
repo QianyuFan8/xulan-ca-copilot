@@ -1,0 +1,148 @@
+[
+  {
+    "case_id": "T029",
+    "generation_run_id": "4796e525a1374966b8bbf7c8b0249303",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 150,
+      "prompt_tokens": 749,
+      "total_tokens": 899,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly acknowledge the client's preference for black and offer future engagement without overpromising."
+    }
+  },
+  {
+    "case_id": "T048",
+    "generation_run_id": "2122bd0fedff47699eb4574ed6279d2f",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 201,
+      "prompt_tokens": 818,
+      "total_tokens": 1019,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 1,
+            "personalization": 1,
+            "brand": 1,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 1
+          },
+          "critical": false,
+          "issues": [
+            "specific evidence, or empty"
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All candidates incorrectly state the price as 5800元 instead of the verified 580000元, which is a critical factual error. They also fail to acknowledge the client's budget concern of 6000元, which is significantly lower than the actual price."
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C10",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "林女士，您偏爱的简洁黑色风格，我们的折影肩包·墨黑可能符合您的需求。它的侧面有折叠感，支持肩背，适合日常通勤。",
+      "这款折影肩包·墨黑采用光滑牛皮制作，设计上有折叠感的侧面，尺寸为27 × 17 × 7厘米，适合肩背使用。",
+      "林女士，您提到的日常通勤需求，我们有一款折影肩包·墨黑，材质为光滑牛皮，侧面设计有折叠感。您想先了解材质，还是看看细节？"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "eed4563acdf841a6ae7633130f35ba86",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:47:52.889388+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.384
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"林女士，您偏爱的简洁黑色风格，我们的折影肩包·墨黑可能符合您的需求。它的侧面有折叠感，支持肩背，适合日常通勤。\",\"这款折影肩包·墨黑采用光滑牛皮制作，设计上有折叠感的侧面，尺寸为27 × 17 × 7厘米，适合肩背使用。\",\"林女士，您提到的日常通勤需求，我们有一款折影肩包·墨黑，材质为光滑牛皮，侧面设计有折叠感。您想先了解材质，还是看看细节？\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 152,
+        "prompt_tokens": 1647,
+        "total_tokens": 1799,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

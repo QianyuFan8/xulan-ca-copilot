@@ -1,0 +1,60 @@
+{
+  "input": {
+    "scenario": "greeting",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "今天是我生日，谢谢记得。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "occasion": "生日",
+      "occasion_date": "2026-11-09"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "error",
+    "candidates": [],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [
+      "Temporary provider failure; charge reservation retained."
+    ],
+    "metadata": {
+      "run_id": "7e9b06c308b44d2b8972ef97e7588da0",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 2,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:43:43.228618+00:00",
+      "latency_seconds": 0.574
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "error": "transient_failure"
+    },
+    {
+      "operation": 0,
+      "retry": 1,
+      "error": "transient_failure"
+    }
+  ]
+}

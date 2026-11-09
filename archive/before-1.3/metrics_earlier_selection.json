@@ -1,0 +1,1047 @@
+{
+  "cases_attempted": 50,
+  "cases_successful": 50,
+  "messages": 150,
+  "hard_rule_findings_in_final_outputs": 0,
+  "hard_rule_note": "Success requires zero OutputValidator findings, so final outputs pass hard rules by construction; repairs show where rules fired.",
+  "cases_repaired": 3,
+  "mean_within_set_similarity": 0.203,
+  "near_duplicate_sets": 2,
+  "near_duplicate_threshold": 0.5,
+  "messages_with_soft_flags": 5,
+  "template_sentences_reused": 0,
+  "template_reuse": [],
+  "template_rule": "sentence >= 12 CJK chars appearing verbatim in >= 5 cases",
+  "messages_with_prompt_example_phrases": 7,
+  "prompt_example_phrase_cases": {
+    "小小的欢喜": [
+      "T003",
+      "T004",
+      "T005",
+      "T006"
+    ],
+    "自在顺心": [
+      "T006"
+    ],
+    "不用特意回复": [
+      "T002",
+      "T003",
+      "T006",
+      "T007"
+    ]
+  },
+  "per_case": [
+    {
+      "case_id": "T001",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.086,
+          0.111,
+          0.05
+        ],
+        "max": 0.111,
+        "mean": 0.082,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T002",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.104,
+          0.083,
+          0.058
+        ],
+        "max": 0.104,
+        "mean": 0.082,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T003",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.147,
+          0.095,
+          0.065
+        ],
+        "max": 0.147,
+        "mean": 0.102,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T004",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.222,
+          0.05,
+          0.095
+        ],
+        "max": 0.222,
+        "mean": 0.122,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T005",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.122,
+          0.077,
+          0.048
+        ],
+        "max": 0.122,
+        "mean": 0.082,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T006",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.058,
+          0.194,
+          0.1
+        ],
+        "max": 0.194,
+        "mean": 0.117,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T007",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.152,
+          0.135,
+          0.105
+        ],
+        "max": 0.152,
+        "mean": 0.131,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T008",
+      "scenario": "greeting",
+      "similarity": {
+        "pairwise": [
+          0.116,
+          0.064,
+          0.023
+        ],
+        "max": 0.116,
+        "mean": 0.068,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T009",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.207,
+          0.203,
+          0.176
+        ],
+        "max": 0.207,
+        "mean": 0.195,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T010",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.195,
+          0.192,
+          0.156
+        ],
+        "max": 0.195,
+        "mean": 0.181,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T011",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.143,
+          0.213,
+          0.188
+        ],
+        "max": 0.213,
+        "mean": 0.181,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T012",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.341,
+          0.239,
+          0.242
+        ],
+        "max": 0.341,
+        "mean": 0.274,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T013",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.203,
+          0.162,
+          0.115
+        ],
+        "max": 0.203,
+        "mean": 0.16,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T014",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.143,
+          0.127,
+          0.119
+        ],
+        "max": 0.143,
+        "mean": 0.13,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T015",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.375,
+          0.329,
+          0.265
+        ],
+        "max": 0.375,
+        "mean": 0.323,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T016",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.189,
+          0.338,
+          0.197
+        ],
+        "max": 0.338,
+        "mean": 0.241,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T017",
+      "scenario": "recommendation",
+      "similarity": {
+        "pairwise": [
+          0.29,
+          0.323,
+          0.314
+        ],
+        "max": 0.323,
+        "mean": 0.309,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T018",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.29,
+          0.369,
+          0.177
+        ],
+        "max": 0.369,
+        "mean": 0.279,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T019",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.113,
+          0.123,
+          0.0
+        ],
+        "max": 0.123,
+        "mean": 0.079,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 1
+    },
+    {
+      "case_id": "T020",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.141,
+          0.213,
+          0.155
+        ],
+        "max": 0.213,
+        "mean": 0.17,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T021",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.176,
+          0.121,
+          0.101
+        ],
+        "max": 0.176,
+        "mean": 0.133,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T022",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.155,
+          0.15,
+          0.102
+        ],
+        "max": 0.155,
+        "mean": 0.136,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T023",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.108,
+          0.153,
+          0.119
+        ],
+        "max": 0.153,
+        "mean": 0.127,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T024",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.195,
+          0.169,
+          0.123
+        ],
+        "max": 0.195,
+        "mean": 0.162,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T025",
+      "scenario": "care",
+      "similarity": {
+        "pairwise": [
+          0.014,
+          0.014,
+          0.033
+        ],
+        "max": 0.033,
+        "mean": 0.02,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T026",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.191,
+          0.181,
+          0.12
+        ],
+        "max": 0.191,
+        "mean": 0.164,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T027",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.118,
+          0.145,
+          0.085
+        ],
+        "max": 0.145,
+        "mean": 0.116,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T028",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.123,
+          0.143,
+          0.061
+        ],
+        "max": 0.143,
+        "mean": 0.109,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T029",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.127,
+          0.134,
+          0.059
+        ],
+        "max": 0.134,
+        "mean": 0.107,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T030",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.111,
+          0.171,
+          0.134
+        ],
+        "max": 0.171,
+        "mean": 0.139,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T031",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.108,
+          0.037,
+          0.087
+        ],
+        "max": 0.108,
+        "mean": 0.077,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T032",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.211,
+          0.179,
+          0.097
+        ],
+        "max": 0.211,
+        "mean": 0.162,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T033",
+      "scenario": "reactivation",
+      "similarity": {
+        "pairwise": [
+          0.109,
+          0.092,
+          0.125
+        ],
+        "max": 0.125,
+        "mean": 0.109,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T034",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.454,
+          0.495,
+          0.505
+        ],
+        "max": 0.505,
+        "mean": 0.485,
+        "near_duplicate": true
+      },
+      "soft_flags": [
+        [],
+        [
+          "tone:莅临"
+        ],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T035",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.431,
+          0.454,
+          0.4
+        ],
+        "max": 0.454,
+        "mean": 0.428,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [
+          "tone:莅临"
+        ],
+        [],
+        [
+          "tone:亲爱的"
+        ]
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T036",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.44,
+          0.415,
+          0.442
+        ],
+        "max": 0.442,
+        "mean": 0.432,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T037",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.443,
+          0.381,
+          0.459
+        ],
+        "max": 0.459,
+        "mean": 0.428,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        [
+          "tone:敬爱的"
+        ]
+      ],
+      "repairs": 1
+    },
+    {
+      "case_id": "T038",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.388,
+          0.442,
+          0.4
+        ],
+        "max": 0.442,
+        "mean": 0.41,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T039",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.5,
+          0.44,
+          0.489
+        ],
+        "max": 0.5,
+        "mean": 0.476,
+        "near_duplicate": true
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T040",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.4,
+          0.462,
+          0.339
+        ],
+        "max": 0.462,
+        "mean": 0.4,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [
+          "tone:莅临",
+          "tone:亲爱的"
+        ],
+        []
+      ],
+      "repairs": 1
+    },
+    {
+      "case_id": "T041",
+      "scenario": "invitation",
+      "similarity": {
+        "pairwise": [
+          0.48,
+          0.44,
+          0.458
+        ],
+        "max": 0.48,
+        "mean": 0.459,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T042",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.147,
+          0.148,
+          0.147
+        ],
+        "max": 0.148,
+        "mean": 0.147,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T043",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.161,
+          0.23,
+          0.081
+        ],
+        "max": 0.23,
+        "mean": 0.157,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T044",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.205,
+          0.265,
+          0.212
+        ],
+        "max": 0.265,
+        "mean": 0.227,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T045",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.277,
+          0.168,
+          0.164
+        ],
+        "max": 0.277,
+        "mean": 0.203,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T046",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.154,
+          0.269,
+          0.262
+        ],
+        "max": 0.269,
+        "mean": 0.228,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T047",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.257,
+          0.317,
+          0.211
+        ],
+        "max": 0.317,
+        "mean": 0.262,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T048",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.268,
+          0.348,
+          0.299
+        ],
+        "max": 0.348,
+        "mean": 0.305,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T049",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.191,
+          0.22,
+          0.105
+        ],
+        "max": 0.22,
+        "mean": 0.172,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    },
+    {
+      "case_id": "T050",
+      "scenario": "price_objection",
+      "similarity": {
+        "pairwise": [
+          0.054,
+          0.086,
+          0.061
+        ],
+        "max": 0.086,
+        "mean": 0.067,
+        "near_duplicate": false
+      },
+      "soft_flags": [
+        [],
+        [],
+        []
+      ],
+      "repairs": 0
+    }
+  ],
+  "source": "submission/run_manifest.json"
+}

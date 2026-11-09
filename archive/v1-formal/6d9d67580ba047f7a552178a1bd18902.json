@@ -1,0 +1,83 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C03",
+      "preferred_address": "周女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "可以先给我活动内容，我再决定。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "周女士，诚邀您参加我们的经纬皮革细节赏鉴活动，将于11月28日下午2点在上海序岚虚构展示空间进行。",
+      "我们将于11月28日下午2点在上海序岚举办经纬特别款皮革赏鉴活动，期待您的光临。",
+      "期待在11月28日下午2点于上海序岚的经纬皮革细节赏鉴活动上见到您，周女士。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "6d9d67580ba047f7a552178a1bd18902",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:45:09.528780+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.238
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"周女士，诚邀您参加我们的经纬皮革细节赏鉴活动，将于11月28日下午2点在上海序岚虚构展示空间进行。\",\"我们将于11月28日下午2点在上海序岚举办经纬特别款皮革赏鉴活动，期待您的光临。\",\"期待在11月28日下午2点于上海序岚的经纬皮革细节赏鉴活动上见到您，周女士。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 575,
+        "total_tokens": 680,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

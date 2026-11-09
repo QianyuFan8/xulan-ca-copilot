@@ -1,0 +1,3965 @@
+[
+  {
+    "case_id": "T001",
+    "generation_run_id": "ee7514f2be2e4f1ba4bc493cfd9563d3",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1841,
+      "prompt_tokens": 861,
+      "total_tokens": 2702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1600,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are appropriate, concise birthday replies using the preferred form of address (林女士) and contain no sales pitch or disallowed promises. Candidate 2 (“期待在未来与您有更多的交流”) is slightly more forward/engagement-oriented compared with 1 and 3; candidates 1 and 3 are more neutral and directly focused on the birthday wish. No critical policy issues detected."
+    }
+  },
+  {
+    "case_id": "T002",
+    "generation_run_id": "659f69f47a814d2daba0e03f03382f42",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1687,
+      "prompt_tokens": 860,
+      "total_tokens": 2547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“祝您生日快乐，陈先生！愿您在新的一岁里，迎来更多快乐与美好时刻。” — 未提及客户已提供的偏好（关注皮革和设计细节），可考虑轻度个性化以增加相关性。"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“在这个特别的日子，祝您生日快乐，陈先生！愿您在未来的日子里继续感受到生活的美好。” — 未提及客户已提供的偏好（关注皮革和设计细节），可加入简短相关句式以增强关联性。"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three are appropriate, warm, and sendable. Candidate 2 is strongest because it respectfully references the client's stated interest in design details. Candidates 1 and 3 are correct but could be improved by a brief, non-intrusive personalization referencing the client's preference for leather/design details. No critical policy issues found."
+    }
+  },
+  {
+    "case_id": "T003",
+    "generation_run_id": "7896263255e34474be7fdfcd4c378dcb",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2207,
+      "prompt_tokens": 872,
+      "total_tokens": 3079,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1792,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'期待您度过一个美好的一天。' — slightly more formal/wordy than the client's stated preference for simple, direct communication."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'希望在这个特别的日子里，您能享受属于自己的美好时光。' — a bit wordy; could be shortened to better match the client's direct style."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are compliant with policy and use the preferred address. Candidate 3 best matches the client's stated preference for simple, direct, non-pushy communication (concise and explicitly 'no need to reply'). Candidates 1 and 2 are warm and appropriate but slightly wordier and could be tightened for this client."
+    }
+  },
+  {
+    "case_id": "T004",
+    "generation_run_id": "882560b1db77423ea2f526550571ab32",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1814,
+      "prompt_tokens": 895,
+      "total_tokens": 2709,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1472,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are appropriate birthday greetings that respect the client's stated preference and the no-sales greeting rule. Candidates 1 and 2 are simple, neutral wishes (good for a new contact). Candidate 3 references the client's earlier message (more personalized). Overall the set is very similar in tone and wording; no policy violations detected."
+    }
+  },
+  {
+    "case_id": "T005",
+    "generation_run_id": "e905733d13ea46a2a9b08363ca909d94",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1166,
+      "prompt_tokens": 858,
+      "total_tokens": 2024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are appropriate, concise birthday greetings that respect the policy (no offers, no invented details). Candidate 3 is the most natural and conversational; candidates 1 and 2 are slightly more formal. No critical issues identified."
+    }
+  },
+  {
+    "case_id": "T006",
+    "generation_run_id": "855074ba99a640c3acb1d3247af713f5",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2860,
+      "prompt_tokens": 892,
+      "total_tokens": 3752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2432,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 4,
+            "context": 5,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 3
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "含有“亲爱的”称呼 — 与品牌/风格要求冲突（避免造成人为亲密的用语），应改为直接称谓“顾女士”。",
+            "整体语气略显亲昵，不符合客户偏好（沟通简单直接）。"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "三个候选项都完成了生日问候并提到搬家相关情况（符合情境与客户历史）。候选1最简洁、语气克制，最符合客户偏好，推荐使用；候选2措辞稍显冗余，但也可接受。候选3使用了“亲爱的”，违反品牌语言规范，应修改为直接称谓并收紧语气。"
+    }
+  },
+  {
+    "case_id": "T007",
+    "generation_run_id": "5d49d02a28464a409fa64ca00151ff87",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1932,
+      "prompt_tokens": 923,
+      "total_tokens": 2855,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "措辞稍显繁复：\"享受欢愉的片刻\" 可简化为更自然的表述"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 3,
+            "scenario": 5,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "包含表述\"无需回复\"，对新联系人场景可能显得唐突或越权"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "三条均为合规、简洁的元旦问候，均正确使用客户称呼。第1条最稳妥；第2条语气稍繁复可简化；第3条加入“无需回复”可能对新联系人的场景不够谨慎。"
+    }
+  },
+  {
+    "case_id": "T008",
+    "generation_run_id": "f42555efd59b4946976adf76375ac7d6",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1000,
+      "prompt_tokens": 864,
+      "total_tokens": 1864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are appropriate: simple, respectful birthday greetings using the preferred form of address (李女士) and aligning with the client's request for no product recommendations. Candidate 3 adds a polite 'no need to reply' which further respects the client’s time. Differences are minor phrasing variations (word order and explicit opt-out). No policy or factual issues identified."
+    }
+  },
+  {
+    "case_id": "T009",
+    "generation_run_id": "97ef4a5eb7d8499cb22a116a65b96d7c",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1829,
+      "prompt_tokens": 1053,
+      "total_tokens": 2882,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Missing preferred salutation — candidate text: \"我们有一款“折影肩包·墨黑”\" (Missing address '何先生').",
+            "Tone could be more direct to match client preference — candidate text: \"希望这款设计能引起您的兴趣。\" (May be less direct than client prefers)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates accurately use the verified product facts (name, material, design, dimensions). Candidate 2 omits the preferred salutation '何先生' and is slightly less aligned with the client's preference for very simple, direct communication; the other two are concise, compliant and sendable. No invented facts or unauthorized offers across the set."
+    }
+  },
+  {
+    "case_id": "T010",
+    "generation_run_id": "55ce605b5d87477c91690ff5f4dc4714",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1709,
+      "prompt_tokens": 997,
+      "total_tokens": 2706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1344,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Candidate 1 is the strongest: directly tailored to 林女士's stated preference (简洁黑色，日常通勤) and uses verified product facts, concise and sendable. Candidates 2 and 3 are factually correct but less personalized—both would be improved by referencing the client's stated preferences or offering a gentle next step (e.g., 是否方便看图片/到店看实物). No candidate violates the approved policy."
+    }
+  },
+  {
+    "case_id": "T011",
+    "generation_run_id": "45955c64c8454e3f993cea7ab830411b",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1545,
+      "prompt_tokens": 1021,
+      "total_tokens": 2566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates accurately reflect the verified product details and the client's interest in the bag's lines. They are concise, appropriately personalized to 陈先生, and comply with the policy. Differences among them are minor phrasing/closing variations; overall content is near-identical."
+    }
+  },
+  {
+    "case_id": "T012",
+    "generation_run_id": "91b5ef2fa49240059fb95df08ccb8777",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2114,
+      "prompt_tokens": 1010,
+      "total_tokens": 3124,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1792,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 2,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 4,
+            "wechat": 5
+          },
+          "critical": true,
+          "uncertain": true,
+          "issues": [
+            "“当前我们有一款折影肩包·墨黑” : Implies current stock/availability — making availability or stock claims is not allowed unless verified."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All three candidates are concise and aligned with the XULAN voice. Candidate 1 is the strongest: directly responds to the client’s shoulder-only preference, accurate product description, non‑pressuring question. Candidate 2 accurately states material but does not explicitly confirm the shoulder carry preference and could better reference the client’s request. Candidate 3 correctly references shoulder carry and offers next steps but uses wording (“当前我们有…”) that can be read as an unverified availability/stock claim — this is a policy-critical issue and should be reworded (e.g., remove “当前” or say the style exists and offer to check availability)."
+    }
+  },
+  {
+    "case_id": "T013",
+    "generation_run_id": "0fb127913fb84ae4883ed3e830f3602c",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1992,
+      "prompt_tokens": 1042,
+      "total_tokens": 3034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1472,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 2,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"这款折影肩包·墨黑，侧面设计灵感来自折叠感，既简约又富有层次。光滑牛皮材质使它在日常通勤中更显低调优雅，您可以考虑看看。\" — Missing direct personalization (no use of the client's preferred address '许女士' or an explicit tie to her stated preference)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"如果您对简洁的设计感兴趣，我们有一款折影肩包·墨黑...您想先了解哪方面的信息呢？\" — Clear and appropriate, but does not use the client's preferred address '许女士' for personalization."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All three candidates correctly describe the verified product (XL04) and avoid prohibited promises. Candidate 1 is the strongest: concise, uses the client's preferred address and ties directly to her stated preference — ready to send. Candidate 3 is also good, conversational and invites the next step, but should add the client's preferred address for better personalization. Candidate 2 is factually correct but too generic for a new contact; add a greeting using '许女士' and a brief question or next step to improve engagement."
+    }
+  },
+  {
+    "case_id": "T014",
+    "generation_run_id": "1acf9ac5cd024ea288941dbbcc314e2d",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2077,
+      "prompt_tokens": 996,
+      "total_tokens": 3073,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1664,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"您可能会感兴趣。\" — Vague next step; does not offer a clear follow-up (e.g., ask which details they'd like or propose a viewing)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates correctly match the client's black-only preference and the verified product facts (XL04: 折影肩包·墨黑, 光滑牛皮, 折叠侧面, 肩背). They are near-identical in content and tone; candidates 2 and 3 include a clearer call-to-action which makes them slightly stronger. Consider adding an explicit next step (viewing/inspection offer or which details to provide) in candidate 1 to improve usability."
+    }
+  },
+  {
+    "case_id": "T015",
+    "generation_run_id": "afe64fdf1c5a4b708f52e943e79c6f86",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2543,
+      "prompt_tokens": 1046,
+      "total_tokens": 3589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2176,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 3,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Missing preferred salutation — does not address '顾女士' (\"我们有一款折影肩包·墨黑，采用光滑牛皮...\")",
+            "Tone slightly promotional / potentially pushy ending: '希望这款设计能引起您的兴趣。'"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Missing preferred salutation — does not address '顾女士' (\"折影肩包·墨黑这款包采用光滑牛皮...\")"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three drafts are factually accurate and directly answer the client's request (budget ≤ ¥7,500, daily use). Candidate 1 is the strongest: uses the client's preferred form of address and a concise, non-pushy tone. Candidates 2 and 3 fail to use the preferred salutation and #2 reads slightly more promotional. Suggested improvements: keep the concise style, add the explicit price if helpful, and end with a low-pressure next step (e.g. “需要我再发几张细节图或说明尺寸实用性吗？”) without promising availability or offers."
+    }
+  },
+  {
+    "case_id": "T016",
+    "generation_run_id": "15f46b0667214efb81833fb2171a932e",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1895,
+      "prompt_tokens": 1057,
+      "total_tokens": 2952,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1472,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 4,
+            "context": 3,
+            "personalization": 2,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not address client's explicit request: \"这个周末没空，不要催我到店。\"",
+            "Does not use preferred address: \"王先生\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not use preferred address: \"王先生\"",
+            "Does not explicitly acknowledge client's request: \"这个周末没空，不要催我到店。\""
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Candidate 1 is the strongest: uses the preferred salutation, matches verified product facts, concise and respects no-push boundary. Candidates 2 and 3 are factually correct but omit the client's preferred salutation and do not explicitly acknowledge the client's 'don't urge me to visit this weekend' request; they are otherwise usable with minor edits."
+    }
+  },
+  {
+    "case_id": "T017",
+    "generation_run_id": "5fa9e18e140c4dd984d1346edf6c9137",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2025,
+      "prompt_tokens": 1004,
+      "total_tokens": 3029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1600,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Client asked: \"先说一下材质和尺寸就好\" — message adds design and a recommendation: \"它的折叠侧面设计别具一格，适合肩背，可能值得一看。"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Client asked: \"先说一下材质和尺寸就好\" — message adds design inspiration and an invitation: \"折影肩包·墨黑的设计灵感源自折叠感... 您想了解更多细节吗？\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Client asked: \"先说一下材质和尺寸就好\" — message includes design, usage and a closing: \"独特的折叠侧面设计... 供肩背使用。希望这些信息对您有帮助。\""
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates accurately state the verified material (光滑牛皮) and dimensions (27 × 17 × 7 cm) and use the client’s preferred address (李女士). However, the client explicitly requested only material and size; each candidate adds design/usage or a recommendation/invitation. To meet the request exactly, replies should be limited to material and dimensions only (e.g. “李女士，折影肩包·墨黑采用光滑牛皮，尺寸为27 × 17 × 7厘米。”). No critical policy violations detected."
+    }
+  },
+  {
+    "case_id": "T018",
+    "generation_run_id": "66f9aa228f2147938f51d42bf39f92ac",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1853,
+      "prompt_tokens": 955,
+      "total_tokens": 2808,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1600,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "All three candidates are appropriate, concise and comply with the supplied XULAN policy and product facts. Candidate 1 gives clear wet‑handling steps; Candidate 2 focuses on sun exposure and avoiding home care oil; Candidate 3 offers a permissible option to connect with a professional for inspection. None invents facts or makes unauthorized promises. Candidate 3 is slightly less personalized to the specific product (does not name the bag) so its personalization score is a point lower."
+    }
+  },
+  {
+    "case_id": "T019",
+    "generation_run_id": "9977e535856e46c28755b322bebd047a",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1566,
+      "prompt_tokens": 963,
+      "total_tokens": 2529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1280,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 4,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"林女士，如果您对折影肩包·墨黑的护理有任何疑问或需要进一步帮助，请随时告知，我们很乐意为您提供支持。\" — Provides no concrete care advice; only invites follow-up."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Candidate 1 is the strongest: concise, accurate cowhide care instruction matching policy. Candidate 2 is a good caution about oils and offers to contact a professional — acceptable but slightly less specific and does not mention the product name. Candidate 3 is polite and compliant but does not deliver care guidance; best used as a follow-up or closing line. No critical policy violations detected."
+    }
+  },
+  {
+    "case_id": "T020",
+    "generation_run_id": "f33da753f9a34273b59755086e24c5a2",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2503,
+      "prompt_tokens": 940,
+      "total_tokens": 3443,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1920,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 2,
+            "brand": 3,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 3
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'牛皮制品雨后处理需要小心，避免直接用热源或太阳晒干，可能损伤材质。' — Correct warning but omits the immediate care step (blotting with a soft dry cloth) recommended for cowhide after getting wet.",
+            "'牛皮制品雨后处理需要小心...' — Does not use the client's preferred salutation (陈先生); message should be personalized."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 2,
+            "personalization": 2,
+            "brand": 2,
+            "scenario": 1,
+            "boundaries": 1,
+            "wechat": 2
+          },
+          "critical": true,
+          "uncertain": false,
+          "issues": [
+            "'如果您担心处理结果，我们可以帮忙安排检查，确保没有影响使用。' — The clause '确保没有影响使用' promises an outcome (that the inspection will confirm no impact on use), which is not allowed.",
+            "'如果您担心处理结果，我们可以帮忙安排检查...' — Offering to arrange an inspection is acceptable, but the message must not guarantee outcomes and should indicate that any appointment or findings require confirmation.",
+            "Message does not use the client's preferred salutation (陈先生)."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "Candidate 1 is concise, aligned with the verified cowhide care guidance (blot with soft cloth, air dry in shade) and uses the client's preferred salutation — ready to send. Candidate 2 gives a correct warning about heat/sun but omits the immediate blotting step and lacks personalization — needs moderate edits. Candidate 3 contains a forbidden promise about inspection outcomes and also lacks personalization — critical issue; requires rewrite to remove any guaranteed result and to include a neutral offer to arrange an inspection with confirmation of time and scope."
+    }
+  },
+  {
+    "case_id": "T021",
+    "generation_run_id": "e681421bfa8942de8f86f4a1c8c2532e",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2468,
+      "prompt_tokens": 1013,
+      "total_tokens": 3481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1792,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'周女士，折影肩包·墨黑的牛皮材质建议避免浸泡、暴晒或高温。若不使用时，请用干净柔软的干布轻轻按压吸掉表面水分并自然晾干。' — Clear and accurate on moisture/heat, but does not advise on storage/shape maintenance (dust bag, light stuffing, avoid hanging) which the client's question likely expects."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 3,
+            "brand": 5,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'对于折影肩包·墨黑，请不要自行使用护理油。牛皮表面处理需要谨慎，若有进一步需求，我们可以协助您咨询合适的护理方式。' — Correct warning against home conditioning/oils, but does not answer the client's question about what to do when not carrying the bag (storage, shape, dust cover). Also missing direct address (周女士) though product is referenced."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 3,
+            "brand": 5,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'关于折影肩包·墨黑的保养，建议您在不使用时避免接触液体和高温。如有护理方面的疑问，我们随时可以为您安排专业检查。' — Good offer to arrange professional inspection and correct avoidance of liquids/heat, but missing practical storage/shape tips (dust bag, light stuffing, laying flat vs hanging) and does not include the client's name."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All three candidates correctly follow the cowhide care limits (avoid soaking, liquids, high heat, avoid home conditioning). Main weakness across the set is incompleteness: none gives a concise set of storage/shape-preserving steps (dust bag, light stuffing to keep shape, avoid hanging, keep away from prolonged sun) which the client's question '平时不背时有什么要注意的？' implies. Candidate 1 is the most personalized (uses 周女士) and actionable on moisture handling; candidate 2 focuses on avoiding oils; candidate 3 offers arranging a professional inspection. No critical policy violations detected."
+    }
+  },
+  {
+    "case_id": "T023",
+    "generation_run_id": "99ffe272cbd942a5a886ea3f979f6e67",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1696,
+      "prompt_tokens": 966,
+      "total_tokens": 2662,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1408,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not offer a next step or inspection despite the client's request “包面有划痕，可以帮忙看一下吗？”. Quoted candidate text: \"因为我们需要先了解具体情况，建议您不要自行处理，以免造成不必要的损伤。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are very similar short replies. Candidates 1 and 3 actively offer to arrange a professional inspection and are ready to send with minor stylistic preference for candidate 3 (adds follow-up assistance). Candidate 2 only advises not to handle the bag and does not propose arranging inspection or the next step, so it is weaker for the given request."
+    }
+  },
+  {
+    "case_id": "T024",
+    "generation_run_id": "4d7c8ccbed2d4cc99bfeca193d637df1",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1868,
+      "prompt_tokens": 1007,
+      "total_tokens": 2875,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1472,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "提到“我们可以帮您联系专业人士进行检查”，这是允许的帮助请求，但应注意预约时间和检查结果需另行确认，不能承诺检查结果或后续服务。"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 4,
+            "context": 3,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 4,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "未直接给出客户请求的保养具体说明（客户明确要求确认保养方式）；仅提供安排专业人士沟通的选项，响应不完整。",
+            "用语“以确保您的…得到最好的维护”带有效果性暗示，最好避免做结果保证或绝对性承诺。",
+            "未称呼客户名（缺少轻度个性化），不完全符合客户偏好“沟通简单直接，不喜欢催促”。"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "候选项中第1条为最直接、完整且可发的回复，符合皮革保养核准要点与客户偏好。第2条也可用，需在后续实际联系专业人士时明确预约与结果不保证。第3条只提供安排选项且含效果性暗示，未满足客户要求的即时保养确认，应改为先给关键保养要点并保持不承诺结果。"
+    }
+  },
+  {
+    "case_id": "T025",
+    "generation_run_id": "28e454aae4a54eef8445f27733647507",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2259,
+      "prompt_tokens": 962,
+      "total_tokens": 3221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1664,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"王先生，牛皮部分请避免浸泡或接触高温，湿时用干净柔软的干布轻轻吸水，然后自然晾干。\" — Only gives one care tip while the client asked for two; missing advice for the woven panel."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 4,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"针对牛皮的编织面板，建议不要自行清理，以防影响材质。我们可以帮您联系专业人员进行检查。\" — Good product-specific advice, but the message omits a salutation and provides only one tip instead of two requested.",
+            "\"我们可以帮您联系专业人员进行检查。\" — Allowed as an offer to assist, but should avoid implying a guaranteed outcome; wording is acceptable but should stay neutral about results."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 4,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"如果您对划痕处理有疑虑，我们很乐意帮您安排检查，确保最合适的护理方案。\" — Helpful offer but again only one suggestion; client asked for two simple tips. No salutation included."
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All three candidates are appropriate, restrained WeChat-style lines consistent with the product (cowhide + woven panel). Main issue across the set: the client asked for \"两条养护建议\" but each candidate contains only one short suggestion — combine candidate 1 (cowhide drying) with either candidate 2 (avoid DIY cleaning of woven panel + offer to contact pros) or candidate 3 (offer to arrange inspection for scratches) to meet the request. Candidate 1 is the strongest single line (uses 王先生)."
+    }
+  },
+  {
+    "case_id": "T026",
+    "generation_run_id": "12fbe2844ab44f8a9f6f70ea2962b44f",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1602,
+      "prompt_tokens": 903,
+      "total_tokens": 2505,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1280,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 1,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": true,
+          "uncertain": false,
+          "issues": [
+            "\"依然在我们的设计经典中\" — asserts product status/availability without verification"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Overall: candidates are all concise and appropriate in tone. Candidate 2 is the strongest: it avoids any unverified product claims and invites questions about design details (aligns with the client's stated preference). Candidate 3 is acceptable but less personalized (doesn't reference leather or design). Candidate 1 is problematic because it asserts the bag's status in the collection — this is a critical issue (unverified factual claim) and must be removed or rephrased. Suggested improvement for any draft: explicitly reference the client's interest in leather and design details (e.g. 提到皮革和设计细节) without stating availability; offer to share photos/specs or arrange a viewing (note: viewing times/outcomes require confirmation)."
+    }
+  },
+  {
+    "case_id": "T027",
+    "generation_run_id": "6b01b7d23eae4189a33f763acfd6325a",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2534,
+      "prompt_tokens": 840,
+      "total_tokens": 3374,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2112,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'若您仍对我们品牌的设计有兴趣' — mild sales phrasing; since the client prefers simple, non-pushy contact, consider a more neutral wording."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'之前我们交流过的那些款式' — references previous specific styles; confirm you have that prior record before sending."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are concise and acceptable for reactivation. Candidate 3 is best aligned with the client's preference for simple, non-pushy communication. Candidate 2 is strong if you have a record of previous styles; confirm that before sending. Candidate 1 is friendly but slightly more brand-forward; consider toning down the '品牌的设计' phrasing to avoid any hint of a sales pitch."
+    }
+  },
+  {
+    "case_id": "T028",
+    "generation_run_id": "735559899a1f4138879e1a36836f532b",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2090,
+      "prompt_tokens": 890,
+      "total_tokens": 2980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1408,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"林女士您好，您上次提到的折影，我们非常欢迎您随时了解更多，或有任何问题都可以与我联系。\": does not reference the client's stated preference '简洁黑色，日常通勤', which would make the message more relevant.",
+            "\"林女士您好，您上次提到的折影，我们非常欢迎您随时了解更多，或有任何问题都可以与我联系。\": offers a generic invitation but does not suggest a clear next step (e.g.,预约试看/提供细节), which would help reactivation."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"林女士，之前您提到的折影系列，如果您对简洁黑色的设计有任何兴趣，欢迎您随时询问或了解更多细节。\": clear and personalized, but it could be slightly stronger with a suggested next step (e.g., 是否方便安排试看或我发几张细节图？)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 1,
+            "context": 4,
+            "personalization": 4,
+            "brand": 3,
+            "scenario": 4,
+            "boundaries": 2,
+            "wechat": 4
+          },
+          "critical": true,
+          "uncertain": false,
+          "issues": [
+            "\"林女士，折影系列一直受喜爱，若您对简洁黑色的款式有兴趣，随时可以联系我了解更多信息。\": contains an unverified factual claim '一直受喜爱' about product popularity — this is an invented concrete fact and is a critical policy violation.",
+            "\"林女士，折影系列一直受喜爱，若您对简洁黑色的款式有兴趣，随时可以联系我了解更多信息。\": while personalized, it still lacks a clear suggested next step (e.g., 预约试看 or send details)."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are concise reactivation messages using 林女士. Candidate 2 is the best: uses the client's stated '简洁黑色' preference and stays within policy. Candidate 1 is more generic and omits the preference and next-step suggestion. Candidate 3 includes an invented popularity claim ('一直受喜爱') — a critical factual violation and must not be used."
+    }
+  },
+  {
+    "case_id": "T029",
+    "generation_run_id": "a9e2a1d3aa37428e9005e248f85c2a9c",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2648,
+      "prompt_tokens": 897,
+      "total_tokens": 3545,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2048,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 4,
+            "context": 4,
+            "personalization": 3,
+            "brand": 5,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'黑色确实是个经典的选择。' — subjective phrasing not supported by supplied facts (harmless but not necessary).",
+            "'我们这里有很多设计可以供您考虑，随时欢迎您继续探索。' — does not reference the client's stated interest in leather and design details, and gives no clear next step to reactivate conversation."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 5,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'您对黑色的喜好已经记下。' — acknowledges preference but is minimal; doesn't reference the client's focus on leather and design details.",
+            "'随时欢迎您继续探索适合您的设计风格。' — passive invitation, no suggested next step (e.g., send leather-detail photos or arrange a viewing)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'记得您提过黑色更符合您的喜好，期待能有机会为您展示我们的设计。' — good reactivation tone but vague; it doesn't mention the client's specific interest in leather and design details or propose how to proceed (photos, samples, or an appointment)."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are concise, polite and WeChat-appropriate, and they avoid policy violations. Main weakness across the set: none reference the client's stated preference for '关注皮革和设计细节' or propose a concrete, non‑pressuring next step to reactivate (e.g., send close-up leather photos, ask if he prefers images or an in-person viewing, suggest available times for a brief showing). Candidate 3 is the strongest as a reactivation line but still should mention leather/design details and offer a clear, low-pressure next step."
+    }
+  },
+  {
+    "case_id": "T030",
+    "generation_run_id": "b5dc9cced8874e2bbb6379ec72047d1e",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2166,
+      "prompt_tokens": 875,
+      "total_tokens": 3041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1792,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 3,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'最近没有买包计划，有需要会联系。' — candidate '最近有没有什么特别想了解的款式或设计呢？' could be perceived as prompting a client who has stated they currently have no purchase plans."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All three drafts are concise and use the preferred form of address. Candidate 1 and 3 are well-aligned with the client's 'no pressure' preference; candidate 2 is more proactive and risks feeling like a prompt despite no invented facts."
+    }
+  },
+  {
+    "case_id": "T031",
+    "generation_run_id": "29cb03237a504d7fab73085e7f575aed",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2130,
+      "prompt_tokens": 884,
+      "total_tokens": 3014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1856,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are appropriate for a reactivation message and comply with the XULAN policy. Candidate 3 is the strongest — it cites the client’s stated preference and uses a gentle, non-pressuring close. Candidate 1 is similar but slightly more proactive in offering more information. Candidate 2 is polite but the least personalized. No factual or policy violations detected. Suggestions (for copy editing, not required): keep the tone equally restrained and, if following up, offer to send reference images or ask if they’d like an appointment only after the client expresses interest."
+    }
+  },
+  {
+    "case_id": "T032",
+    "generation_run_id": "07c580bfdf374c3999b0fcef43b29462",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2448,
+      "prompt_tokens": 895,
+      "total_tokens": 3343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1920,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not explicitly acknowledge the client's stated preference for very short messages; candidate text: \"沈先生，最近有没有什么新的设计想法或者皮革兴趣？如果有任何需要了解的，随时可以告诉我，我会尽量为您找到相关的信息。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not acknowledge the client's short-message preference and is slightly more formal; candidate text: \"沈先生，您好！如果您对皮革或设计细节有新的想法或问题，欢迎随时联系我，我会乐意为您提供帮助。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Uses a slightly more familiar opening ('好久不见') which may be acceptable but is more personal than necessary; does not explicitly respect short-message preference; candidate text: \"沈先生，好久不见！如果您有任何关于皮革或设计方面的问题，您可以告诉我，我会尽力为您查找相关资料。\""
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three are short, appropriate and compliant with policy. Candidate 1 is the most concise and direct (best for this client). Consider explicitly noting the client's preference for brief messages (e.g. “信息很短，看到方便回复即可”) to improve personalization and respect for communication style."
+    }
+  },
+  {
+    "case_id": "T033",
+    "generation_run_id": "0b1e86031d0f4d38a51d58a1174d7565",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1700,
+      "prompt_tokens": 876,
+      "total_tokens": 2576,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1408,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not acknowledge the client's message: \"我在外地，近期不方便到店。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not acknowledge the client's message: \"我在外地，近期不方便到店。\"",
+            "Slightly product-focused phrasing may feel like a prompt for visit/decision: \"若您对任何产品有兴趣\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Candidate 3 is the strongest: it directly acknowledges the client’s out-of-town situation, is concise and non‑pressuring, and matches the client's preference for simple direct communication. Candidates 1 and 2 are usable after editing to acknowledge the client's message and avoid any perceived product-push; otherwise they are acceptable."
+    }
+  },
+  {
+    "case_id": "T034",
+    "generation_run_id": "e796d462a38d4ffdabbc8cb88a22dfa5",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2300,
+      "prompt_tokens": 1064,
+      "total_tokens": 3364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1920,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All three candidates accurately reflect the event details (date, time, location, content) and the required booking route. None invents facts or makes unauthorized promises. Differences are minor wording and tone: candidate 3 is the most natural and restrained; candidates 1–2 are near‑identical with slightly more formal closings. None references the client's stated product preference (简洁黑色，日常通勤) — adding that detail when offered by the client could improve personalization but must not promise holds or reservations."
+    }
+  },
+  {
+    "case_id": "T035",
+    "generation_run_id": "7ddc055f5aaa434f9545db5df912bbd6",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1481,
+      "prompt_tokens": 1030,
+      "total_tokens": 2511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'活动将介绍特别款的前片编织细节介绍' contains a duplicated word '介绍' (repetition)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates correctly follow the supplied event details and booking route, use the client's preferred address (李女士), and reference weaving/leather details which aligns with the client's stated interest. None invent unauthorized offers or facts. Tone is acceptable though a bit formal; small wording refinement (reduce formality slightly, remove duplication in candidate 1) would improve brand fit. Overall the three variations are minor rephrasings rather than distinct approaches."
+    }
+  },
+  {
+    "case_id": "T036",
+    "generation_run_id": "edb37066341c4e059157631dde0a3967",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2033,
+      "prompt_tokens": 1058,
+      "total_tokens": 3091,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1600,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 4,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“我们将为您安排预约。” — 表述可能被理解为对预约已作出安排或保证，建议更明确为“收到确认后我来为您确认预约”以保留确认步骤。"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "三条候选信息均准确反映活动时间、地点与内容，并按要求请客户回复以确认预约，语气简洁、适合该客户偏好。仅第一条中“我们将为您安排预约”一处表述略显像已作出安排，建议改为更明确的“收到您回复后我来为您确认预约”以完全对齐“确认后由顾问确认预约”的流程。总体可直接使用或做一处小修饰。"
+    }
+  },
+  {
+    "case_id": "T037",
+    "generation_run_id": "087287e144434a3abbf916485a2896fe",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2296,
+      "prompt_tokens": 1101,
+      "total_tokens": 3397,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1856,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 2,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“莅临” — avoid ornate/formal wording; policy example forbids '莅临', use a simpler verb such as “来/参加”."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 3,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“诚挚邀请您参加” — slightly formal tone; prefer a warm, restrained conversational phrasing without ornate qualifiers."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates accurately reflect the event details and the client's expressed interest in leather. Candidate 3 is the best fit: natural, concise, warm and aligned with the brand constraints. Candidate 1 must remove the word “莅临” (explicitly disallowed as ornate). Candidate 2 is acceptable but slightly more formal than preferred—replace '诚挚邀请' with simpler phrasing. All messages correctly ask the client to reply for appointment confirmation, which matches the booking route."
+    }
+  },
+  {
+    "case_id": "T038",
+    "generation_run_id": "e9494b33007747aa8a3ad8024e59990f",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2348,
+      "prompt_tokens": 1045,
+      "total_tokens": 3393,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1728,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 3,
+            "brand": 2,
+            "scenario": 5,
+            "boundaries": 4,
+            "wechat": 3
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "使用了“莅临”一词，语气偏正式/文案化（根据品牌要求避免此类用语）",
+            "未回应客户明确表达的偏好（喜欢安静看产品、不希望被推销）——未提供安静/非推销的看展选项或说明"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "未回应客户明确表达的偏好（喜欢安静看产品、不希望被推销）——可在文案中简短提及以示尊重与匹配"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "未回应客户明确表达的偏好（喜欢安静看产品、不希望被推销）"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "三条候选文案均准确传达了时间、地点和内容，且包含按回复确认预约的流程，符合场景要求。主要问题是：1) 第一条使用“莅临”等较正式/售前式措辞，与品牌语气要求不符；2) 三条均未针对客户已表明的偏好（喜欢安静看产品、不想参加推销）做出任何回应。建议改为更简洁、低调的表述，去掉“莅临/举办/活动”等可能显得正式或有推广意味的词，并在短句中加一句表示理解其偏好（例如“我们会保持安静查看/无需推介，按您节奏”之类的温和表述），同时保留“回复顾问，由顾问确认预约”的流程说明。 如需，我可以根据以上建议提供1–2个修改后的可直接发送的微信短消息版本。"
+    }
+  },
+  {
+    "case_id": "T039",
+    "generation_run_id": "5284a3bb2de543c38dfa7e34f592e8c3",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2183,
+      "prompt_tokens": 1049,
+      "total_tokens": 3232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1728,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Potentially implies a confirmed booking action — text: '我们会为您安排。'"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not state the specific activity detail the client requested (前片编织细节) — text: '经纬皮革细节赏鉴活动。若想了解更多或预约参与，请随时回复确认。'"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are concise and accurate with correct date/time/location. Candidate 1 is the strongest match to the client's request for activity content. Candidate 2 is acceptable but the phrase '我们会为您安排' could be read as implying a booking action; consider wording that keeps the booking-step clear (reply → advisor confirms). Candidate 3 omits the specific content '经纬特别款前片编织细节介绍' the client asked to see before deciding. Overall the three variants are very similar (low diversity)."
+    }
+  },
+  {
+    "case_id": "T040",
+    "generation_run_id": "806a2bc9c61a43a6a16b896fd7e99a76",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1589,
+      "prompt_tokens": 1057,
+      "total_tokens": 2646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates accurately state the event date, time, location and content and follow the booking route (reply to advisor). Each appropriately offers to inquire about bringing a guest rather than promising permission. Differences are minor wording and order changes; none include policy violations. Personalization is limited to the preferred form of address (许女士) — acceptable for a new contact but could include the client's stated preference (简洁黑色，日常通勤) if desired. No critical issues found."
+    }
+  },
+  {
+    "case_id": "T041",
+    "generation_run_id": "3dd36d031a05426da7c1702acef3edae",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2095,
+      "prompt_tokens": 1109,
+      "total_tokens": 3204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1600,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Uses mildly effusive praise: “您对皮革和设计细节的关注非常值得称赞。” — slightly more ornate than the requested warm, restrained tone."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 1,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 2
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Uses formal honorific forbidden by policy: “尊敬的沈先生” — avoid '尊敬的/亲爱的/莅临' style phrasing.",
+            "Uses formal/ornate verb: “莅临上海序岚展示空间” — '莅临' is listed as discouraged."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Uses slightly formal closing: “期待您的光临。” — mildly formal but acceptable; consider a more conversational close."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates correctly state date/time/location and the booking route (reply to advisor). Candidate 1 is best-personalized (references client's interest in leather/design) but uses a slightly effusive praise line. Candidate 2 violates brand tone with '尊敬的' and '莅临' (should be reworded). Candidate 3 is simple and safe but could be slightly more personalized to the client's stated interest."
+    }
+  },
+  {
+    "case_id": "T042",
+    "generation_run_id": "afd917db742f4cdc957804ab3e6c9e83",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 3029,
+      "prompt_tokens": 958,
+      "total_tokens": 3987,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2560,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 3,
+            "context": 5,
+            "personalization": 2,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": true,
+          "issues": [
+            "“现阶段没有特别优惠政策” — Claims there are no special offers; this is a concrete statement not supported by the supplied facts and should not be asserted unless confirmed.",
+            "“您提到价格有些高，我理解您的考虑。” — Does not use the client's preferred address “顾女士”; add a brief salutation to personalize."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 2,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“折影肩包·墨黑的价格为7,200元” — Correct price statement, matches verified product.",
+            "“若还有其他想了解的方面，欢迎告诉我，随时为您服务。” — The reply restates price but does not acknowledge the client's objection (‘有点贵，我想再考虑’) and lacks the preferred salutation “顾女士”."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 2,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“理解您需要时间考虑，这款产品的设计细节如有疑问或者需要讨论，请随时联系我，我会尽力协助您。” — Good tone and directly respects the client's wish to consider; however it does not use the preferred salutation “顾女士”."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "Overall: all three candidates are concise and acceptable in tone, but none use the client's preferred address (“顾女士”). Candidate 1 improperly asserts “no special offers” (unverified) — avoid stating promotional availability unless confirmed. Candidate 2 merely restates the price and fails to acknowledge the objection. Preferred edit: add a brief salutation (e.g. “顾女士，…”), acknowledge the price concern, offer to provide specific product details or a quiet follow-up option, and do not state unverified promotional facts."
+    }
+  },
+  {
+    "case_id": "T043",
+    "generation_run_id": "c6efc99a5f3c4f96ad399aaae89066f9",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2118,
+      "prompt_tokens": 990,
+      "total_tokens": 3108,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1728,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Could be more empathetic and offer a concrete next step — quote: \"如果您对其他方面有兴趣了解，请随时告诉我。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 4
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not use the client's preferred salutation (王先生) — quote: \"理解您对价格的顾虑。目前折影肩包·墨黑的售价为7200元，具体设计细节如折叠侧面和光滑牛皮材质都是经过验证的特点。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 2,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Too brief and lacks personalization or empathetic phrasing — quote: \"没有确认的折扣，尊重您的预算考量。\""
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_notes": "All three candidates state the verified price correctly and respect boundaries (no promises or discounts). Main differences: candidate 1 uses the client's preferred salutation and references the stated preference (most personalized); candidate 2 is empathetic and cites verified product details but omits the salutation; candidate 3 is terse and least personalized. Common improvements: add a brief empathetic line, offer concrete next steps (e.g., viewing/inspection invitation or material/care details) while avoiding unauthorized offers, and include the client's preferred salutation when available."
+    }
+  },
+  {
+    "case_id": "T044",
+    "generation_run_id": "20aabbfd422443fab1be885641247dbe",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2426,
+      "prompt_tokens": 958,
+      "total_tokens": 3384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1920,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Doesn't reference the client's stated interest in leather/design — example message: \"折影肩包·墨黑的价格是7200元。抱歉目前没有折扣信息。如有其他疑问，请随时联系我。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Begins with a generic courtesy phrase that can feel mildly promotional — example: \"感谢您对我们的关注。\" (not a policy violation, but slightly less restrained than ideal)"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 3,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not use the client's preferred address or mention leather/design details — example message: \"目前折影肩包·墨黑的价格为7200元，暂无折扣。如果这不符合您的计划，请告诉我，我们可以一起看看其他选择。\""
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All three candidates correctly state the verified price (7200 CNY) and appropriately decline discounts. None violate the XULAN policy. Candidate 2 best matches the client's preference by noting the smooth cowhide material; Candidate 1 uses the preferred address but could add leather/design detail; Candidate 3 offers a helpful next step (look at other options) but lacks personalization. No critical issues found."
+    }
+  },
+  {
+    "case_id": "T045",
+    "generation_run_id": "0230fd52a4634f558bf9484c0d010a41",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2194,
+      "prompt_tokens": 1004,
+      "total_tokens": 3198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1664,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"感谢您对我们的关注。\" — Does not acknowledge the client's specific price objection or show empathy for their budget concern.",
+            "\"如果您有任何疑问或需要进一步的信息，请随时告诉我。\" — Open-ended offer for questions but gives no concrete next step (e.g., viewing, alternatives) that could help address the price concern."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"尊重您的决定，您有任何需要时都可以联系我。\" — Risks closing the conversation too early; does not offer help or alternatives that might address the price concern.",
+            "\"感谢您的反馈。\" — Acknowledges feedback but doesn't explicitly address the client's stated budget issue."
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates correctly state the verified price and use the preferred form of address. Candidate 2 is the strongest: it directly acknowledges the budget concern and restates accurate product details without making promises or offers. Candidates 1 and 3 are serviceable but either too generic (1) or risk prematurely closing the conversation (3). None contain policy violations. Suggested improvement: include a brief empathetic acknowledgement plus one neutral next step acceptable under policy (e.g., offer to show similar styles, arrange a no-pressure viewing, or provide more product details) without mentioning discounts or reservations."
+    }
+  },
+  {
+    "case_id": "T046",
+    "generation_run_id": "6fa23631b3424304be09208f74c2e58c",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1441,
+      "prompt_tokens": 1059,
+      "total_tokens": 2500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "句末“感谢您的理解”略显预设对方接受结论，风格上可微调为更中性表达（可接受，不是严重错误）"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "用词“别具一格”偏描述性/带轻微促销色彩；仍在可接受范围内但比更克制的表述略偏销售语气"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "所有候选短信均严格遵守已核实信息：明确拒绝价格匹配、标示正确售价与产品材质/设计细节，未承诺任何未经授权的优惠或服务。三条文本为近义改写，差别主要在措辞语气（候选2的“感谢您的理解”与候选3的“别具一格”）。总体均可直接作为微信回复，第二第三条仅在语气上可作微调以完全贴合“克制、温和”品牌风格。"
+    }
+  },
+  {
+    "case_id": "T047",
+    "generation_run_id": "4f2d9e8bc000481388be0278817857c8",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2059,
+      "prompt_tokens": 1028,
+      "total_tokens": 3087,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1728,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 2,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 2,
+            "boundaries": 5,
+            "wechat": 3
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "“陈先生，折影肩包·墨黑目前定价为7200元。” — Does not answer the client's direct question about gifts or coupons; it only gives price. Recommend explicitly state whether there are coupons/gifts (e.g. 当前没有确认的赠品或优惠券)."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": []
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates correctly avoid offering unauthorized discounts or promises and accurately state product material/design. Candidates 1 and 3 directly answer the client's coupon/gift question and are sendable; candidate 3 is slightly more promotional in “值得您进一步了解” but still acceptable. Candidate 2 omits answering the coupon/gift question (focuses on price) — revise to explicitly say there are no confirmed coupons/gifts. Overall keep the warm, restrained conversational tone and continue using the client's preferred salutation (陈先生) and leather/design details as shown."
+    }
+  },
+  {
+    "case_id": "T048",
+    "generation_run_id": "5d9cb9ebf0ca45e3a5a5067032544c5b",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 2055,
+      "prompt_tokens": 975,
+      "total_tokens": 3030,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1280,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'我们这款月隙斜挎包·墨黑的价格为5800元，正好在您的预算内。如果您有任何其他问题或需要帮助，随时可以联系我。' — Does not address the client by the preferred_address '周女士'.",
+            "'我们这款月隙斜挎包·墨黑的价格为5800元，正好在您的预算内。如果您有任何其他问题或需要帮助，随时可以联系我。' — Minimal personalization; could briefly acknowledge the client's preference '沟通简单直接，不喜欢催促'."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'这款月隙斜挎包·墨黑标价5800元，符合您的预算。需要进一步了解，请随时告诉我。' — Does not address the client by the preferred_address '周女士'.",
+            "'这款月隙斜挎包·墨黑标价5800元，符合您的预算。需要进一步了解，请随时告诉我。' — Minimal personalization; could reference the client's '沟通简单直接，不喜欢催促' preference."
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "'这款月隙斜挎包·墨黑的售价是5800元，不超出您的预算。若有其他考虑或问题，欢迎随时联系。' — Does not address the client by the preferred_address '周女士'.",
+            "'这款月隙斜挎包·墨黑的售价是5800元，不超出您的预算。若有其他考虑或问题，欢迎随时联系。' — Minimal personalization; could briefly match the client's '沟通简单直接，不喜欢催促' preference."
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All three candidates state the correct price and directly answer the budget objection (good). They are nearly identical and lack the small personalization the client supplied: preferred_address '周女士' and '沟通简单直接，不喜欢催促'. No policy violations found. Recommend a short, direct WeChat reply that adds the preferred address and a low-pressure next step, for example: “周女士，月隙斜挎包·墨黑售价5800元，低于您6000元的预算。如想看实物或试背，我可以帮您预约查看（时间需确认）；也可直接告诉我还有什么考虑。”, which stays concise, non-pushy, and within policy."
+    }
+  },
+  {
+    "case_id": "T049",
+    "generation_run_id": "9c07b809b09a49f59e002fd32cde1a33",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1947,
+      "prompt_tokens": 1022,
+      "total_tokens": 2969,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1472,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 3,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 3,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"这款包采用光滑牛皮制作，设计上具有独特的折叠感侧面。\" — 回答中只列出材质与折叠感，未进一步说明其他可支持定价的细节（如五金、做工/缝线、内里与工艺等），无法充分回应“这个价格主要体现在哪些细节”的询问。"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"折影肩包·墨黑的定价主要体现于其光滑牛皮材质和独特的折叠感设计。\" — 虽然将定价归因于材质与设计，表述直接，但仍缺少其它常见的价格要素说明（五金、工艺、内里、尺寸与功能细节等）。"
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 4,
+            "personalization": 5,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "\"折影肩包·墨黑以其光滑牛皮和折叠感设计而定价。\" — 语气体贴，信息准确但简短；未继续列出更多可支撑价格的细节（例如五金做工、缝线与手工处理、里料或尺寸对使用价值的影响）。"
+          ]
+        }
+      ],
+      "diversity": 1,
+      "set_notes": "All three candidates are factually correct and appropriately use the client's name. They avoid prohibited statements and respect boundaries. Main weakness: all replies are very short and only cite the product's material and fold-inspired design as price drivers, which does not fully address the client's question about which specific details explain the price. The three candidates are near-identical in content and tone."
+    }
+  },
+  {
+    "case_id": "T050",
+    "generation_run_id": "8a5f86ef599f4181a777b1eaab5bd82e",
+    "judge_model_requested": "gpt-5-mini-2025-08-07",
+    "reasoning_effort": "medium",
+    "judge_prompt_version": "2.0",
+    "judge_model": "gpt-5-mini-2025-08-07",
+    "usage": {
+      "completion_tokens": 1984,
+      "prompt_tokens": 956,
+      "total_tokens": 2940,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1472,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "status": "complete",
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 5,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Does not reference the client's stated interest in leather and design — quotes: \"若您之后有任何疑问或需要进一步信息，随时可以联系我。\"",
+            "No proactive, relevant next step offered (e.g. send leather close-ups or design notes) — message is passive: \"若您之后有任何疑问或需要进一步信息，随时可以联系我。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 4,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Uses slightly formal wording and mentions \"我们的产品\" — quote: \"感谢您考虑我们的产品。\" (keeps neutral but less tailored).",
+            "Does not address the client's specific interest in leather/design or offer a relevant next step — quote: \"如果需要我的帮助，请随时告诉我。\""
+          ]
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 4,
+            "brand": 4,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "uncertain": false,
+          "issues": [
+            "Praises the choice as \"明智的步骤\" which is mildly evaluative — quote: \"是个明智的步骤。\"",
+            "Still does not explicitly offer to provide the leather/design details the client cares about (though it invites further questions) — quote: \"您随时可以找我了解更多细节。\""
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_notes": "All three candidates are polite, concise and acceptable for a WeChat reply to a price-objection. They consistently avoid pressure and unauthorized promises (good). Weaknesses: none mention the client's stated preference for leather and design details or propose a relevant no-pressure next step (e.g., send close-up photos of XL04’s smooth cowhide, explain design features, or offer a viewing slot pending confirmation). Candidates are near-identical in tone and content; consider a variant that briefly acknowledges the client's leather/design interest and offers one clear, allowed option (e.g., \"如需我可以发折影肩包·墨黑的皮革近照与细节说明，您看方便吗？\")."
+    }
+  }
+]

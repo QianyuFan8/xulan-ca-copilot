@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C06",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我想确认一下保养方式，不需要推荐新款。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "对于折影肩包·墨黑，牛皮制品建议避免浸泡、高温和长时间阳光直射。若表面出现水渍，用干净柔软的干布轻轻按压吸水，自然晾干即可。如有划痕，建议您联系我们安排检查。",
+      "折影肩包·墨黑的牛皮材质需要避免浸泡、高温和长时间阳光直射。如果出现水渍，用干净柔软干布轻轻吸干，自然晾干即可。如有划痕，我们可以帮忙安排检查。",
+      "关于折影肩包·墨黑，建议避免牛皮浸泡、高温和长时间阳光直射。若湿了，用干净柔软干布轻轻吸干，自然晾干。如有划痕，我们可以协助安排检查。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "7ba3c8ae025a4fe28a18ec5a7df7aa6e",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:48:16.612649+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.989
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"对于折影肩包·墨黑，牛皮制品建议避免浸泡、高温和长时间阳光直射。若表面出现水渍，用干净柔软的干布轻轻按压吸水，自然晾干即可。如有划痕，建议您联系我们安排检查。\",\"折影肩包·墨黑的牛皮材质需要避免浸泡、高温和长时间阳光直射。如果出现水渍，用干净柔软干布轻轻吸干，自然晾干即可。如有划痕，我们可以帮忙安排检查。\",\"关于折影肩包·墨黑，建议避免牛皮浸泡、高温和长时间阳光直射。若湿了，用干净柔软干布轻轻吸干，自然晾干。如有划痕，我们可以协助安排检查。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 192,
+        "prompt_tokens": 1673,
+        "total_tokens": 1865,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

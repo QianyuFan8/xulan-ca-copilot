@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C18",
+      "preferred_address": "何先生",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "刚买回来，平时怎么保养？",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "何先生，牛皮制品的保养建议避免浸泡和高温，湿了可以用干净柔软的干布轻轻按压吸水，然后自然晾干。",
+      "何先生，为了保持折影肩包的状态，请不要将其暴露在阳光下过久，也不要自行使用护理油。",
+      "何先生，如需更具体的护理建议，我们可以帮您联系专业人员进行检查，以便确认适用的方法。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "66f9aa228f2147938f51d42bf39f92ac",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:27.440621+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.603
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"何先生，牛皮制品的保养建议避免浸泡和高温，湿了可以用干净柔软的干布轻轻按压吸水，然后自然晾干。\",\"何先生，为了保持折影肩包的状态，请不要将其暴露在阳光下过久，也不要自行使用护理油。\",\"何先生，如需更具体的护理建议，我们可以帮您联系专业人员进行检查，以便确认适用的方法。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 1885,
+        "total_tokens": 1990,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C05",
+      "preferred_address": "沈先生",
+      "preferences": "关注皮革和设计细节",
+      "relationship_stage": "Established contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "需要预约的话，请告诉我怎么操作。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "沈先生，您对皮革和设计细节的关注非常值得称赞。我们诚邀您参加11月28日14:00至16:00在上海序岚展示空间举办的经纬皮革细节赏鉴活动。活动将重点介绍特别款前片编织的独特之处。如果您有意参加，请直接回复我以确认预约。",
+      "尊敬的沈先生，诚邀您于11月28日14:00至16:00，莅临上海序岚展示空间，参加我们的经纬皮革细节赏鉴活动。此次活动将详细介绍前片编织的设计亮点，期待您的参与。如需预约，请回复，我将为您确认。",
+      "沈先生，邀请您参加11月28日14:00至16:00在上海序岚展示空间的经纬皮革细节赏鉴活动。活动将为您展示特别款前片编织的设计精华，期待您的光临。请回复以确认预约，我将为您安排。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "3dd36d031a05426da7c1702acef3edae",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:12:04.297262+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.691
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"沈先生，您对皮革和设计细节的关注非常值得称赞。我们诚邀您参加11月28日14:00至16:00在上海序岚展示空间举办的经纬皮革细节赏鉴活动。活动将重点介绍特别款前片编织的独特之处。如果您有意参加，请直接回复我以确认预约。\",\"尊敬的沈先生，诚邀您于11月28日14:00至16:00，莅临上海序岚展示空间，参加我们的经纬皮革细节赏鉴活动。此次活动将详细介绍前片编织的设计亮点，期待您的参与。如需预约，请回复，我将为您确认。\",\"沈先生，邀请您参加11月28日14:00至16:00在上海序岚展示空间的经纬皮革细节赏鉴活动。活动将为您展示特别款前片编织的设计精华，期待您的光临。请回复以确认预约，我将为您安排。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 1850,
+        "total_tokens": 2078,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1408,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C16",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "这个周末没空，不要催我到店。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "王先生，您偏好简洁黑色和日常通勤，我推荐我们的“折影肩包·墨黑”，它采用光滑牛皮，设计上有独特的折叠侧面，肩背方便。这款包的尺寸是27 × 17 × 7厘米，或许适合您的需求。",
+      "我们的“折影肩包·墨黑”可能会引起您的兴趣。它拥有折叠感的侧面设计，既有现代感又不失实用性，适合日常使用。您可以随时告知我想了解更多的任何细节。",
+      "如果您对简洁黑色和通勤用途感兴趣，“折影肩包·墨黑”是一个不错的选择。这款包采用光滑牛皮材质，设计有折叠感的侧面，并且可以肩背，尺寸为27 × 17 × 7厘米。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "15f46b0667214efb81833fb2171a932e",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:11:23.839907+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 2.058
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"王先生，您偏好简洁黑色和日常通勤，我推荐我们的“折影肩包·墨黑”，它采用光滑牛皮，设计上有独特的折叠侧面，肩背方便。这款包的尺寸是27 × 17 × 7厘米，或许适合您的需求。\",\"我们的“折影肩包·墨黑”可能会引起您的兴趣。它拥有折叠感的侧面设计，既有现代感又不失实用性，适合日常使用。您可以随时告知我想了解更多的任何细节。\",\"如果您对简洁黑色和通勤用途感兴趣，“折影肩包·墨黑”是一个不错的选择。这款包采用光滑牛皮材质，设计有折叠感的侧面，并且可以肩背，尺寸为27 × 17 × 7厘米。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 203,
+        "prompt_tokens": 1822,
+        "total_tokens": 2025,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

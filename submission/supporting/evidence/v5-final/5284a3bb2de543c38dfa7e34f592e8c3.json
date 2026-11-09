@@ -1,0 +1,83 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C03",
+      "preferred_address": "周女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "可以先给我活动内容，我再决定。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "经纬皮革细节赏鉴",
+      "start": "2026-11-28T14:00:00+08:00",
+      "end": "2026-11-28T16:00:00+08:00",
+      "location": "上海序岚展示空间",
+      "content": "经纬特别款前片编织细节介绍",
+      "booking_route": "回复顾问，由顾问确认预约",
+      "id": "E02"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "周女士，诚邀您于11月28日下午14:00至16:00参与我们的经纬皮革细节赏鉴活动，地点在上海序岚展示空间。活动将介绍经纬特别款前片编织细节。若您感兴趣，欢迎回复确认预约。",
+      "周女士，11月28日下午14:00至16:00，我们将在上海序岚展示空间举办经纬特别款的编织细节介绍。若您希望参与，请随时回复确认，我们会为您安排。",
+      "周女士，11月28日下午14:00至16:00，上海序岚展示空间将举行经纬皮革细节赏鉴活动。若想了解更多或预约参与，请随时回复确认。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "5284a3bb2de543c38dfa7e34f592e8c3",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "5.0",
+      "data_version": "1.1",
+      "code_version": "77902235b9a03efb",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T17:12:01.252074+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.487
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"周女士，诚邀您于11月28日下午14:00至16:00参与我们的经纬皮革细节赏鉴活动，地点在上海序岚展示空间。活动将介绍经纬特别款前片编织细节。若您感兴趣，欢迎回复确认预约。\",\"周女士，11月28日下午14:00至16:00，我们将在上海序岚展示空间举办经纬特别款的编织细节介绍。若您希望参与，请随时回复确认，我们会为您安排。\",\"周女士，11月28日下午14:00至16:00，上海序岚展示空间将举行经纬皮革细节赏鉴活动。若想了解更多或预约参与，请随时回复确认。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 166,
+        "prompt_tokens": 1852,
+        "total_tokens": 2018,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

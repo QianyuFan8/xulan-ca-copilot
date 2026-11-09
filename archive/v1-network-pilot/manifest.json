@@ -1,0 +1,55 @@
+[
+  {
+    "case_id": "T001",
+    "version_label": "v1-network-pilot",
+    "request": {
+      "scenario": "greeting",
+      "client_information": {
+        "id": "C01",
+        "preferred_address": "林女士",
+        "preferences": "简洁黑色，日常通勤",
+        "relationship_stage": "New contact",
+        "contact_preference": "allowed",
+        "timezone": "Asia/Shanghai",
+        "last_outbound_contact": null
+      },
+      "conversation_history": [
+        {
+          "role": "client",
+          "content": "今天是我生日，谢谢记得。",
+          "timestamp": null
+        }
+      ],
+      "product_information": [],
+      "scenario_details": {
+        "occasion": "生日",
+        "occasion_date": "2026-11-09"
+      },
+      "current_datetime": "2026-11-09T14:00:00+08:00"
+    },
+    "result": {
+      "status": "success",
+      "candidates": [
+        "林女士，祝您生日快乐！希望今天带来满满的幸福与喜悦。",
+        "林女士，生日快乐！愿您度过一个温馨而特别的日子。",
+        "林女士，祝愿您生日愉快，在这个特别的日子里享受每一刻。"
+      ],
+      "advisories": [],
+      "blocking_reasons": [],
+      "information_requests": [],
+      "validation_findings": [],
+      "metadata": {
+        "run_id": "0973ee0ecab04f288a07918c18ba7aaa",
+        "model": "gpt-4o",
+        "prompt_version": "1.0",
+        "data_version": "1.0",
+        "code_version": "295ecf7abfe9f055",
+        "attempts": 1,
+        "repairs": 0,
+        "started_at": "2026-11-08T07:43:56.941547+00:00",
+        "returned_model": "gpt-4o-2024-08-06",
+        "latency_seconds": 2.508
+      }
+    }
+  }
+]

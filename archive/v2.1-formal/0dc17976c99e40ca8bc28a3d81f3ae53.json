@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "recommendation",
+    "client_information": {
+      "id": "C16",
+      "preferred_address": "王先生",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "这个周末没空，不要催我到店。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "这款折影肩包·墨黑或许契合您的偏好。它采用光滑牛皮材质，侧面有折叠感，设计简洁，适合日常通勤。",
+      "我们有一款折影肩包·墨黑，正好是您喜欢的简洁黑色设计。它的尺寸为27 × 17 × 7厘米，非常适合日常使用。",
+      "如果您对线条细节感兴趣，折影肩包·墨黑的折叠侧面设计可能会吸引您。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "0dc17976c99e40ca8bc28a3d81f3ae53",
+      "model": "gpt-4o",
+      "prompt_version": "2.1",
+      "data_version": "1.0",
+      "code_version": "8d6d43a1b7fed1e2",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:48:02.849567+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.089
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"这款折影肩包·墨黑或许契合您的偏好。它采用光滑牛皮材质，侧面有折叠感，设计简洁，适合日常通勤。\",\"我们有一款折影肩包·墨黑，正好是您喜欢的简洁黑色设计。它的尺寸为27 × 17 × 7厘米，非常适合日常使用。\",\"如果您对线条细节感兴趣，折影肩包·墨黑的折叠侧面设计可能会吸引您。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 1674,
+        "total_tokens": 1800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": "T038",
+    "generation_run_id": "1e4fb18efe7b456e8c16d386a7ac800a",
+    "judge_model": "gpt-4o-2024-08-06",
+    "judge_prompt_version": "1.0",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 915,
+      "total_tokens": 1062,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "review": {
+      "messages": [
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        },
+        {
+          "scores": {
+            "facts": 5,
+            "context": 5,
+            "personalization": 5,
+            "brand": 5,
+            "scenario": 5,
+            "boundaries": 5,
+            "wechat": 5
+          },
+          "critical": false,
+          "issues": []
+        }
+      ],
+      "diversity": 3,
+      "set_notes": "All candidates correctly invite the client to the event, respecting preferences and policy."
+    }
+  }
+]

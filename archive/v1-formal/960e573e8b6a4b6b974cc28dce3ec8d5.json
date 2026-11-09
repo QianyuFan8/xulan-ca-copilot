@@ -1,0 +1,84 @@
+{
+  "input": {
+    "scenario": "invitation",
+    "client_information": {
+      "id": "C18",
+      "preferred_address": "何先生",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": null,
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "不确定周末有没有空，先看看安排。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [],
+    "scenario_details": {
+      "title": "序岚日常东方皮具预览",
+      "start": "2026-11-21T14:00:00+08:00",
+      "end": "2026-11-21T17:00:00+08:00",
+      "location": "上海序岚虚构展示空间",
+      "content": "日常手袋设计与皮革细节预览",
+      "booking_route": "回复顾问，由顾问确认预约"
+    },
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "何先生，诚邀您参加我们的日常东方皮具预览活动，将于11月21日下午2点至5点在上海序岚虚构展示空间举行。如果您有时间，欢迎随时告知以便安排。",
+      "何先生，我们将在11月21日举办日常手袋设计与皮革细节预览活动，时间为下午2点到5点，地点为上海序岚虚构展示空间。如您有兴趣，请随时联系以确认预约。",
+      "何先生，期待您参加11月21日的日常东方皮具预览，活动将在下午2点至5点于上海序岚虚构展示空间进行。请随时告知您的安排以便预约。"
+    ],
+    "advisories": [
+      "Client timezone unknown; review sending time."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "960e573e8b6a4b6b974cc28dce3ec8d5",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:45:04.030147+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.681
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"何先生，诚邀您参加我们的日常东方皮具预览活动，将于11月21日下午2点至5点在上海序岚虚构展示空间举行。如果您有时间，欢迎随时告知以便安排。\",\"何先生，我们将在11月21日举办日常手袋设计与皮革细节预览活动，时间为下午2点到5点，地点为上海序岚虚构展示空间。如您有兴趣，请随时联系以确认预约。\",\"何先生，期待您参加11月21日的日常东方皮具预览，活动将在下午2点至5点于上海序岚虚构展示空间进行。请随时告知您的安排以便预约。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 162,
+        "prompt_tokens": 569,
+        "total_tokens": 731,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

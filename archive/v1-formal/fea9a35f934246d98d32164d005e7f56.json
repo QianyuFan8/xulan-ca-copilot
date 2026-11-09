@@ -1,0 +1,77 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C06",
+      "preferred_address": "顾女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "我想确认一下保养方式，不需要推荐新款。",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "顾女士，感谢您对我们产品的关注。您的肩包可以通过避免浸泡、远离高温和阳光来保持最佳状态。",
+      "您好，顾女士，您的折影肩包可以通过用干布轻轻擦拭潮湿部位并自然晾干来进行保养。",
+      "顾女士，您可以通过避免使用酒精和溶剂，并不要自行进行皮革护理，来确保肩包的长期使用。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "fea9a35f934246d98d32164d005e7f56",
+      "model": "gpt-4o",
+      "prompt_version": "1.0",
+      "data_version": "1.0",
+      "code_version": "295ecf7abfe9f055",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:44:49.029275+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.515
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"顾女士，感谢您对我们产品的关注。您的肩包可以通过避免浸泡、远离高温和阳光来保持最佳状态。\",\"您好，顾女士，您的折影肩包可以通过用干布轻轻擦拭潮湿部位并自然晾干来进行保养。\",\"顾女士，您可以通过避免使用酒精和溶剂，并不要自行进行皮革护理，来确保肩包的长期使用。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 542,
+        "total_tokens": 647,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

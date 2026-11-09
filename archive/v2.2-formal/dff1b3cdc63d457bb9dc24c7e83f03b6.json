@@ -1,0 +1,71 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C01",
+      "preferred_address": "林女士",
+      "preferences": "简洁黑色，日常通勤",
+      "relationship_stage": "New contact",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": null
+    },
+    "conversation_history": [],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "对于您的折影肩包·墨黑，如果遇到湿润情况，建议用干净柔软的干布轻轻吸干水分，然后自然风干。请避免阳光直射或加热。",
+      "我们建议不要自行清理编织面板，任何问题可以联系我帮您安排专业团队检查。",
+      "如果肩包表面出现划痕，我可以为您联系专业检查，看看是否有修复方案。"
+    ],
+    "advisories": [],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "dff1b3cdc63d457bb9dc24c7e83f03b6",
+      "model": "gpt-4o",
+      "prompt_version": "2.2",
+      "data_version": "1.0",
+      "code_version": "e10f759c6a4928cf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T07:50:02.824290+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.243
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"对于您的折影肩包·墨黑，如果遇到湿润情况，建议用干净柔软的干布轻轻吸干水分，然后自然风干。请避免阳光直射或加热。\",\"我们建议不要自行清理编织面板，任何问题可以联系我帮您安排专业团队检查。\",\"如果肩包表面出现划痕，我可以为您联系专业检查，看看是否有修复方案。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 101,
+        "prompt_tokens": 1646,
+        "total_tokens": 1747,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 1408,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

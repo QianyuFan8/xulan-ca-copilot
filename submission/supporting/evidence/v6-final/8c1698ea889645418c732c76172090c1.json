@@ -1,0 +1,79 @@
+{
+  "input": {
+    "scenario": "care",
+    "client_information": {
+      "id": "C03",
+      "preferred_address": "周女士",
+      "preferences": "沟通简单直接，不喜欢催促",
+      "relationship_stage": "Returning client",
+      "contact_preference": "allowed",
+      "timezone": "Asia/Shanghai",
+      "last_outbound_contact": "2026-11-08T10:00:00+08:00"
+    },
+    "conversation_history": [
+      {
+        "role": "client",
+        "content": "平时不背时有什么要注意的？",
+        "timestamp": null
+      }
+    ],
+    "product_information": [
+      "XL04"
+    ],
+    "scenario_details": {},
+    "current_datetime": "2026-11-09T14:00:00+08:00"
+  },
+  "result": {
+    "status": "success",
+    "candidates": [
+      "周女士，折影肩包·墨黑在不使用时，建议避免将其暴露在阳光直射或高温环境中，保持阴凉干燥即可。",
+      "周女士，平时不背时可以将包存放在阴凉干燥处，远离阳光直射和高温，以更好地保护包的材质。",
+      "周女士，您的折影肩包·墨黑建议避免长时间阳光直射和高温，存放于阴凉干燥的地方更为合适。"
+    ],
+    "advisories": [
+      "Advisor contacted this client within seven days; review timing."
+    ],
+    "blocking_reasons": [],
+    "information_requests": [],
+    "validation_findings": [],
+    "metadata": {
+      "run_id": "8c1698ea889645418c732c76172090c1",
+      "model": "gpt-4o-2024-08-06",
+      "prompt_version": "6.0",
+      "data_version": "1.2",
+      "code_version": "6ffd4b196a9167bf",
+      "attempts": 1,
+      "repairs": 0,
+      "started_at": "2026-11-08T21:37:41.366903+00:00",
+      "returned_model": "gpt-4o-2024-08-06",
+      "latency_seconds": 1.567
+    }
+  },
+  "attempts": [
+    {
+      "operation": 0,
+      "retry": 0,
+      "raw": "{\"candidates\":[\"周女士，折影肩包·墨黑在不使用时，建议避免将其暴露在阳光直射或高温环境中，保持阴凉干燥即可。\",\"周女士，平时不背时可以将包存放在阴凉干燥处，远离阳光直射和高温，以更好地保护包的材质。\",\"周女士，您的折影肩包·墨黑建议避免长时间阳光直射和高温，存放于阴凉干燥的地方更为合适。\"]}",
+      "model": "gpt-4o-2024-08-06",
+      "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 2109,
+        "total_tokens": 2235,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      }
+    }
+  ]
+}

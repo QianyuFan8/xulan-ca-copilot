@@ -1,0 +1,324 @@
+﻿review_id,case_id,scenario,message_no,reasons,task_and_history,facts,message,judge_usable,judge_critical,judge_uncertain,judge_issues,author_label,author_critical,author_note
+T001-3,T001,greeting,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 今天是我生日，谢谢记得。",Not applicable,愿您在生日这天感受到特别的快乐与满足，祝福您！,yes,no,no,"""愿您在生日这天感受到特别的快乐与满足，祝福您！"" — does not use the client's preferred address (林女士), so it feels less personalized. | ""感受到特别的快乐与满足"" — phrasing is slightly formal/redundant for a short WeChat greeting; a more concise warm line would fit the brand tone better.",minor,no,漏了称呼。
+T003-1,T003,greeting,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 谢谢关心。",Not applicable,周女士，生日快乐！愿这一年为您带来健康与快乐。,yes,no,no,,ready,no,
+T003-2,T003,greeting,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 谢谢关心。",Not applicable,祝周女士生日快乐！期待您在新的一年里实现更多美好心愿。,yes,no,no,"“期待您在新的一年里实现更多美好心愿。” — phrasing could be read as slightly forward/expectant, less aligned with client's preference for no urging.",minor,no,结尾“期待”略显生硬，可删减。
+T003-3,T003,greeting,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 谢谢关心。",Not applicable,周女士，生日快乐！愿您在新的一岁里，天天都有好心情。,yes,no,no,,ready,no,
+T004-1,T004,greeting,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 最近挺好的，不用专门准备什么。",Not applicable,希望许女士在这个特别的日子里，享受一个轻松愉快的生日。,yes,no,no,,ready,no,
+T004-2,T004,greeting,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 最近挺好的，不用专门准备什么。",Not applicable,祝许女士生日快乐，愿您在新的一年里继续保持美好心情。,yes,no,no,,ready,no,
+T004-3,T004,greeting,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 最近挺好的，不用专门准备什么。",Not applicable,愿您的生日充满愉悦和温暖，无需回复，享受今天吧。,yes,no,no,"Does not use preferred_address '许女士': ""愿您的生日充满愉悦和温暖，无需回复，享受今天吧。""",minor,no,漏了称呼。
+T005-2,T005,greeting,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 谢谢，之后再聊。",Not applicable,在这个特别的日子里，愿您拥有一个愉快的生日，尽享生活的美好片刻。,yes,no,no,Missing recipient name — '在这个特别的日子里，愿您拥有一个愉快的生日，尽享生活的美好片刻。' | Slightly more flowery phrasing than the brand tone recommends — '尽享生活的美好片刻。',minor,no,漏了称呼，且略显辞藻堆砌。
+T005-3,T005,greeting,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 谢谢，之后再聊。",Not applicable,祝您生日快乐，愿您在未来的日子里，每一天都充满活力和惊喜。,yes,no,no,Missing recipient name — '祝您生日快乐，愿您在未来的日子里，每一天都充满活力和惊喜。',minor,no,漏了称呼。
+T006-1,T006,greeting,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 生日
+Occasion date: 2026-11-09
+[Conversation]
+client: 最近忙着搬家，其他都好。",Not applicable,顾女士，搬家的日子不容易，希望一切顺利。祝您在新环境中收获更多快乐！,no,no,no,"Missing explicit birthday greeting — ""顾女士，搬家的日子不容易，希望一切顺利。祝您在新环境中收获更多快乐！""",major,no,客户过生日，完全没发生日祝福，答非所问。
+T007-1,T007,greeting,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Occasion: 元旦
+Occasion date: 2027-01-01
+[Conversation]
+client: 节日也祝你们顺利。",Not applicable,元旦将至，提前祝您一切顺利，万事如意！,no,no,no,'元旦将至，提前祝您一切顺利，万事如意！' — 没有使用客户首选称呼“王先生”，也未明确回应对方此前的祝福“节日也祝你们顺利。” 若加上称呼并轻微回应会更贴切。,minor,no,漏了称呼，未回应客户祝福。
+T009-1,T009,recommendation,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 想找一只黑色通勤肩包，不要浅色。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",何先生，您提到寻找黑色通勤肩包，折影肩包·墨黑采用顺滑牛皮材质，尺寸为27 × 17 × 7厘米，符合您的需求。,yes,no,no,,ready,no,
+T009-2,T009,recommendation,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 想找一只黑色通勤肩包，不要浅色。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",何先生，折影肩包·墨黑的设计有着特别的折叠侧面，适合肩背，希望这个细节能引起您的兴趣。,yes,no,no,"Message: ""何先生，折影肩包·墨黑的设计有着特别的折叠侧面，适合肩背，希望这个细节能引起您的兴趣。"" — does not explicitly link this detail back to the client's stated need ""想找一只黑色通勤肩包，不要浅色。""",minor,no,结尾略显推销感。
+T009-3,T009,recommendation,3,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 想找一只黑色通勤肩包，不要浅色。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",何先生，折影肩包·墨黑的具体信息可以随时了解，您想先了解哪方面呢？,no,no,no,"Message: ""何先生，折影肩包·墨黑的具体信息可以随时了解，您想先了解哪方面呢？"" — defers to the client rather than giving a direct recommendation despite the request for a black commuting shoulder bag (""想找一只黑色通勤肩包，不要浅色。"").",major,no,客户要推荐，模型踢皮球反问，无效沟通。
+T010-1,T010,recommendation,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",林女士，您提到喜欢简洁黑色和日常通勤风格，折影肩包·墨黑可能适合您。这款包采用光滑牛皮，拥有折叠感的侧面设计，非常适合日常使用。,yes,no,no,,ready,no,
+T010-2,T010,recommendation,2,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",对于简洁黑色和日常通勤的偏好，我想推荐我们的折影肩包·墨黑。它的折叠侧面设计别具一格，尺寸为27 × 17 × 7厘米，适合肩背，值得一看。,yes,no,no,Missing salutation using preferred_address: the message does not address '林女士'.,minor,no,漏了称呼。
+T010-3,T010,recommendation,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",林女士，如果您想了解更多关于简洁黑色款式的细节，我们有折影肩包·墨黑可以介绍。这款包的设计灵感来自折叠，让您在通勤中也能体现独特风格。,yes,no,no,,ready,no,
+T011-2,T011,recommendation,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 比较关注折影这款的线条。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",折影肩包·墨黑这款的折叠侧面设计确实是一个亮点，它在视觉上增添了不少层次感，整体采用了光滑牛皮材质，您可以考虑进一步了解。,yes,no,no,,minor,no,漏了称呼。
+T012-2,T012,recommendation,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 肩背的就好，不需要斜挎。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",这款折影肩包·墨黑可能符合您的需求，它的设计强调肩背使用，侧面有折叠感，材质为光滑牛皮。,yes,no,no,"""这款折影肩包·墨黑可能符合您的需求，它的设计强调肩背使用，侧面有折叠感，材质为光滑牛皮。"" — misses personalized salutation (preferred address '周女士' was supplied).",minor,no,漏了称呼。
+T015-2,T015,recommendation,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+Hard budget (CNY): 7500
+[Conversation]
+client: 预算最高7500元，看看日常能用的。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",“折影肩包·墨黑”侧面的折叠设计带来独特的视觉效果。尺寸为27 × 17 × 7厘米，日常使用非常适合。,yes,no,no,"""“折影肩包·墨黑”侧面的折叠设计带来独特的视觉效果。尺寸为27 × 17 × 7厘米，日常使用非常适合。"" — Does not state the price; client gave a strict budget (7500 CNY), so include the price to confirm fit. | ""“折影肩包·墨黑”侧面的折叠设计带来独特的视觉效果。"" — No greeting or direct address to the client (e.g. 顾女士).",major,no,客户提出了明确预算，文案居然没报价格，且漏了称呼。
+T016-1,T016,recommendation,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 这个周末没空，不要催我到店。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",这款折影肩包·墨黑采用光滑牛皮制成，设计上有独特的折叠侧面。这样的设计为您的日常通勤提供了简约而不失个性的选择。,yes,no,no,"Quote: ""这款折影肩包·墨黑采用光滑牛皮制成，设计上有独特的折叠侧面。"" — Accurate, but message does not use the preferred address (王先生) and does not acknowledge the client's ""这个周末没空，不要催我到店"" note (though it does avoid pressuring).",minor,no,漏了称呼。
+T017-1,T017,recommendation,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 先说一下材质和尺寸就好。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",这款折影肩包·墨黑采用细腻牛皮材质，质感柔和，适合肩背。尺寸为27 × 17 × 7厘米，简约而不失优雅。,no,no,no,未使用客户偏好的称呼“李女士”。 | 客户明确说“先说一下材质和尺寸就好”，但文案额外加入“适合肩背”“简约而不失优雅”等设计/风格描述，超出客户明确要求。,minor,no,漏了称呼，且多说了客户没问的废话。
+T017-2,T017,recommendation,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 先说一下材质和尺寸就好。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",折影肩包·墨黑的侧面设计灵感源于折叠感，线条独特。材质为细腻牛皮，尺寸为27 × 17 × 7厘米。,no,no,no,未使用客户偏好的称呼“李女士”。 | 客户明确说“先说一下材质和尺寸就好”，但文案把侧面设计灵感也写出，超出客户明确要求。,minor,no,漏了称呼，且多说了客户没问的设计灵感。
+T019-1,T019,care,1,judge-critical;judge-score<=3;judge-uncertain,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",如果您在考虑使用护理油，我建议暂时先不要自行使用。我们可以帮您确认最合适的护理方式，以保护您的折影肩包·墨黑。,no,yes,yes,'如果您在考虑使用护理油，我建议暂时先不要自行使用。' — advises against using care oil; this specific prohibition is not supported by the supplied product facts or care policy and is therefore an invented concrete instruction. | Message does not address the client by the preferred form of address '林女士'.,ready,no,符合政策：catalogue 明确禁止推荐 home conditioning products（包含护理油）。裁判误判。
+T019-2,T019,care,2,judge-critical;judge-score<=3;judge-uncertain,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",关于护理产品的使用，考虑到牛皮材质的特性，建议先不要自行使用护理油。我们可以询问专业意见，找到适合的护理方式。,no,yes,yes,'建议先不要自行使用护理油。' — this recommends not using care oil for cowhide; that specific instruction is not contained in the supplied care guidance and therefore is an unsupported claim. | Message does not use the client's preferred address '林女士' and does not name the specific product '折影肩包·墨黑'.,ready,no,同上，精准执行了品牌养护政策。
+T019-3,T019,care,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",如果您担心护理问题，我们很乐意为您提供帮助。可以为您联系专业人员，确认适合的护理方法。,yes,no,no,'可以为您联系专业人员，确认适合的护理方法。' — acceptable offer to consult professionals; does not make unverified care claims. | Message does not address the client as '林女士' nor explicitly reference the product '折影肩包·墨黑' (both are recommended for personalization).,minor,no,漏了称呼和产品名，但态度是对的。
+T020-1,T020,care,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 昨天不小心淋了点雨，应该怎么处理？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",淋雨后建议用干净柔软的干布轻轻按压吸水，并自然晾干。切勿用热源烘干。若有其他问题，可随时联系我。,yes,no,no,"""淋雨后建议用干净柔软的干布轻轻按压吸水，并自然晾干。切勿用热源烘干。若有其他问题，可随时联系我。"" — Does not use the preferred addressee ('陈先生'); could explicitly mention avoiding prolonged sun exposure.",minor,no,漏了称呼。
+T020-3,T020,care,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 昨天不小心淋了点雨，应该怎么处理？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",如需进一步确认皮包状态，建议联系专业人员进行检查。若有需要，我可以帮您联系相关服务。,no,no,no,"""如需进一步确认皮包状态，建议联系专业人员进行检查。若有需要，我可以帮您联系相关服务。"" — Does not provide immediate care steps the client asked for (so it doesn't complete the immediate request). | ""我可以帮您联系相关服务。"" — Offering to arrange a service is acceptable, but any booking/times/outcomes must be confirmed and not promised.",major,no,客户问怎么处理，答案没给任何处理建议。
+T021-1,T021,care,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 平时不背时有什么要注意的？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",周女士，折影肩包·墨黑在不使用时，建议避免将其暴露在阳光直射或高温环境中，保持阴凉干燥即可。,yes,no,no,,ready,no,
+T021-2,T021,care,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 平时不背时有什么要注意的？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",周女士，平时不背时可以将包存放在阴凉干燥处，远离阳光直射和高温，以更好地保护包的材质。,yes,no,no,,ready,no,
+T021-3,T021,care,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 平时不背时有什么要注意的？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",周女士，您的折影肩包·墨黑建议避免长时间阳光直射和高温，存放于阴凉干燥的地方更为合适。,yes,no,no,,ready,no,
+T022-1,T022,care,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 想了解一下是否需要上护理油。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",许女士，您好！关于护理油，建议您先不要自行使用，我们可以帮您确认这款折影肩包是否需要特殊护理。,yes,no,no,Missing product detail and brief safe-care guidance; message: '建议您先不要自行使用护理油。',minor,no,给出的建议没大错，但略显单薄。
+T022-2,T022,care,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 想了解一下是否需要上护理油。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",许女士，您好！为了谨慎起见，我们建议您先不要使用护理油。可以帮助您联系专业人士来确认适用的护理方式。,yes,no,no,"Does not reference the bag's material (smooth cowhide) or give short, policy-aligned care tips; message: '为了谨慎起见，我们建议您先不要使用护理油。'",minor,no,未提及材质，略显单薄。
+T023-1,T023,care,1,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 包面有划痕，可以帮忙看一下吗？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",您提到的包面划痕问题，我们建议先不要自行处理。我可以帮您联系专业人员进行检查，确认具体情况后再提供建议。,yes,no,no,,ready,no,
+T023-2,T023,care,2,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 包面有划痕，可以帮忙看一下吗？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",对于划痕，我们建议不要自行使用任何护理产品，因为不同材质的处理方法可能会有差异。我可以帮忙安排专业人员为您检查一下。,yes,no,no,,ready,no,
+T023-3,T023,care,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 包面有划痕，可以帮忙看一下吗？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",如果需要，我们可以协助安排对您的折影肩包·墨黑进行专业检查，确认划痕的具体情况和适合的护理方式。,yes,no,no,,ready,no,
+T024-1,T024,care,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我想确认一下保养方式，不需要推荐新款。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",您好，关于折影肩包·墨黑的保养，建议避免浸泡、暴露在高温或长时间阳光下。若包面有水渍，可用干净柔软的干布轻轻吸干，然后自然晾干。,yes,no,no,"""您好，关于折影肩包·墨黑的保养，建议避免浸泡、暴露在高温或长时间阳光下。若包面有水渍，可用干净柔软的干布轻轻吸干，然后自然晾干。"" — 内容与产品材质和保养政策一致；建议加入客户称呼（顾女士）并略微更直白以符合客户偏好（沟通简单直接，不喜欢催促）。",minor,no,漏了称呼。
+T024-2,T024,care,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我想确认一下保养方式，不需要推荐新款。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",对于折影肩包·墨黑，若有划痕或其他状况，不建议自行处理。可以协助您联系专业人员进行检查，了解更多信息。,yes,no,no,"""对于折影肩包·墨黑，若有划痕或其他状况，不建议自行处理。可以协助您联系专业人员进行检查，了解更多信息。"" — 建议专业检查并辅助联系是合规的，但表述应避免让客户误解为已承诺具体服务/时效；同时可加上顾女士等称呼以示个性化。",major,no,客户问的是保养方式，模型答的是划痕处理，答非所问。
+T024-3,T024,care,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我想确认一下保养方式，不需要推荐新款。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",折影肩包·墨黑采用光滑牛皮材质，建议使用时注意避免与尖锐物品接触。若有任何疑问或需要进一步帮助，您可以随时联系我。,yes,no,no,"""折影肩包·墨黑采用光滑牛皮材质，建议使用时注意避免与尖锐物品接触。若有任何疑问或需要进一步帮助，您可以随时联系我。"" — 正确指出材质与使用注意点；可补充避免酒精/溶剂及简短个性化称呼（顾女士），并避免任何催促语。",minor,no,漏了称呼。
+T025-2,T025,care,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 可以先简单说两条养护建议吗？","[Product] XL11 经纬特别款·墨黑 · ¥15,800 · Cowhide with woven leather panel · 24 × 18 × 8 cm · Front panel woven by hand; no broader handcraft claim",王先生，感谢您对养护的关注。对于您的包包，特别是编织面板部分，建议您不要自行清理，以避免对材质造成潜在损害。可以考虑联系专业人员进行检查和处理。,no,no,no,Provides only one suggestion but user asked for two: user asked '可以先简单说两条养护建议吗？'. Candidate text: '建议您不要自行清理...可以考虑联系专业人员进行检查和处理。',minor,no,客户要两条，只给了一条。
+T025-3,T025,care,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 可以先简单说两条养护建议吗？","[Product] XL11 经纬特别款·墨黑 · ¥15,800 · Cowhide with woven leather panel · 24 × 18 × 8 cm · Front panel woven by hand; no broader handcraft claim",王先生，您的包包若出现划痕，我们建议联系专业人士以确认最佳的处理方式。这样能帮助保持材质的完整性和外观。,no,no,no,Provides only one suggestion but user asked for two: user asked '可以先简单说两条养护建议吗？'. Candidate text: '若出现划痕，我们建议联系专业人士以确认最佳的处理方式。',major,no,客户要养护建议，模型答的是划痕处理，答非所问。
+T026-1,T026,reactivation,1,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 之前看的黑色肩包我还记得。",Not applicable,李女士，您好！最近有没有什么特别关注的设计细节？如有需要了解的，随时告诉我。,no,no,no,Does not reference the client's remembered black shoulder bag (client wrote: '之前看的黑色肩包我还记得。'). | Generic phrasing—could more directly reconnect by mentioning the specific item she recalled.,major,no,完全无视客户提到的“黑色肩包”，自顾自发问。
+T026-2,T026,reactivation,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 之前看的黑色肩包我还记得。",Not applicable,您好，李女士！还记得您之前提到的黑色肩包。不知道您目前是否有新的想法？,yes,no,no,,ready,no,
+T026-3,T026,reactivation,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 之前看的黑色肩包我还记得。",Not applicable,李女士，您好！如果您对皮革或设计细节有任何新的关注点，欢迎随时联系我。,yes,no,no,Does not reference the client's remembered black shoulder bag (client wrote: '之前看的黑色肩包我还记得。').,major,no,无视客户提到的具体物品，过于空泛。
+T028-1,T028,reactivation,1,judge-critical;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 想起之前看过的折影，但还没决定。",Not applicable,林女士，之前您提到过对折影感兴趣，这是一个很有独特设计感的系列。您有任何新的想法或需了解的具体信息吗？,no,yes,no,"Unsupported product claim: ""这是一个很有独特设计感的系列。"" — no verified product information is provided to support this statement. | Could better reference the client's stated preference ""简洁黑色，日常通勤"" to personalise the reactivation message.",unusable,yes,编造产品评价“很有独特设计感”，数据中未提供。
+T030-1,T030,reactivation,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 最近没有买包计划，有需要会联系。",Not applicable,周女士，您好！希望您一切安好。我们这里随时欢迎您有新的想法时与我们交流。,yes,no,no,,ready,no,
+T030-2,T030,reactivation,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 最近没有买包计划，有需要会联系。",Not applicable,周女士，最近的天气渐凉，注意保暖哦！如果有什么想了解的，可以随时告诉我。,yes,no,no,,minor,no,“天气渐凉”是编造的客观事实（未提供天气数据），建议删除。
+T030-3,T030,reactivation,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 最近没有买包计划，有需要会联系。",Not applicable,周女士，您好！只是想轻松问候一下您，希望生活一切顺利。无需回复，也不急于联系。,yes,no,no,,ready,no,
+T031-1,T031,reactivation,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 上次聊的设计细节挺有意思。",Not applicable,许女士，您好！希望您一切安好。如有任何关于我们产品的想法或问题，随时可以联系我。,no,no,no,Does not reference client's last message: '上次聊的设计细节挺有意思。' | Uses vague phrase '我们产品' without specifics,major,no,完全无视客户提到“上次聊的设计细节”，没有接住话题，属于无效唤醒。
+T032-1,T032,reactivation,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我比较喜欢简短信息，看到会回复。",Not applicable,沈先生，您好！希望最近一切都好，如有任何需要了解的设计细节，请随时告诉我。,yes,no,no,Does not reference the client's stated interest in leather/design details; candidate: '沈先生，您好！希望最近一切都好，如有任何需要了解的设计细节，请随时告诉我。',minor,no,客户喜欢简短，这个稍微有点长。
+T032-2,T032,reactivation,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我比较喜欢简短信息，看到会回复。",Not applicable,您好！希望您最近过得不错，如果对皮革系列有任何新的想法或问题，欢迎聊聊。,no,no,no,Does not use the client's preferred form of address ('沈先生'); candidate: '您好！希望您最近过得不错，如果对皮革系列有任何新的想法或问题，欢迎聊聊。',minor,no,漏了称呼，客户喜欢简短。
+T033-1,T033,reactivation,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我在外地，近期不方便到店。",Not applicable,顾女士，您好！希望您一切都好。我们一直在这里，随时准备为您提供帮助。,no,no,no,"'顾女士，您好！希望您一切都好。我们一直在这里，随时准备为您提供帮助。' — Does not acknowledge the client's stated '我在外地', and '我们一直在这里' is a generic service line that could be tightened to match the client's preference for simple, non-pushy contact.",major,no,完全无视客户“在外地”的现状。
+T033-2,T033,reactivation,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我在外地，近期不方便到店。",Not applicable,顾女士，最近过得怎么样？如果有需要了解的事情，欢迎随时联系我。,no,no,no,'顾女士，最近过得怎么样？如果有需要了解的事情，欢迎随时联系我。' — Does not acknowledge the client's '我在外地' and could be perceived as a prompt; adjust to be shorter and explicitly non-intrusive to match her stated preference.,major,no,无视客户在外地的现状。
+T035-3,T035,invitation,3,judge-score<=3;soft:tone:莅临,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)",[Event] title: 经纬皮革细节赏鉴 · start: 2026-11-28T14:00:00+08:00 · end: 2026-11-28T16:00:00+08:00 · location: 上海序岚展示空间 · content: 经纬特别款前片编织细节介绍 · booking_route: 回复顾问，由顾问确认预约,李女士，11月28日14:00至16:00，诚邀您莅临上海序岚展示空间，参与“经纬皮革细节赏鉴”活动。活动将介绍特别款的前片编织细节，如需预约请回复我进行确认。,no,no,no,"Uses overly formal/ornate phrasing '莅临' — avoid '莅临/尊敬的/亲爱的' per brand guidance; prefer warm, restrained language.",minor,no,使用了禁用词“莅临”。
+T036-1,T036,invitation,1,judge-score<=3;soft:tone:莅临,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 不确定周末有没有空，先看看安排。",[Event] title: 序岚日常东方皮具预览 · start: 2026-11-21T14:00:00+08:00 · end: 2026-11-21T17:00:00+08:00 · location: 上海序岚展示空间 · content: 日常手袋设计与皮革细节预览 · booking_route: 回复顾问，由顾问确认预约,何先生，诚邀您于11月21日下午14:00至17:00，莅临上海序岚展示空间，参加我们的日常手袋设计与皮革细节预览。若您有意，请回复我以确认预约。,no,no,no,"""莅临"" — ornate/formal wording; XULAN policy prefers more conversational terms (e.g. 欢迎/前来). | ""诚邀您"" — slightly formal; client prefers simple, direct communication and dislikes being pushed.",minor,no,使用了禁用词“莅临”。
+T036-2,T036,invitation,2,judge-score<=3;soft:tone:莅临,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 不确定周末有没有空，先看看安排。",[Event] title: 序岚日常东方皮具预览 · start: 2026-11-21T14:00:00+08:00 · end: 2026-11-21T17:00:00+08:00 · location: 上海序岚展示空间 · content: 日常手袋设计与皮革细节预览 · booking_route: 回复顾问，由顾问确认预约,何先生，11月21日下午14:00至17:00，我们将在上海序岚展示空间举行日常手袋设计与皮革细节预览，期待您的莅临。请回复我以确认预约，我将为您安排。,no,no,no,"""莅临"" — ornate/formal wording; avoid for XULAN WeChat voice. | ""请回复我以确认预约，我将为您安排"" — phrasing may feel pushy to a client who prefers not to be urged.",minor,no,使用了禁用词“莅临”。
+T037-2,T037,invitation,2,judge-score<=3;soft:tone:莅临,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 我对皮革材料比较感兴趣。",[Event] title: 经纬皮革细节赏鉴 · start: 2026-11-28T14:00:00+08:00 · end: 2026-11-28T16:00:00+08:00 · location: 上海序岚展示空间 · content: 经纬特别款前片编织细节介绍 · booking_route: 回复顾问，由顾问确认预约,林女士，诚邀您于11月28日下午14:00到16:00莅临上海序岚展示空间，参与“经纬皮革细节赏鉴”活动，深入了解特别款的编织工艺。若想参与，请回复确认，我会为您安排预约。,no,no,no,"""诚邀您于11月28日下午...莅临上海序岚展示空间"" — contains ornate/salesy phrasing (诚邀 / 莅临) that the policy disallows.",minor,no,使用了禁用词“莅临”。
+T038-1,T038,invitation,1,calibration;judge-score<=3;soft:tone:莅临,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 喜欢安静看产品，不太想参加推销。",[Event] title: 序岚日常东方皮具预览 · start: 2026-11-21T14:00:00+08:00 · end: 2026-11-21T17:00:00+08:00 · location: 上海序岚展示空间 · content: 日常手袋设计与皮革细节预览 · booking_route: 回复顾问，由顾问确认预约,陈先生，诚邀您于11月21日下午14:00至17:00，莅临上海序岚展示空间，参加我们的日常手袋设计与皮革细节预览。如需预约，请回复我，我将为您确认。,no,no,no,"'莅临' — uses an ornate/formal word; policy asks to avoid phrasing such as '莅临'. | '参加我们的' — does not acknowledge the client's stated preference to avoid sales; should explicitly reassure a quiet, non‑sales viewing.",major,no,使用了禁用词“莅临”，且完全无视客户不想被推销的边界。
+T038-2,T038,invitation,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 喜欢安静看产品，不太想参加推销。",[Event] title: 序岚日常东方皮具预览 · start: 2026-11-21T14:00:00+08:00 · end: 2026-11-21T17:00:00+08:00 · location: 上海序岚展示空间 · content: 日常手袋设计与皮革细节预览 · booking_route: 回复顾问，由顾问确认预约,陈先生，我们将在11月21日14:00至17:00于上海序岚展示空间举办日常手袋设计与皮革细节预览活动。若您有兴趣静观产品，请回复我以确认预约。,yes,no,no,,ready,no,
+T038-3,T038,invitation,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 喜欢安静看产品，不太想参加推销。",[Event] title: 序岚日常东方皮具预览 · start: 2026-11-21T14:00:00+08:00 · end: 2026-11-21T17:00:00+08:00 · location: 上海序岚展示空间 · content: 日常手袋设计与皮革细节预览 · booking_route: 回复顾问，由顾问确认预约,陈先生，11月21日下午14:00到17:00，上海序岚展示空间将举行日常手袋设计与皮革细节预览，您可选择安静欣赏。若决定前来，请回复确认预约。,yes,no,no,,ready,no,
+T039-1,T039,invitation,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 可以先给我活动内容，我再决定。",[Event] title: 经纬皮革细节赏鉴 · start: 2026-11-28T14:00:00+08:00 · end: 2026-11-28T16:00:00+08:00 · location: 上海序岚展示空间 · content: 经纬特别款前片编织细节介绍 · booking_route: 回复顾问，由顾问确认预约,周女士，诚邀您于11月28日下午14:00到16:00参加我们在上海序岚展示空间举办的活动。这次活动将详细介绍经纬特别款前片编织的细节。您可以回复我以确认预约。,yes,no,no,"Candidate 1: ""诚邀您于11月28日下午14:00到16:00参加...您可以回复我以确认预约。"" — wording slightly formal/urgent; client prefers simple direct, not pushed.",minor,no,略显正式。
+T039-2,T039,invitation,2,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 可以先给我活动内容，我再决定。",[Event] title: 经纬皮革细节赏鉴 · start: 2026-11-28T14:00:00+08:00 · end: 2026-11-28T16:00:00+08:00 · location: 上海序岚展示空间 · content: 经纬特别款前片编织细节介绍 · booking_route: 回复顾问，由顾问确认预约,周女士，我们将在11月28日下午14:00至16:00于上海序岚展示空间举办一场关于经纬特别款前片编织细节的赏鉴会。若您有兴趣参加，请回复我确认预约。,yes,no,no,,ready,no,
+T039-3,T039,invitation,3,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 可以先给我活动内容，我再决定。",[Event] title: 经纬皮革细节赏鉴 · start: 2026-11-28T14:00:00+08:00 · end: 2026-11-28T16:00:00+08:00 · location: 上海序岚展示空间 · content: 经纬特别款前片编织细节介绍 · booking_route: 回复顾问，由顾问确认预约,您好，周女士！11月28日下午14:00到16:00，我们将在上海序岚展示空间举办活动，主题是经纬特别款的前片编织细节介绍。请您回复此消息以便我为您确认预约。,yes,no,no,"Candidate 3: ""您好，周女士！...请您回复此消息以便我为您确认预约。"" — exclamation mark and formal phrasing; slightly less in line with restrained, very simple tone the client prefers.",minor,no,感叹号略显突兀。
+T042-1,T042,price_objection,1,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 有点贵，我想再考虑。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",您的决定我们完全尊重，折影肩包·墨黑有任何问题或需要时，请随时联系我。,no,no,no,未使用客户偏好称呼“顾女士”。 | 未直接回应客户提出的具体顾虑“有点贵”，可在一句中简短表达理解后保持开放。,minor,no,漏了称呼，未共情客户觉得贵的感受。
+T042-2,T042,price_objection,2,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 有点贵，我想再考虑。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",明白您的考量，若后续有需要了解更多细节或服务，欢迎随时找我。,no,no,no,未使用客户偏好称呼“顾女士”。 | “服务”表述较泛，可更具体或省略以保持简洁直接。,minor,no,漏了称呼，略显空泛。
+T042-3,T042,price_objection,3,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 有点贵，我想再考虑。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",理解您需要更多时间考虑，如有任何问题或需要帮助，请随时告诉我。,no,no,no,未使用客户偏好称呼“顾女士”。 | 可更直接确认客户需要时间考虑，同时保持简短不催促（符合偏好）。,minor,no,漏了称呼。
+T043-2,T043,price_objection,2,judge-critical;judge-score<=3;judge-uncertain,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",理解您对价格的考虑，目前没有已确认的折扣或优惠活动。如需了解这款折影肩包·墨黑的具体材质和设计，随时可以联系我。,no,yes,yes,"""目前没有已确认的折扣或优惠活动"" — asserts there are no discounts/promotions; this is not supported by the supplied facts (no verified information about promotions).",ready,no,裁判误判。“目前没有已确认的折扣”完全符合品牌政策（无折扣）。
+T043-3,T043,price_objection,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+(no prior messages)","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",尊重您的决定，暂时不做购买也是完全可以理解的。如果您之后需要任何帮助或信息，随时可以联系我。,no,no,no,"""尊重您的决定，暂时不做购买也是完全可以理解的"" — assumes the client has decided not to purchase (no opt-out given); avoid presuming a refusal for a new contact with a price objection.",major,no,客户只是觉得贵，没说不买，模型直接假设客户“暂时不做购买”，这是严重的销售预判错误，会赶客。
+T046-1,T046,price_objection,1,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 网上看见便宜不少，你们能同价吗？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",林女士，您提到的价格差异我们暂时没有掌握具体信息，不能做出相应调整。不过，如果您有其他问题或需要进一步了解产品细节，欢迎随时联系我。,yes,no,no,"""林女士，您提到的价格差异我们暂时没有掌握具体信息，不能做出相应调整。"" — Does not reference the specific product or the client's stated preference (简洁黑色，日常通勤); misses an opportunity to offer a next step (e.g. ask for the link or offer product details/viewing).",minor,no,未询问具体链接，缺乏服务意识。
+T046-3,T046,price_objection,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T22:00:00+08:00
+[Conversation]
+client: 网上看见便宜不少，你们能同价吗？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",林女士，目前我们没有已确认的优惠活动，因此无法匹配您在网上看到的价格。如有任何其他需要，请随时与我联系。,yes,no,no,"""林女士，目前我们没有已确认的优惠活动，因此无法匹配您在网上看到的价格。"" — Clear and correct refusal, but does not use the client's product preference (简洁黑色，日常通勤) or offer a polite next step (e.g. request the online link or invite an in-person/online viewing).",minor,no,只做了拒绝，没有提供后续服务。
+T048-1,T048,price_objection,1,calibration,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 目前预算只有6000元。","[Product] XL07 月隙斜挎包·墨黑 · ¥5,800 · Grained cowhide · 22 × 16 × 7 cm · Same construction as XL06; black colour",周女士，您提到的预算是6000元，目前这款月隙斜挎包·墨黑的价格为5800元，正好在您的预算范围内。希望这个信息对您有帮助。,yes,no,no,,ready,no,
+T048-2,T048,price_objection,2,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 目前预算只有6000元。","[Product] XL07 月隙斜挎包·墨黑 · ¥5,800 · Grained cowhide · 22 × 16 × 7 cm · Same construction as XL06; black colour",感谢您分享预算，月隙斜挎包·墨黑售价5800元，在您的预算范围内。如果您需要进一步信息或帮助，请随时联系我。,no,no,no,"Message: ""感谢您分享预算，月隙斜挎包·墨黑售价5800元，在您的预算范围内。如果您需要进一步信息或帮助，请随时联系我。"" — Does not use the client's preferred address “周女士”.",minor,no,漏了称呼。
+T048-3,T048,price_objection,3,calibration;judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 目前预算只有6000元。","[Product] XL07 月隙斜挎包·墨黑 · ¥5,800 · Grained cowhide · 22 × 16 × 7 cm · Same construction as XL06; black colour",了解您的预算情况，目前这款月隙斜挎包·墨黑的价格是5800元，符合您的预算。有任何问题或需要更多信息都可以告诉我。,no,no,no,"Message: ""了解您的预算情况，目前这款月隙斜挎包·墨黑的价格是5800元，符合您的预算。有任何问题或需要更多信息都可以告诉我。"" — Does not use the client's preferred address “周女士”.",minor,no,漏了称呼。
+T049-3,T049,price_objection,3,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 这个价格主要体现在哪些细节？","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",许女士，这款肩包的价格反映了其采用的优质柔滑牛皮和折叠侧面设计。若您有其他问题或需要进一步信息，请随时联系我。,no,no,no,"""优质柔滑牛皮"": the word '优质' (high-quality) is not explicitly stated in the supplied product facts and thus adds an unsupported qualitative claim.",minor,no,使用了主观评价“优质”，数据未提供。
+T050-2,T050,price_objection,2,judge-score<=3,"[CA task context — not a client message]
+Reference time: 2026-11-09T14:00:00+08:00
+[Conversation]
+client: 谢谢介绍，我暂时不买，想多比较一下。","[Product] XL04 折影肩包·墨黑 · ¥7,200 · Smooth cowhide · 27 × 17 × 7 cm · Fold-inspired side profile; shoulder carry",感谢您的分享，沈先生，购买的决定是您的，若有其他问题或需要了解更多，欢迎与我联系。,yes,no,no,Does not reference the client's stated preference '关注皮革和设计细节' or offer to help compare leather/design details.,minor,no,未提供“比较”的协助。

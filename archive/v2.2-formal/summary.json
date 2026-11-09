@@ -1,0 +1,11 @@
+{
+  "attempted_cases": 39,
+  "successful_cases": 38,
+  "review_status": "not reviewed",
+  "budget": {
+    "estimated_or_reserved_usd": 0.695577,
+    "uncertain_calls": 2,
+    "operating_limit_usd": 4.5,
+    "authorized_ceiling_usd": 5
+  }
+}
